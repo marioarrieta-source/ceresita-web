@@ -1,9 +1,10 @@
+import Image from "next/image";
 import { cn } from "@/lib/cn";
 
 /*
-  Recreación del logotipo Ceresita para el prototipo (placa marino con borde
-  dorado y wordmark blanco en itálica). Se reemplaza por el asset oficial en
-  SVG cuando llegue la guía de marca (brief §11).
+  Logotipo oficial de Ceresita (PNG real, fondo transparente). El wordmark
+  "PINTURAS" y el tagline son negros, por eso va sobre una placa clara para
+  que se lea bien contra el fondo navy del sitio.
 */
 export function Logo({
   className,
@@ -13,19 +14,21 @@ export function Logo({
   withKicker?: boolean;
 }) {
   return (
-    <span className={cn("inline-flex flex-col items-start leading-none", className)}>
-      {withKicker && (
-        <span className="mb-1 pl-1 text-[0.6rem] font-semibold tracking-[0.42em] text-ink-soft">
-          PINTURAS
-        </span>
+    <span
+      className={cn(
+        "inline-flex items-center rounded-[10px] bg-white shadow-[0_6px_20px_-8px_rgba(0,0,0,0.35)]",
+        withKicker ? "px-4 py-2.5" : "px-2.5 py-1.5",
+        className,
       )}
-      <span className="inline-block rounded-[11px] bg-gold p-[3px] shadow-[0_6px_20px_-8px_rgba(247,181,0,0.5)]">
-        <span className="block rounded-[8px] bg-navy px-3 py-1">
-          <span className="font-display text-2xl font-black italic tracking-tight text-white">
-            Ceresita
-          </span>
-        </span>
-      </span>
+    >
+      <Image
+        src="/logo-ceresita.png"
+        alt="Pinturas Ceresita — Colores que hacen bien"
+        width={1672}
+        height={693}
+        priority
+        className={cn("w-auto", withKicker ? "h-14" : "h-9")}
+      />
     </span>
   );
 }
