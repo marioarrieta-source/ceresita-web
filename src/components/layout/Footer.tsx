@@ -11,6 +11,9 @@ export function Footer() {
           <p className="mt-4 text-sm leading-relaxed text-ink-soft">
             {site.descripcion}
           </p>
+          <p className="mt-4 font-display text-sm italic text-gold">
+            Colores que hacen bien.
+          </p>
         </div>
 
         <div>

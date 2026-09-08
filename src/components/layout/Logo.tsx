@@ -2,9 +2,11 @@ import Image from "next/image";
 import { cn } from "@/lib/cn";
 
 /*
-  Logotipo oficial de Ceresita (PNG real, fondo transparente). El wordmark
-  "PINTURAS" y el tagline son negros, por eso va sobre una placa clara para
-  que se lea bien contra el fondo navy del sitio.
+  Logotipo oficial de Ceresita: recorte de la placa navy/oro con el wordmark
+  (fondo transparente), se apoya directo sobre el fondo navy del sitio. El
+  wordmark "PINTURAS" y el tagline del PNG original eran negros e ilegibles
+  ahí, así que se recrean como texto para mantenerlos sin necesitar una
+  placa clara detrás.
 */
 export function Logo({
   className,
@@ -14,20 +16,19 @@ export function Logo({
   withKicker?: boolean;
 }) {
   return (
-    <span
-      className={cn(
-        "inline-flex items-center rounded-[10px] bg-white shadow-[0_6px_20px_-8px_rgba(0,0,0,0.35)]",
-        withKicker ? "px-4 py-2.5" : "px-2.5 py-1.5",
-        className,
+    <span className={cn("inline-flex flex-col items-start leading-none", className)}>
+      {withKicker && (
+        <span className="mb-1.5 pl-1 text-[0.6rem] font-semibold tracking-[0.42em] text-ink-soft">
+          PINTURAS
+        </span>
       )}
-    >
       <Image
         src="/logo-ceresita.png"
-        alt="Pinturas Ceresita — Colores que hacen bien"
-        width={1672}
-        height={693}
+        alt="Pinturas Ceresita"
+        width={1656}
+        height={468}
         priority
-        className={cn("w-auto", withKicker ? "h-14" : "h-9")}
+        className={cn("w-auto", withKicker ? "h-16" : "h-10")}
       />
     </span>
   );
