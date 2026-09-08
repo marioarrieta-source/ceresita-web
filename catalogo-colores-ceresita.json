@@ -1,0 +1,8930 @@
+[
+  {
+    "codigo": "CW001W",
+    "nombre": "Soft Whisper",
+    "cartilla": "Millennium",
+    "hex": "#e1e5ee"
+  },
+  {
+    "codigo": "CW002W",
+    "nombre": "Rain Shimmer",
+    "cartilla": "Millennium",
+    "hex": "#eaedf0"
+  },
+  {
+    "codigo": "CW003W",
+    "nombre": "Mysterious",
+    "cartilla": "Millennium",
+    "hex": "#eff0ee"
+  },
+  {
+    "codigo": "CW004W",
+    "nombre": "Delicate Blue",
+    "cartilla": "Millennium",
+    "hex": "#e5ebf0"
+  },
+  {
+    "codigo": "CW005W",
+    "nombre": "Winterscape",
+    "cartilla": "Millennium",
+    "hex": "#e2e6e7"
+  },
+  {
+    "codigo": "CW006W",
+    "nombre": "Shaded Ice",
+    "cartilla": "Millennium",
+    "hex": "#e3e6e5"
+  },
+  {
+    "codigo": "CW007W",
+    "nombre": "Blue Twinkle",
+    "cartilla": "Millennium",
+    "hex": "#dfe8f0"
+  },
+  {
+    "codigo": "CW008W",
+    "nombre": "Blue Glance",
+    "cartilla": "Millennium",
+    "hex": "#e4ecee"
+  },
+  {
+    "codigo": "CW009W",
+    "nombre": "Barely Blue",
+    "cartilla": "Millennium",
+    "hex": "#ecf1ef"
+  },
+  {
+    "codigo": "CW010W",
+    "nombre": "Blueberry Haze",
+    "cartilla": "Millennium",
+    "hex": "#dfe7e5"
+  },
+  {
+    "codigo": "CW011W",
+    "nombre": "Serene White",
+    "cartilla": "Millennium",
+    "hex": "#dee4e0"
+  },
+  {
+    "codigo": "CW012W",
+    "nombre": "Blueberry Mist",
+    "cartilla": "Millennium",
+    "hex": "#e5e9e6"
+  },
+  {
+    "codigo": "CW013W",
+    "nombre": "Blueberry Hint",
+    "cartilla": "Millennium",
+    "hex": "#deeae9"
+  },
+  {
+    "codigo": "CW014W",
+    "nombre": "Blueberry Frost",
+    "cartilla": "Millennium",
+    "hex": "#e8eeeb"
+  },
+  {
+    "codigo": "CW015W",
+    "nombre": "Perfect Mint",
+    "cartilla": "Millennium",
+    "hex": "#e9f2ee"
+  },
+  {
+    "codigo": "CW016W",
+    "nombre": "Lime Squeeze",
+    "cartilla": "Millennium",
+    "hex": "#e8efe7"
+  },
+  {
+    "codigo": "CW017W",
+    "nombre": "Limon",
+    "cartilla": "Millennium",
+    "hex": "#e5e9df"
+  },
+  {
+    "codigo": "CW018W",
+    "nombre": "Lime Treat",
+    "cartilla": "Millennium",
+    "hex": "#edf4e9"
+  },
+  {
+    "codigo": "CW019W",
+    "nombre": "Lemonade",
+    "cartilla": "Millennium",
+    "hex": "#f5edd6"
+  },
+  {
+    "codigo": "CW020W",
+    "nombre": "Lemon White",
+    "cartilla": "Millennium",
+    "hex": "#f6f0e0"
+  },
+  {
+    "codigo": "CW021W",
+    "nombre": "Lemon Peel",
+    "cartilla": "Millennium",
+    "hex": "#f0eedf"
+  },
+  {
+    "codigo": "CW022W",
+    "nombre": "Soft Gold",
+    "cartilla": "Millennium",
+    "hex": "#fff1d9"
+  },
+  {
+    "codigo": "CW023W",
+    "nombre": "Lis Creme",
+    "cartilla": "Millennium",
+    "hex": "#fcf5e3"
+  },
+  {
+    "codigo": "CW024W",
+    "nombre": "Soaring White",
+    "cartilla": "Millennium",
+    "hex": "#fcf5e7"
+  },
+  {
+    "codigo": "CW025W",
+    "nombre": "Restorative",
+    "cartilla": "Millennium",
+    "hex": "#f2e7d3"
+  },
+  {
+    "codigo": "CW026W",
+    "nombre": "Lemon Chiffon",
+    "cartilla": "Millennium",
+    "hex": "#f3eddf"
+  },
+  {
+    "codigo": "CW027W",
+    "nombre": "Sensitive White",
+    "cartilla": "Millennium",
+    "hex": "#f8f0e0"
+  },
+  {
+    "codigo": "CW028W",
+    "nombre": "Orange Whip",
+    "cartilla": "Millennium",
+    "hex": "#f7e9d9"
+  },
+  {
+    "codigo": "CW029W",
+    "nombre": "Orange Peel",
+    "cartilla": "Millennium",
+    "hex": "#f4ecdd"
+  },
+  {
+    "codigo": "CW030W",
+    "nombre": "Apple Peel",
+    "cartilla": "Millennium",
+    "hex": "#f2ece4"
+  },
+  {
+    "codigo": "CW031W",
+    "nombre": "Coconut Spirit",
+    "cartilla": "Millennium",
+    "hex": "#efe4d9"
+  },
+  {
+    "codigo": "CW032W",
+    "nombre": "Orange Foam",
+    "cartilla": "Millennium",
+    "hex": "#f6ebe0"
+  },
+  {
+    "codigo": "CW033W",
+    "nombre": "Floral White",
+    "cartilla": "Millennium",
+    "hex": "#f6f2e7"
+  },
+  {
+    "codigo": "CW034W",
+    "nombre": "Coconut Milk",
+    "cartilla": "Millennium",
+    "hex": "#f1e6db"
+  },
+  {
+    "codigo": "CW035W",
+    "nombre": "Coconut Twist",
+    "cartilla": "Millennium",
+    "hex": "#f4e9de"
+  },
+  {
+    "codigo": "CW036W",
+    "nombre": "Apple Tint",
+    "cartilla": "Millennium",
+    "hex": "#f4ece4"
+  },
+  {
+    "codigo": "CW037W",
+    "nombre": "White Filigree",
+    "cartilla": "Millennium",
+    "hex": "#ece1da"
+  },
+  {
+    "codigo": "CW038W",
+    "nombre": "Apple Delight",
+    "cartilla": "Millennium",
+    "hex": "#eee6e1"
+  },
+  {
+    "codigo": "CW039W",
+    "nombre": "Coconut Colada",
+    "cartilla": "Millennium",
+    "hex": "#f1ece6"
+  },
+  {
+    "codigo": "CW040W",
+    "nombre": "Essence",
+    "cartilla": "Millennium",
+    "hex": "#ebdedb"
+  },
+  {
+    "codigo": "CW041W",
+    "nombre": "Poetic White",
+    "cartilla": "Millennium",
+    "hex": "#ede5df"
+  },
+  {
+    "codigo": "CW042W",
+    "nombre": "Grape Freeze",
+    "cartilla": "Millennium",
+    "hex": "#f2ece7"
+  },
+  {
+    "codigo": "CW043W",
+    "nombre": "Grape Reflection",
+    "cartilla": "Millennium",
+    "hex": "#eee9eb"
+  },
+  {
+    "codigo": "CW044W",
+    "nombre": "Grape Ole",
+    "cartilla": "Millennium",
+    "hex": "#eae5e2"
+  },
+  {
+    "codigo": "CW045W",
+    "nombre": "Grape Beginnings",
+    "cartilla": "Millennium",
+    "hex": "#f2efec"
+  },
+  {
+    "codigo": "CW046W",
+    "nombre": "Enchanting",
+    "cartilla": "Millennium",
+    "hex": "#eae5e2"
+  },
+  {
+    "codigo": "CW047W",
+    "nombre": "Hidden White",
+    "cartilla": "Millennium",
+    "hex": "#e6e2dd"
+  },
+  {
+    "codigo": "CW048W",
+    "nombre": "Composed",
+    "cartilla": "Millennium",
+    "hex": "#ecedeb"
+  },
+  {
+    "codigo": "CW049W",
+    "nombre": "Light Antique",
+    "cartilla": "Millennium",
+    "hex": "#e3dbcf"
+  },
+  {
+    "codigo": "CW050W",
+    "nombre": "Plum Black White",
+    "cartilla": "Millennium",
+    "hex": "#e9e8e2"
+  },
+  {
+    "codigo": "CW051W",
+    "nombre": "Solo White",
+    "cartilla": "Millennium",
+    "hex": "#eceae9"
+  },
+  {
+    "codigo": "CW052W",
+    "nombre": "Subtlety Natural",
+    "cartilla": "Millennium",
+    "hex": "#e6e0d4"
+  },
+  {
+    "codigo": "CW053W",
+    "nombre": "Natural Bisque",
+    "cartilla": "Millennium",
+    "hex": "#e8e2d6"
+  },
+  {
+    "codigo": "CW054W",
+    "nombre": "Natural Echo",
+    "cartilla": "Millennium",
+    "hex": "#f8f5ea"
+  },
+  {
+    "codigo": "CW055W",
+    "nombre": "Honeywind",
+    "cartilla": "Millennium",
+    "hex": "#e7e0d3"
+  },
+  {
+    "codigo": "CW056W",
+    "nombre": "Moonlit",
+    "cartilla": "Millennium",
+    "hex": "#e8e2d6"
+  },
+  {
+    "codigo": "CW057W",
+    "nombre": "White Solitude",
+    "cartilla": "Millennium",
+    "hex": "#f0ede4"
+  },
+  {
+    "codigo": "CW058W",
+    "nombre": "Dove Wing",
+    "cartilla": "Millennium",
+    "hex": "#e5e1d3"
+  },
+  {
+    "codigo": "CW059W",
+    "nombre": "Fog Mist",
+    "cartilla": "Millennium",
+    "hex": "#ebe5d9"
+  },
+  {
+    "codigo": "CW060W",
+    "nombre": "Sea Cloud",
+    "cartilla": "Millennium",
+    "hex": "#f0ede4"
+  },
+  {
+    "codigo": "CW061W",
+    "nombre": "Lime Peel",
+    "cartilla": "Millennium",
+    "hex": "#e6e7db"
+  },
+  {
+    "codigo": "CW062W",
+    "nombre": "Delicate Aire",
+    "cartilla": "Millennium",
+    "hex": "#eae8dd"
+  },
+  {
+    "codigo": "CW063W",
+    "nombre": "Juliet's White",
+    "cartilla": "Millennium",
+    "hex": "#eff1e7"
+  },
+  {
+    "codigo": "CW064W",
+    "nombre": "White Pebble",
+    "cartilla": "Millennium",
+    "hex": "#e0ded6"
+  },
+  {
+    "codigo": "CW065W",
+    "nombre": "Camelle",
+    "cartilla": "Millennium",
+    "hex": "#efede6"
+  },
+  {
+    "codigo": "CW066W",
+    "nombre": "Picket White",
+    "cartilla": "Millennium",
+    "hex": "#eeede7"
+  },
+  {
+    "codigo": "CW067W",
+    "nombre": "Soft Mist",
+    "cartilla": "Millennium",
+    "hex": "#dddcd6"
+  },
+  {
+    "codigo": "CW068W",
+    "nombre": "Intimate White",
+    "cartilla": "Millennium",
+    "hex": "#e8e6de"
+  },
+  {
+    "codigo": "CW069W",
+    "nombre": "Respectfully White",
+    "cartilla": "Millennium",
+    "hex": "#e7e6e0"
+  },
+  {
+    "codigo": "CW070W",
+    "nombre": "Plum Black Ashes",
+    "cartilla": "Millennium",
+    "hex": "#e4e3dd"
+  },
+  {
+    "codigo": "CW071W",
+    "nombre": "Plum Black Absence",
+    "cartilla": "Millennium",
+    "hex": "#e8e5e2"
+  },
+  {
+    "codigo": "CW072W",
+    "nombre": "Plum Black Whisper",
+    "cartilla": "Millennium",
+    "hex": "#ecebe5"
+  },
+  {
+    "codigo": "7000W",
+    "nombre": "White Lilac",
+    "cartilla": "Millennium",
+    "hex": "#ece2ec"
+  },
+  {
+    "codigo": "7001W",
+    "nombre": "Lilac Glaze",
+    "cartilla": "Millennium",
+    "hex": "#e9dceb"
+  },
+  {
+    "codigo": "7002W",
+    "nombre": "Lavender Bubble",
+    "cartilla": "Millennium",
+    "hex": "#d9c7e3"
+  },
+  {
+    "codigo": "7003M",
+    "nombre": "Lively Lavender",
+    "cartilla": "Millennium",
+    "hex": "#cab4d7"
+  },
+  {
+    "codigo": "7004M",
+    "nombre": "Candy Violet",
+    "cartilla": "Millennium",
+    "hex": "#bda3ce"
+  },
+  {
+    "codigo": "7005D",
+    "nombre": "Purple Sequel",
+    "cartilla": "Millennium",
+    "hex": "#8f45c7"
+  },
+  {
+    "codigo": "7006N",
+    "nombre": "Purple Passion",
+    "cartilla": "Millennium",
+    "hex": "#806292"
+  },
+  {
+    "codigo": "7010W",
+    "nombre": "Phantom Violet",
+    "cartilla": "Millennium",
+    "hex": "#e5e0ed"
+  },
+  {
+    "codigo": "7011W",
+    "nombre": "Lilac Petal",
+    "cartilla": "Millennium",
+    "hex": "#ded8eb"
+  },
+  {
+    "codigo": "7012W",
+    "nombre": "Violet Veil",
+    "cartilla": "Millennium",
+    "hex": "#d2c9e4"
+  },
+  {
+    "codigo": "7013M",
+    "nombre": "Peruvian Violet",
+    "cartilla": "Millennium",
+    "hex": "#c4badd"
+  },
+  {
+    "codigo": "7014M",
+    "nombre": "Sugarplum",
+    "cartilla": "Millennium",
+    "hex": "#b3a6d1"
+  },
+  {
+    "codigo": "7015D",
+    "nombre": "Super Violet",
+    "cartilla": "Millennium",
+    "hex": "#8f80b4"
+  },
+  {
+    "codigo": "7016A",
+    "nombre": "Purple Banner",
+    "cartilla": "Millennium",
+    "hex": "#716699"
+  },
+  {
+    "codigo": "7020W",
+    "nombre": "Frost Violet",
+    "cartilla": "Millennium",
+    "hex": "#e0e1ee"
+  },
+  {
+    "codigo": "7021W",
+    "nombre": "Cool Lilac",
+    "cartilla": "Millennium",
+    "hex": "#d8d5e9"
+  },
+  {
+    "codigo": "7022W",
+    "nombre": "Spring Crocus",
+    "cartilla": "Millennium",
+    "hex": "#d2c9e4"
+  },
+  {
+    "codigo": "7023M",
+    "nombre": "Lupine",
+    "cartilla": "Millennium",
+    "hex": "#b9b9dd"
+  },
+  {
+    "codigo": "7024M",
+    "nombre": "Poet's Purple",
+    "cartilla": "Millennium",
+    "hex": "#a6aad5"
+  },
+  {
+    "codigo": "7025D",
+    "nombre": "Paradox",
+    "cartilla": "Millennium",
+    "hex": "#7c81b6"
+  },
+  {
+    "codigo": "7026N",
+    "nombre": "Purple Eden",
+    "cartilla": "Millennium",
+    "hex": "#5f6397"
+  },
+  {
+    "codigo": "7030W",
+    "nombre": "White Finesse",
+    "cartilla": "Millennium",
+    "hex": "#ececf0"
+  },
+  {
+    "codigo": "7031W",
+    "nombre": "Lavender Star",
+    "cartilla": "Millennium",
+    "hex": "#d4d6eb"
+  },
+  {
+    "codigo": "7032W",
+    "nombre": "Lavender Glow",
+    "cartilla": "Millennium",
+    "hex": "#cccae6"
+  },
+  {
+    "codigo": "7033M",
+    "nombre": "Lilac Luxury",
+    "cartilla": "Millennium",
+    "hex": "#b2bbdd"
+  },
+  {
+    "codigo": "7034M",
+    "nombre": "Blue Iris",
+    "cartilla": "Millennium",
+    "hex": "#9ca8d3"
+  },
+  {
+    "codigo": "7035D",
+    "nombre": "Lavender Blue",
+    "cartilla": "Millennium",
+    "hex": "#7686bc"
+  },
+  {
+    "codigo": "7036A",
+    "nombre": "Blue Foxglove",
+    "cartilla": "Millennium",
+    "hex": "#5c6a9f"
+  },
+  {
+    "codigo": "7040W",
+    "nombre": "Sedum Flower",
+    "cartilla": "Millennium",
+    "hex": "#e6ebf1"
+  },
+  {
+    "codigo": "7041W",
+    "nombre": "Woodflower",
+    "cartilla": "Millennium",
+    "hex": "#ccd9eb"
+  },
+  {
+    "codigo": "7042W",
+    "nombre": "Parlor Blue",
+    "cartilla": "Millennium",
+    "hex": "#bbcce9"
+  },
+  {
+    "codigo": "7043M",
+    "nombre": "Blue Feather",
+    "cartilla": "Millennium",
+    "hex": "#aabce0"
+  },
+  {
+    "codigo": "7044M",
+    "nombre": "Brewster Blue",
+    "cartilla": "Millennium",
+    "hex": "#94add9"
+  },
+  {
+    "codigo": "7045D",
+    "nombre": "Blue Epic",
+    "cartilla": "Millennium",
+    "hex": "#6988bf"
+  },
+  {
+    "codigo": "7046A",
+    "nombre": "Etheria Blue",
+    "cartilla": "Millennium",
+    "hex": "#4a6ca5"
+  },
+  {
+    "codigo": "7050W",
+    "nombre": "Blue Chill",
+    "cartilla": "Millennium",
+    "hex": "#e9f0f7"
+  },
+  {
+    "codigo": "7051W",
+    "nombre": "Bluet Bouquet",
+    "cartilla": "Millennium",
+    "hex": "#d4e2ee"
+  },
+  {
+    "codigo": "7052W",
+    "nombre": "Brisk Blue",
+    "cartilla": "Millennium",
+    "hex": "#b5d0ec"
+  },
+  {
+    "codigo": "7053M",
+    "nombre": "Jonathan",
+    "cartilla": "Millennium",
+    "hex": "#9abfe3"
+  },
+  {
+    "codigo": "7054M",
+    "nombre": "Venetian Blue",
+    "cartilla": "Millennium",
+    "hex": "#83b0de"
+  },
+  {
+    "codigo": "7055D",
+    "nombre": "Pompeii",
+    "cartilla": "Millennium",
+    "hex": "#4b8dc7"
+  },
+  {
+    "codigo": "7056N",
+    "nombre": "Endless Blue",
+    "cartilla": "Millennium",
+    "hex": "#3670ac"
+  },
+  {
+    "codigo": "7060W",
+    "nombre": "Cool Vista",
+    "cartilla": "Millennium",
+    "hex": "#e7f0f8"
+  },
+  {
+    "codigo": "7061W",
+    "nombre": "Soft Sky",
+    "cartilla": "Millennium",
+    "hex": "#d0e2f0"
+  },
+  {
+    "codigo": "7062W",
+    "nombre": "Carolina Blue",
+    "cartilla": "Millennium",
+    "hex": "#b6d6ee"
+  },
+  {
+    "codigo": "7063M",
+    "nombre": "Blue Palace",
+    "cartilla": "Millennium",
+    "hex": "#93c4e8"
+  },
+  {
+    "codigo": "7064M",
+    "nombre": "Water Jet",
+    "cartilla": "Millennium",
+    "hex": "#77b5e3"
+  },
+  {
+    "codigo": "7065D",
+    "nombre": "Triumph Blue",
+    "cartilla": "Millennium",
+    "hex": "#2392cd"
+  },
+  {
+    "codigo": "7066N",
+    "nombre": "Stars Forever",
+    "cartilla": "Millennium",
+    "hex": "#0072b0"
+  },
+  {
+    "codigo": "7070W",
+    "nombre": "Bridgewater",
+    "cartilla": "Millennium",
+    "hex": "#d7e6f2"
+  },
+  {
+    "codigo": "7071W",
+    "nombre": "Meltwater",
+    "cartilla": "Millennium",
+    "hex": "#c6e1f0"
+  },
+  {
+    "codigo": "7072W",
+    "nombre": "Heron Blue",
+    "cartilla": "Millennium",
+    "hex": "#bcdcf0"
+  },
+  {
+    "codigo": "7073M",
+    "nombre": "Bluejay",
+    "cartilla": "Millennium",
+    "hex": "#87c8ed"
+  },
+  {
+    "codigo": "7074M",
+    "nombre": "Brandon's Blue",
+    "cartilla": "Millennium",
+    "hex": "#62bae8"
+  },
+  {
+    "codigo": "7075D",
+    "nombre": "Electron Blue",
+    "cartilla": "Millennium",
+    "hex": "#0099d5"
+  },
+  {
+    "codigo": "7076A",
+    "nombre": "Neon Blue",
+    "cartilla": "Millennium",
+    "hex": "#007fc2"
+  },
+  {
+    "codigo": "7080W",
+    "nombre": "Sistine Blue",
+    "cartilla": "Millennium",
+    "hex": "#cfe9f1"
+  },
+  {
+    "codigo": "7081W",
+    "nombre": "Clear Day",
+    "cartilla": "Millennium",
+    "hex": "#bfe2f0"
+  },
+  {
+    "codigo": "7082W",
+    "nombre": "Sky Delight",
+    "cartilla": "Millennium",
+    "hex": "#aedcef"
+  },
+  {
+    "codigo": "7083M",
+    "nombre": "Blue Yonder",
+    "cartilla": "Millennium",
+    "hex": "#88c9e7"
+  },
+  {
+    "codigo": "7084M",
+    "nombre": "Parade Blue",
+    "cartilla": "Millennium",
+    "hex": "#68bee3"
+  },
+  {
+    "codigo": "7085D",
+    "nombre": "Atlas Blue",
+    "cartilla": "Millennium",
+    "hex": "#009ccb"
+  },
+  {
+    "codigo": "7086A",
+    "nombre": "Gulf Coast",
+    "cartilla": "Millennium",
+    "hex": "#0082b5"
+  },
+  {
+    "codigo": "7090W",
+    "nombre": "Blue Cool",
+    "cartilla": "Millennium",
+    "hex": "#d7eef3"
+  },
+  {
+    "codigo": "7091W",
+    "nombre": "Ondine Blue",
+    "cartilla": "Millennium",
+    "hex": "#c9e7f0"
+  },
+  {
+    "codigo": "7092W",
+    "nombre": "Inspiration Blue",
+    "cartilla": "Millennium",
+    "hex": "#aeddee"
+  },
+  {
+    "codigo": "7093M",
+    "nombre": "Baby Blue Eyes",
+    "cartilla": "Millennium",
+    "hex": "#88cde4"
+  },
+  {
+    "codigo": "7094M",
+    "nombre": "Blue Stencil",
+    "cartilla": "Millennium",
+    "hex": "#62c0de"
+  },
+  {
+    "codigo": "7095D",
+    "nombre": "Granada Blue",
+    "cartilla": "Millennium",
+    "hex": "#00a1c5"
+  },
+  {
+    "codigo": "7096A",
+    "nombre": "Deep Marine",
+    "cartilla": "Millennium",
+    "hex": "#0088ae"
+  },
+  {
+    "codigo": "7100W",
+    "nombre": "Blue Facets",
+    "cartilla": "Millennium",
+    "hex": "#e4f3f1"
+  },
+  {
+    "codigo": "7101W",
+    "nombre": "Blue Gossamer",
+    "cartilla": "Millennium",
+    "hex": "#caebef"
+  },
+  {
+    "codigo": "7102W",
+    "nombre": "Galactic Blue",
+    "cartilla": "Millennium",
+    "hex": "#ade0e9"
+  },
+  {
+    "codigo": "7103M",
+    "nombre": "Aqua Whisper",
+    "cartilla": "Millennium",
+    "hex": "#84d2de"
+  },
+  {
+    "codigo": "7104M",
+    "nombre": "Carribean Waters",
+    "cartilla": "Millennium",
+    "hex": "#5fc5d4"
+  },
+  {
+    "codigo": "7105D",
+    "nombre": "Matisse Blue",
+    "cartilla": "Millennium",
+    "hex": "#00a7ba"
+  },
+  {
+    "codigo": "7106A",
+    "nombre": "Aqua Fantasy",
+    "cartilla": "Millennium",
+    "hex": "#008ea0"
+  },
+  {
+    "codigo": "7110W",
+    "nombre": "Lithesome Blue",
+    "cartilla": "Millennium",
+    "hex": "#d9f1f0"
+  },
+  {
+    "codigo": "7111W",
+    "nombre": "Intricate Aqua",
+    "cartilla": "Millennium",
+    "hex": "#cbeeee"
+  },
+  {
+    "codigo": "7112W",
+    "nombre": "Sea Port",
+    "cartilla": "Millennium",
+    "hex": "#b1e7e7"
+  },
+  {
+    "codigo": "7113M",
+    "nombre": "Birthstone",
+    "cartilla": "Millennium",
+    "hex": "#80d6d9"
+  },
+  {
+    "codigo": "7114M",
+    "nombre": "Noblesse",
+    "cartilla": "Millennium",
+    "hex": "#60cccf"
+  },
+  {
+    "codigo": "7115D",
+    "nombre": "Calypso",
+    "cartilla": "Millennium",
+    "hex": "#00b2b3"
+  },
+  {
+    "codigo": "7116A",
+    "nombre": "Bloodstone",
+    "cartilla": "Millennium",
+    "hex": "#00999a"
+  },
+  {
+    "codigo": "7120W",
+    "nombre": "Shallow Pool",
+    "cartilla": "Millennium",
+    "hex": "#dff4ef"
+  },
+  {
+    "codigo": "7121W",
+    "nombre": "Cupid Green",
+    "cartilla": "Millennium",
+    "hex": "#c1eeea"
+  },
+  {
+    "codigo": "7122W",
+    "nombre": "Water Dance",
+    "cartilla": "Millennium",
+    "hex": "#aae9e3"
+  },
+  {
+    "codigo": "7123M",
+    "nombre": "Jadeast",
+    "cartilla": "Millennium",
+    "hex": "#82ddd7"
+  },
+  {
+    "codigo": "7124M",
+    "nombre": "Aqua Fresco",
+    "cartilla": "Millennium",
+    "hex": "#60d3cb"
+  },
+  {
+    "codigo": "7125D",
+    "nombre": "Indian Bead",
+    "cartilla": "Millennium",
+    "hex": "#00b9ae"
+  },
+  {
+    "codigo": "7126N",
+    "nombre": "Subterranean",
+    "cartilla": "Millennium",
+    "hex": "#009e91"
+  },
+  {
+    "codigo": "7130W",
+    "nombre": "Aquarill",
+    "cartilla": "Millennium",
+    "hex": "#e3f6f1"
+  },
+  {
+    "codigo": "7131W",
+    "nombre": "Green Aqua",
+    "cartilla": "Millennium",
+    "hex": "#c0efe8"
+  },
+  {
+    "codigo": "7132W",
+    "nombre": "Cyan Waters",
+    "cartilla": "Millennium",
+    "hex": "#a9e9e2"
+  },
+  {
+    "codigo": "7133M",
+    "nombre": "Tahitian Breeze",
+    "cartilla": "Millennium",
+    "hex": "#83e1d7"
+  },
+  {
+    "codigo": "7134D",
+    "nombre": "Jade Jewel",
+    "cartilla": "Millennium",
+    "hex": "#1dcaba"
+  },
+  {
+    "codigo": "7135A",
+    "nombre": "Paradise Waters",
+    "cartilla": "Millennium",
+    "hex": "#00b09d"
+  },
+  {
+    "codigo": "7136N",
+    "nombre": "Mayan Green",
+    "cartilla": "Millennium",
+    "hex": "#00a08d"
+  },
+  {
+    "codigo": "7140W",
+    "nombre": "Nile Mist",
+    "cartilla": "Millennium",
+    "hex": "#dff5ec"
+  },
+  {
+    "codigo": "7141W",
+    "nombre": "Tropic Sealight",
+    "cartilla": "Millennium",
+    "hex": "#bdece0"
+  },
+  {
+    "codigo": "7142W",
+    "nombre": "Beau Monde",
+    "cartilla": "Millennium",
+    "hex": "#a7e8da"
+  },
+  {
+    "codigo": "7143M",
+    "nombre": "Wistful Green",
+    "cartilla": "Millennium",
+    "hex": "#92daca"
+  },
+  {
+    "codigo": "7144D",
+    "nombre": "Island Dream",
+    "cartilla": "Millennium",
+    "hex": "#5cc3ab"
+  },
+  {
+    "codigo": "7145D",
+    "nombre": "Green Melody",
+    "cartilla": "Millennium",
+    "hex": "#2cb59a"
+  },
+  {
+    "codigo": "7146N",
+    "nombre": "Pageant Green",
+    "cartilla": "Millennium",
+    "hex": "#009477"
+  },
+  {
+    "codigo": "7150W",
+    "nombre": "Hint O' Green",
+    "cartilla": "Millennium",
+    "hex": "#ddf2e5"
+  },
+  {
+    "codigo": "7151W",
+    "nombre": "Mint Frost",
+    "cartilla": "Millennium",
+    "hex": "#c3edd6"
+  },
+  {
+    "codigo": "7152W",
+    "nombre": "Tender Green",
+    "cartilla": "Millennium",
+    "hex": "#bbecd2"
+  },
+  {
+    "codigo": "7153M",
+    "nombre": "Summer Green",
+    "cartilla": "Millennium",
+    "hex": "#a5dbbc"
+  },
+  {
+    "codigo": "7154D",
+    "nombre": "Dutch Bells",
+    "cartilla": "Millennium",
+    "hex": "#7ac79e"
+  },
+  {
+    "codigo": "7155D",
+    "nombre": "Green Glory",
+    "cartilla": "Millennium",
+    "hex": "#5db98b"
+  },
+  {
+    "codigo": "7156N",
+    "nombre": "Patrick Green",
+    "cartilla": "Millennium",
+    "hex": "#3c9c6c"
+  },
+  {
+    "codigo": "7160W",
+    "nombre": "Spring Mint",
+    "cartilla": "Millennium",
+    "hex": "#dff3dc"
+  },
+  {
+    "codigo": "7161W",
+    "nombre": "Wispy Green",
+    "cartilla": "Millennium",
+    "hex": "#d9f2d7"
+  },
+  {
+    "codigo": "7162W",
+    "nombre": "Green Gulf",
+    "cartilla": "Millennium",
+    "hex": "#c7edc9"
+  },
+  {
+    "codigo": "7163M",
+    "nombre": "Bailey's Beads",
+    "cartilla": "Millennium",
+    "hex": "#a3dea6"
+  },
+  {
+    "codigo": "7164D",
+    "nombre": "Shocking Green",
+    "cartilla": "Millennium",
+    "hex": "#77ca80"
+  },
+  {
+    "codigo": "7165A",
+    "nombre": "Lucky Shamrock",
+    "cartilla": "Millennium",
+    "hex": "#4fb76e"
+  },
+  {
+    "codigo": "7166N",
+    "nombre": "Isle O' Green",
+    "cartilla": "Millennium",
+    "hex": "#32a65a"
+  },
+  {
+    "codigo": "7170W",
+    "nombre": "Bon Bon",
+    "cartilla": "Millennium",
+    "hex": "#e7f4e1"
+  },
+  {
+    "codigo": "7171W",
+    "nombre": "Willow Sweeps",
+    "cartilla": "Millennium",
+    "hex": "#d9efcf"
+  },
+  {
+    "codigo": "7172W",
+    "nombre": "Duet Green",
+    "cartilla": "Millennium",
+    "hex": "#cdeac2"
+  },
+  {
+    "codigo": "7173M",
+    "nombre": "Applejack",
+    "cartilla": "Millennium",
+    "hex": "#b4dba4"
+  },
+  {
+    "codigo": "7174D",
+    "nombre": "Canopy Green",
+    "cartilla": "Millennium",
+    "hex": "#90c37c"
+  },
+  {
+    "codigo": "7175A",
+    "nombre": "Belladonna",
+    "cartilla": "Millennium",
+    "hex": "#7ab268"
+  },
+  {
+    "codigo": "7176N",
+    "nombre": "Green Hedge",
+    "cartilla": "Millennium",
+    "hex": "#66a157"
+  },
+  {
+    "codigo": "7180W",
+    "nombre": "Pale Parsnip",
+    "cartilla": "Millennium",
+    "hex": "#edf6dc"
+  },
+  {
+    "codigo": "7181W",
+    "nombre": "Green Pear",
+    "cartilla": "Millennium",
+    "hex": "#e1eec4"
+  },
+  {
+    "codigo": "7182W",
+    "nombre": "Green Muslin",
+    "cartilla": "Millennium",
+    "hex": "#dbe7b8"
+  },
+  {
+    "codigo": "7183M",
+    "nombre": "Candy Lime",
+    "cartilla": "Millennium",
+    "hex": "#ccdca1"
+  },
+  {
+    "codigo": "7184D",
+    "nombre": "Green Balsam",
+    "cartilla": "Millennium",
+    "hex": "#aac877"
+  },
+  {
+    "codigo": "7185A",
+    "nombre": "Broadleaf",
+    "cartilla": "Millennium",
+    "hex": "#9cbc66"
+  },
+  {
+    "codigo": "7186N",
+    "nombre": "Bonzai Green",
+    "cartilla": "Millennium",
+    "hex": "#92ae56"
+  },
+  {
+    "codigo": "7190W",
+    "nombre": "Tiffany Glass",
+    "cartilla": "Millennium",
+    "hex": "#edf4d3"
+  },
+  {
+    "codigo": "7191W",
+    "nombre": "Rain Reflection",
+    "cartilla": "Millennium",
+    "hex": "#f0efc0"
+  },
+  {
+    "codigo": "7192W",
+    "nombre": "Tangy Green",
+    "cartilla": "Millennium",
+    "hex": "#e6e8b0"
+  },
+  {
+    "codigo": "7193M",
+    "nombre": "Green Moth",
+    "cartilla": "Millennium",
+    "hex": "#dfe29c"
+  },
+  {
+    "codigo": "7194D",
+    "nombre": "Spring Grass",
+    "cartilla": "Millennium",
+    "hex": "#d4d881"
+  },
+  {
+    "codigo": "7195A",
+    "nombre": "Picnic Green",
+    "cartilla": "Millennium",
+    "hex": "#bfc45d"
+  },
+  {
+    "codigo": "7196N",
+    "nombre": "Bistro Green",
+    "cartilla": "Millennium",
+    "hex": "#aab352"
+  },
+  {
+    "codigo": "7200W",
+    "nombre": "Shower Mint",
+    "cartilla": "Millennium",
+    "hex": "#f1f2ca"
+  },
+  {
+    "codigo": "7201W",
+    "nombre": "Sparkle Green",
+    "cartilla": "Millennium",
+    "hex": "#f1f1c1"
+  },
+  {
+    "codigo": "7202W",
+    "nombre": "Lilting Green",
+    "cartilla": "Millennium",
+    "hex": "#eceeaf"
+  },
+  {
+    "codigo": "7203M",
+    "nombre": "Breadfruit",
+    "cartilla": "Millennium",
+    "hex": "#e2e591"
+  },
+  {
+    "codigo": "7204D",
+    "nombre": "Spring Chartreuse",
+    "cartilla": "Millennium",
+    "hex": "#dadb7a"
+  },
+  {
+    "codigo": "7205A",
+    "nombre": "Limeburst",
+    "cartilla": "Millennium",
+    "hex": "#c7cb5a"
+  },
+  {
+    "codigo": "7206N",
+    "nombre": "Pekingese",
+    "cartilla": "Millennium",
+    "hex": "#b7c146"
+  },
+  {
+    "codigo": "7210W",
+    "nombre": "Greenlet",
+    "cartilla": "Millennium",
+    "hex": "#f5f3c9"
+  },
+  {
+    "codigo": "7211W",
+    "nombre": "New Spring",
+    "cartilla": "Millennium",
+    "hex": "#f4f5bc"
+  },
+  {
+    "codigo": "7212W",
+    "nombre": "Spiney Green",
+    "cartilla": "Millennium",
+    "hex": "#f1f1a4"
+  },
+  {
+    "codigo": "7213D",
+    "nombre": "Yellow Citrus",
+    "cartilla": "Millennium",
+    "hex": "#ebe975"
+  },
+  {
+    "codigo": "7214D",
+    "nombre": "Lime Tart",
+    "cartilla": "Millennium",
+    "hex": "#eee464"
+  },
+  {
+    "codigo": "7215A",
+    "nombre": "Lime Flip",
+    "cartilla": "Millennium",
+    "hex": "#ebdf53"
+  },
+  {
+    "codigo": "7216N",
+    "nombre": "Brite Lime",
+    "cartilla": "Millennium",
+    "hex": "#dfd634"
+  },
+  {
+    "codigo": "7220W",
+    "nombre": "Yellow Buff",
+    "cartilla": "Millennium",
+    "hex": "#fef7d2"
+  },
+  {
+    "codigo": "7221W",
+    "nombre": "Fresh Lemon",
+    "cartilla": "Millennium",
+    "hex": "#fff7c5"
+  },
+  {
+    "codigo": "7222W",
+    "nombre": "Daisy Petal",
+    "cartilla": "Millennium",
+    "hex": "#fff5ab"
+  },
+  {
+    "codigo": "7223M",
+    "nombre": "Glittering Sun",
+    "cartilla": "Millennium",
+    "hex": "#fff097"
+  },
+  {
+    "codigo": "7224D",
+    "nombre": "Yellow Jubilee",
+    "cartilla": "Millennium",
+    "hex": "#ffea66"
+  },
+  {
+    "codigo": "7225A",
+    "nombre": "Competition Yellow",
+    "cartilla": "Millennium",
+    "hex": "#ffe44a"
+  },
+  {
+    "codigo": "7226N",
+    "nombre": "Sun Valley",
+    "cartilla": "Millennium",
+    "hex": "#ffd700"
+  },
+  {
+    "codigo": "7230W",
+    "nombre": "Translucence",
+    "cartilla": "Millennium",
+    "hex": "#fff6d7"
+  },
+  {
+    "codigo": "7231W",
+    "nombre": "Afternoon Delight",
+    "cartilla": "Millennium",
+    "hex": "#fff4bf"
+  },
+  {
+    "codigo": "7232W",
+    "nombre": "Mineral Yellow",
+    "cartilla": "Millennium",
+    "hex": "#ffeeaa"
+  },
+  {
+    "codigo": "7233M",
+    "nombre": "Southern Sun",
+    "cartilla": "Millennium",
+    "hex": "#ffec97"
+  },
+  {
+    "codigo": "7234D",
+    "nombre": "Yellow Tulip",
+    "cartilla": "Millennium",
+    "hex": "#ffe170"
+  },
+  {
+    "codigo": "7235A",
+    "nombre": "Ornate Yellow",
+    "cartilla": "Millennium",
+    "hex": "#ffd752"
+  },
+  {
+    "codigo": "7236N",
+    "nombre": "Imperial Yellow",
+    "cartilla": "Millennium",
+    "hex": "#ffce32"
+  },
+  {
+    "codigo": "7240W",
+    "nombre": "Chaste White",
+    "cartilla": "Millennium",
+    "hex": "#fcf6dc"
+  },
+  {
+    "codigo": "7241W",
+    "nombre": "Sun Shimmer",
+    "cartilla": "Millennium",
+    "hex": "#fff3bb"
+  },
+  {
+    "codigo": "7242W",
+    "nombre": "Yellow Begonia",
+    "cartilla": "Millennium",
+    "hex": "#fff1ab"
+  },
+  {
+    "codigo": "7243M",
+    "nombre": "Forsythia",
+    "cartilla": "Millennium",
+    "hex": "#ffea8e"
+  },
+  {
+    "codigo": "7244D",
+    "nombre": "Golden Ray",
+    "cartilla": "Millennium",
+    "hex": "#ffde62"
+  },
+  {
+    "codigo": "7245A",
+    "nombre": "Glimmer Gold",
+    "cartilla": "Millennium",
+    "hex": "#ffd749"
+  },
+  {
+    "codigo": "7246N",
+    "nombre": "Golden Dome",
+    "cartilla": "Millennium",
+    "hex": "#ffd029"
+  },
+  {
+    "codigo": "7250W",
+    "nombre": "Serenity",
+    "cartilla": "Millennium",
+    "hex": "#fbf6e1"
+  },
+  {
+    "codigo": "7251W",
+    "nombre": "Lemon Meringue",
+    "cartilla": "Millennium",
+    "hex": "#fff1bf"
+  },
+  {
+    "codigo": "7252W",
+    "nombre": "Sundew",
+    "cartilla": "Millennium",
+    "hex": "#fff0af"
+  },
+  {
+    "codigo": "7253M",
+    "nombre": "Golden Corn",
+    "cartilla": "Millennium",
+    "hex": "#ffe78f"
+  },
+  {
+    "codigo": "7254D",
+    "nombre": "Black-eyed Susan",
+    "cartilla": "Millennium",
+    "hex": "#ffda5d"
+  },
+  {
+    "codigo": "7255A",
+    "nombre": "High Sun",
+    "cartilla": "Millennium",
+    "hex": "#ffd340"
+  },
+  {
+    "codigo": "7256N",
+    "nombre": "Coronation Gold",
+    "cartilla": "Millennium",
+    "hex": "#ffc200"
+  },
+  {
+    "codigo": "7260W",
+    "nombre": "Amber White",
+    "cartilla": "Millennium",
+    "hex": "#fdf2d6"
+  },
+  {
+    "codigo": "7261W",
+    "nombre": "Sunny Beach",
+    "cartilla": "Millennium",
+    "hex": "#fff2cb"
+  },
+  {
+    "codigo": "7262W",
+    "nombre": "Warm Rays",
+    "cartilla": "Millennium",
+    "hex": "#ffecaa"
+  },
+  {
+    "codigo": "7263M",
+    "nombre": "Sunspot",
+    "cartilla": "Millennium",
+    "hex": "#ffe38b"
+  },
+  {
+    "codigo": "7264D",
+    "nombre": "Sardonyx",
+    "cartilla": "Millennium",
+    "hex": "#ffd559"
+  },
+  {
+    "codigo": "7265A",
+    "nombre": "Golden Glisten",
+    "cartilla": "Millennium",
+    "hex": "#ffcf41"
+  },
+  {
+    "codigo": "7266N",
+    "nombre": "Garden Marigold",
+    "cartilla": "Millennium",
+    "hex": "#ffba00"
+  },
+  {
+    "codigo": "7270W",
+    "nombre": "Filtered Light",
+    "cartilla": "Millennium",
+    "hex": "#fff5dc"
+  },
+  {
+    "codigo": "7271W",
+    "nombre": "Morning Moon",
+    "cartilla": "Millennium",
+    "hex": "#ffefc8"
+  },
+  {
+    "codigo": "7272W",
+    "nombre": "Honey Pear",
+    "cartilla": "Millennium",
+    "hex": "#ffe9a6"
+  },
+  {
+    "codigo": "7273M",
+    "nombre": "Amber Light",
+    "cartilla": "Millennium",
+    "hex": "#ffdf83"
+  },
+  {
+    "codigo": "7274D",
+    "nombre": "Scotch Yellow",
+    "cartilla": "Millennium",
+    "hex": "#ffd054"
+  },
+  {
+    "codigo": "7275A",
+    "nombre": "Imperial Palace",
+    "cartilla": "Millennium",
+    "hex": "#ffc93b"
+  },
+  {
+    "codigo": "7276N",
+    "nombre": "Palace Gold",
+    "cartilla": "Millennium",
+    "hex": "#ffb800"
+  },
+  {
+    "codigo": "7280W",
+    "nombre": "Golden Blonde",
+    "cartilla": "Millennium",
+    "hex": "#ffeed6"
+  },
+  {
+    "codigo": "7281W",
+    "nombre": "Palest Sunset",
+    "cartilla": "Millennium",
+    "hex": "#ffeecb"
+  },
+  {
+    "codigo": "7282W",
+    "nombre": "Candleglow",
+    "cartilla": "Millennium",
+    "hex": "#ffe2a5"
+  },
+  {
+    "codigo": "7283M",
+    "nombre": "Matisse Gold",
+    "cartilla": "Millennium",
+    "hex": "#ffd788"
+  },
+  {
+    "codigo": "7284D",
+    "nombre": "Fireside",
+    "cartilla": "Millennium",
+    "hex": "#ffc971"
+  },
+  {
+    "codigo": "7285A",
+    "nombre": "Marsh Marigold",
+    "cartilla": "Millennium",
+    "hex": "#ffba48"
+  },
+  {
+    "codigo": "7286N",
+    "nombre": "Brilliant Orange",
+    "cartilla": "Millennium",
+    "hex": "#ffaa1c"
+  },
+  {
+    "codigo": "7290W",
+    "nombre": "Natural Wax",
+    "cartilla": "Millennium",
+    "hex": "#ffebcc"
+  },
+  {
+    "codigo": "7291W",
+    "nombre": "Runnymede",
+    "cartilla": "Millennium",
+    "hex": "#ffe5ba"
+  },
+  {
+    "codigo": "7292W",
+    "nombre": "Freestone",
+    "cartilla": "Millennium",
+    "hex": "#ffe2ac"
+  },
+  {
+    "codigo": "7293M",
+    "nombre": "Summer Melon",
+    "cartilla": "Millennium",
+    "hex": "#ffcf8c"
+  },
+  {
+    "codigo": "7294D",
+    "nombre": "Pom Pom Orange",
+    "cartilla": "Millennium",
+    "hex": "#ffc578"
+  },
+  {
+    "codigo": "7295D",
+    "nombre": "Malaga",
+    "cartilla": "Millennium",
+    "hex": "#ffb863"
+  },
+  {
+    "codigo": "7296N",
+    "nombre": "Barcelona",
+    "cartilla": "Millennium",
+    "hex": "#ef9a41"
+  },
+  {
+    "codigo": "7300W",
+    "nombre": "Pale Chamois",
+    "cartilla": "Millennium",
+    "hex": "#ffeed6"
+  },
+  {
+    "codigo": "7301W",
+    "nombre": "Brushed Peach",
+    "cartilla": "Millennium",
+    "hex": "#ffe5c0"
+  },
+  {
+    "codigo": "7302W",
+    "nombre": "Carmelite",
+    "cartilla": "Millennium",
+    "hex": "#ffd8aa"
+  },
+  {
+    "codigo": "7303M",
+    "nombre": "Aztec Dawn",
+    "cartilla": "Millennium",
+    "hex": "#fbc68e"
+  },
+  {
+    "codigo": "7304D",
+    "nombre": "Rice Curry",
+    "cartilla": "Millennium",
+    "hex": "#f8ba78"
+  },
+  {
+    "codigo": "7305D",
+    "nombre": "Sundance",
+    "cartilla": "Millennium",
+    "hex": "#f2ab67"
+  },
+  {
+    "codigo": "7306N",
+    "nombre": "Cinnamon Cider",
+    "cartilla": "Millennium",
+    "hex": "#e5944e"
+  },
+  {
+    "codigo": "7310W",
+    "nombre": "Camisole Silk",
+    "cartilla": "Millennium",
+    "hex": "#ffeed6"
+  },
+  {
+    "codigo": "7311W",
+    "nombre": "Peach Mallow",
+    "cartilla": "Millennium",
+    "hex": "#ffe2be"
+  },
+  {
+    "codigo": "7312W",
+    "nombre": "Filtered Moon",
+    "cartilla": "Millennium",
+    "hex": "#ffdbb6"
+  },
+  {
+    "codigo": "7313M",
+    "nombre": "New Penny",
+    "cartilla": "Millennium",
+    "hex": "#fdc28f"
+  },
+  {
+    "codigo": "7314D",
+    "nombre": "Octoberfest",
+    "cartilla": "Millennium",
+    "hex": "#f8b97f"
+  },
+  {
+    "codigo": "7315D",
+    "nombre": "Rustica",
+    "cartilla": "Millennium",
+    "hex": "#f3aa6d"
+  },
+  {
+    "codigo": "7316N",
+    "nombre": "Iron Orange",
+    "cartilla": "Millennium",
+    "hex": "#e18d4f"
+  },
+  {
+    "codigo": "7320W",
+    "nombre": "Flemish Lace",
+    "cartilla": "Millennium",
+    "hex": "#feeedb"
+  },
+  {
+    "codigo": "7321W",
+    "nombre": "Apricot Lily",
+    "cartilla": "Millennium",
+    "hex": "#ffe4c3"
+  },
+  {
+    "codigo": "7322W",
+    "nombre": "Petite Peach",
+    "cartilla": "Millennium",
+    "hex": "#ffd7a8"
+  },
+  {
+    "codigo": "7323M",
+    "nombre": "Peruvian Orange",
+    "cartilla": "Millennium",
+    "hex": "#ffc68d"
+  },
+  {
+    "codigo": "7324D",
+    "nombre": "Indian Turnip",
+    "cartilla": "Millennium",
+    "hex": "#ffb978"
+  },
+  {
+    "codigo": "7325D",
+    "nombre": "Diced Carrot",
+    "cartilla": "Millennium",
+    "hex": "#ffa865"
+  },
+  {
+    "codigo": "7326A",
+    "nombre": "Glazed Carrot",
+    "cartilla": "Millennium",
+    "hex": "#fd9652"
+  },
+  {
+    "codigo": "7330W",
+    "nombre": "Silky White",
+    "cartilla": "Millennium",
+    "hex": "#ffedd9"
+  },
+  {
+    "codigo": "7331W",
+    "nombre": "Peach Veil",
+    "cartilla": "Millennium",
+    "hex": "#ffe3c5"
+  },
+  {
+    "codigo": "7332W",
+    "nombre": "Peach Satin",
+    "cartilla": "Millennium",
+    "hex": "#ffd6b1"
+  },
+  {
+    "codigo": "7333M",
+    "nombre": "Endless Peach",
+    "cartilla": "Millennium",
+    "hex": "#ffc293"
+  },
+  {
+    "codigo": "7334D",
+    "nombre": "Orangeade",
+    "cartilla": "Millennium",
+    "hex": "#ffb47e"
+  },
+  {
+    "codigo": "7335D",
+    "nombre": "Golden Poppy",
+    "cartilla": "Millennium",
+    "hex": "#ffa36c"
+  },
+  {
+    "codigo": "7336A",
+    "nombre": "Tahitian Sun",
+    "cartilla": "Millennium",
+    "hex": "#f98e58"
+  },
+  {
+    "codigo": "7340W",
+    "nombre": "Ocean Shell",
+    "cartilla": "Millennium",
+    "hex": "#feede2"
+  },
+  {
+    "codigo": "7341W",
+    "nombre": "Coral Almond",
+    "cartilla": "Millennium",
+    "hex": "#ffe3cc"
+  },
+  {
+    "codigo": "7342W",
+    "nombre": "Apricot Nectar",
+    "cartilla": "Millennium",
+    "hex": "#ffcfb0"
+  },
+  {
+    "codigo": "7343M",
+    "nombre": "Salted Shrimp",
+    "cartilla": "Millennium",
+    "hex": "#ffba96"
+  },
+  {
+    "codigo": "7344D",
+    "nombre": "Shrimp Peel",
+    "cartilla": "Millennium",
+    "hex": "#ffae83"
+  },
+  {
+    "codigo": "7345D",
+    "nombre": "Fired Shrimp",
+    "cartilla": "Millennium",
+    "hex": "#fd9c71"
+  },
+  {
+    "codigo": "7346A",
+    "nombre": "Mikado",
+    "cartilla": "Millennium",
+    "hex": "#f5885c"
+  },
+  {
+    "codigo": "7350W",
+    "nombre": "Orange Charm",
+    "cartilla": "Millennium",
+    "hex": "#fdede3"
+  },
+  {
+    "codigo": "7351W",
+    "nombre": "Always Apricot",
+    "cartilla": "Millennium",
+    "hex": "#ffe6d4"
+  },
+  {
+    "codigo": "7352W",
+    "nombre": "Cayman Peach",
+    "cartilla": "Millennium",
+    "hex": "#ffd9c0"
+  },
+  {
+    "codigo": "7353M",
+    "nombre": "Peach Darling",
+    "cartilla": "Millennium",
+    "hex": "#ffc0a0"
+  },
+  {
+    "codigo": "7354D",
+    "nombre": "Orange Buff",
+    "cartilla": "Millennium",
+    "hex": "#ffa67d"
+  },
+  {
+    "codigo": "7355A",
+    "nombre": "Fiesta Fire",
+    "cartilla": "Millennium",
+    "hex": "#fb9064"
+  },
+  {
+    "codigo": "7356N",
+    "nombre": "Autumn Blaze",
+    "cartilla": "Millennium",
+    "hex": "#f57e58"
+  },
+  {
+    "codigo": "7360W",
+    "nombre": "Coral Sand",
+    "cartilla": "Millennium",
+    "hex": "#fcede5"
+  },
+  {
+    "codigo": "7361W",
+    "nombre": "Apricot Glove",
+    "cartilla": "Millennium",
+    "hex": "#ffdfcf"
+  },
+  {
+    "codigo": "7362W",
+    "nombre": "Malta Pink",
+    "cartilla": "Millennium",
+    "hex": "#ffd9c7"
+  },
+  {
+    "codigo": "7363M",
+    "nombre": "Peach Parfait",
+    "cartilla": "Millennium",
+    "hex": "#ffb79e"
+  },
+  {
+    "codigo": "7364D",
+    "nombre": "Coral Azalea",
+    "cartilla": "Millennium",
+    "hex": "#fc9f84"
+  },
+  {
+    "codigo": "7365A",
+    "nombre": "New Orange",
+    "cartilla": "Millennium",
+    "hex": "#f48767"
+  },
+  {
+    "codigo": "7366N",
+    "nombre": "Orange Flambe",
+    "cartilla": "Millennium",
+    "hex": "#e3694e"
+  },
+  {
+    "codigo": "7370W",
+    "nombre": "Angel Peach",
+    "cartilla": "Millennium",
+    "hex": "#fde9e2"
+  },
+  {
+    "codigo": "7371W",
+    "nombre": "Peach Opal",
+    "cartilla": "Millennium",
+    "hex": "#ffe2d7"
+  },
+  {
+    "codigo": "7372W",
+    "nombre": "Coral Haze",
+    "cartilla": "Millennium",
+    "hex": "#ffd4c9"
+  },
+  {
+    "codigo": "7373M",
+    "nombre": "Corallina",
+    "cartilla": "Millennium",
+    "hex": "#ffb5a5"
+  },
+  {
+    "codigo": "7374D",
+    "nombre": "Phoenix Sun",
+    "cartilla": "Millennium",
+    "hex": "#fa9883"
+  },
+  {
+    "codigo": "7375A",
+    "nombre": "Tangerine",
+    "cartilla": "Millennium",
+    "hex": "#d68936"
+  },
+  {
+    "codigo": "7376N",
+    "nombre": "Fired Orange",
+    "cartilla": "Millennium",
+    "hex": "#d95d4c"
+  },
+  {
+    "codigo": "7380W",
+    "nombre": "Creamy Pink",
+    "cartilla": "Millennium",
+    "hex": "#fcede9"
+  },
+  {
+    "codigo": "7381W",
+    "nombre": "Crushed Shell",
+    "cartilla": "Millennium",
+    "hex": "#ffded8"
+  },
+  {
+    "codigo": "7382W",
+    "nombre": "Granite Rose",
+    "cartilla": "Millennium",
+    "hex": "#ffd3cd"
+  },
+  {
+    "codigo": "7383M",
+    "nombre": "Coral Fantasy",
+    "cartilla": "Millennium",
+    "hex": "#feb1a9"
+  },
+  {
+    "codigo": "7384D",
+    "nombre": "Coral Gate",
+    "cartilla": "Millennium",
+    "hex": "#f39284"
+  },
+  {
+    "codigo": "7385A",
+    "nombre": "Coral Flower",
+    "cartilla": "Millennium",
+    "hex": "#ea7e70"
+  },
+  {
+    "codigo": "7386N",
+    "nombre": "Red Flare",
+    "cartilla": "Millennium",
+    "hex": "#cf5f56"
+  },
+  {
+    "codigo": "7390W",
+    "nombre": "April Blush",
+    "cartilla": "Millennium",
+    "hex": "#fcede9"
+  },
+  {
+    "codigo": "7391W",
+    "nombre": "Peaking Pink",
+    "cartilla": "Millennium",
+    "hex": "#ffe1df"
+  },
+  {
+    "codigo": "7392W",
+    "nombre": "Peach Bloom",
+    "cartilla": "Millennium",
+    "hex": "#ffd7d5"
+  },
+  {
+    "codigo": "7393M",
+    "nombre": "Camellia Pink",
+    "cartilla": "Millennium",
+    "hex": "#feb1ae"
+  },
+  {
+    "codigo": "7394D",
+    "nombre": "Peach Pink",
+    "cartilla": "Millennium",
+    "hex": "#f58f8b"
+  },
+  {
+    "codigo": "7395A",
+    "nombre": "Lobster Tail",
+    "cartilla": "Millennium",
+    "hex": "#ed7b75"
+  },
+  {
+    "codigo": "7396N",
+    "nombre": "Fire Princess",
+    "cartilla": "Millennium",
+    "hex": "#d3514e"
+  },
+  {
+    "codigo": "7400W",
+    "nombre": "Ceramic Pink",
+    "cartilla": "Millennium",
+    "hex": "#fde8e4"
+  },
+  {
+    "codigo": "7401W",
+    "nombre": "Melon Ice",
+    "cartilla": "Millennium",
+    "hex": "#fddfdd"
+  },
+  {
+    "codigo": "7402W",
+    "nombre": "Pink Crest",
+    "cartilla": "Millennium",
+    "hex": "#ffd3d4"
+  },
+  {
+    "codigo": "7403M",
+    "nombre": "Exquisite",
+    "cartilla": "Millennium",
+    "hex": "#ffafb6"
+  },
+  {
+    "codigo": "7404D",
+    "nombre": "Melon Shine",
+    "cartilla": "Millennium",
+    "hex": "#f68a92"
+  },
+  {
+    "codigo": "7405A",
+    "nombre": "Fire Pink",
+    "cartilla": "Millennium",
+    "hex": "#ee757a"
+  },
+  {
+    "codigo": "7406N",
+    "nombre": "Real Red",
+    "cartilla": "Millennium",
+    "hex": "#d74f57"
+  },
+  {
+    "codigo": "7410W",
+    "nombre": "Ballet",
+    "cartilla": "Millennium",
+    "hex": "#fbeff0"
+  },
+  {
+    "codigo": "7411W",
+    "nombre": "Pink Ribbon",
+    "cartilla": "Millennium",
+    "hex": "#ffdce4"
+  },
+  {
+    "codigo": "7412W",
+    "nombre": "Timeless Pink",
+    "cartilla": "Millennium",
+    "hex": "#ffd1dc"
+  },
+  {
+    "codigo": "7413M",
+    "nombre": "Priscilla Pink",
+    "cartilla": "Millennium",
+    "hex": "#fdabbf"
+  },
+  {
+    "codigo": "7414D",
+    "nombre": "Carnation Kiss",
+    "cartilla": "Millennium",
+    "hex": "#f7869d"
+  },
+  {
+    "codigo": "7415A",
+    "nombre": "Valentine",
+    "cartilla": "Millennium",
+    "hex": "#ec6b81"
+  },
+  {
+    "codigo": "7416N",
+    "nombre": "Chinese Pagoda",
+    "cartilla": "Millennium",
+    "hex": "#e15160"
+  },
+  {
+    "codigo": "7420W",
+    "nombre": "Pink Pomander",
+    "cartilla": "Millennium",
+    "hex": "#fce5eb"
+  },
+  {
+    "codigo": "7421W",
+    "nombre": "Romantic Lace",
+    "cartilla": "Millennium",
+    "hex": "#fedde6"
+  },
+  {
+    "codigo": "7422W",
+    "nombre": "Porcelain Pink",
+    "cartilla": "Millennium",
+    "hex": "#fed1de"
+  },
+  {
+    "codigo": "7423M",
+    "nombre": "Peony Petal",
+    "cartilla": "Millennium",
+    "hex": "#fcabc0"
+  },
+  {
+    "codigo": "7424D",
+    "nombre": "Strawberry Swirl",
+    "cartilla": "Millennium",
+    "hex": "#f2839f"
+  },
+  {
+    "codigo": "7425A",
+    "nombre": "Precious Rose",
+    "cartilla": "Millennium",
+    "hex": "#eb6e89"
+  },
+  {
+    "codigo": "7426N",
+    "nombre": "Zinnia Scarlet",
+    "cartilla": "Millennium",
+    "hex": "#d44b5e"
+  },
+  {
+    "codigo": "7430W",
+    "nombre": "Pink Icing",
+    "cartilla": "Millennium",
+    "hex": "#fbecf0"
+  },
+  {
+    "codigo": "7431W",
+    "nombre": "Ashley Pink",
+    "cartilla": "Millennium",
+    "hex": "#fcd9e5"
+  },
+  {
+    "codigo": "7432W",
+    "nombre": "Pink Crown",
+    "cartilla": "Millennium",
+    "hex": "#fccfdf"
+  },
+  {
+    "codigo": "7433M",
+    "nombre": "Rose Freeze",
+    "cartilla": "Millennium",
+    "hex": "#f3a6c4"
+  },
+  {
+    "codigo": "7434D",
+    "nombre": "Fashion Pink",
+    "cartilla": "Millennium",
+    "hex": "#e67ea2"
+  },
+  {
+    "codigo": "7435A",
+    "nombre": "Veronica",
+    "cartilla": "Millennium",
+    "hex": "#dc6a8e"
+  },
+  {
+    "codigo": "7436N",
+    "nombre": "Brilliant Pink",
+    "cartilla": "Millennium",
+    "hex": "#7c2335"
+  },
+  {
+    "codigo": "7440W",
+    "nombre": "Lillium",
+    "cartilla": "Millennium",
+    "hex": "#f9e5ec"
+  },
+  {
+    "codigo": "7441W",
+    "nombre": "Pink Tiara",
+    "cartilla": "Millennium",
+    "hex": "#f7d7e6"
+  },
+  {
+    "codigo": "7442W",
+    "nombre": "Angel Wing",
+    "cartilla": "Millennium",
+    "hex": "#f6cce1"
+  },
+  {
+    "codigo": "7443M",
+    "nombre": "Cerise Pink",
+    "cartilla": "Millennium",
+    "hex": "#eea5c6"
+  },
+  {
+    "codigo": "7444D",
+    "nombre": "Fuschia Flock",
+    "cartilla": "Millennium",
+    "hex": "#dd7aa5"
+  },
+  {
+    "codigo": "7445A",
+    "nombre": "Fuschia Kiss",
+    "cartilla": "Millennium",
+    "hex": "#d26691"
+  },
+  {
+    "codigo": "7446N",
+    "nombre": "Sizzling Pink",
+    "cartilla": "Millennium",
+    "hex": "#c35279"
+  },
+  {
+    "codigo": "7450W",
+    "nombre": "Trailing Pink",
+    "cartilla": "Millennium",
+    "hex": "#f8ecf1"
+  },
+  {
+    "codigo": "7451W",
+    "nombre": "Early Pink",
+    "cartilla": "Millennium",
+    "hex": "#f7d7e9"
+  },
+  {
+    "codigo": "7452W",
+    "nombre": "Pink Overlay",
+    "cartilla": "Millennium",
+    "hex": "#f4cae3"
+  },
+  {
+    "codigo": "7453M",
+    "nombre": "Cut Lavender",
+    "cartilla": "Millennium",
+    "hex": "#ebb3d4"
+  },
+  {
+    "codigo": "7454D",
+    "nombre": "Souvenir Rose",
+    "cartilla": "Millennium",
+    "hex": "#db81b3"
+  },
+  {
+    "codigo": "7455A",
+    "nombre": "Rose Luster",
+    "cartilla": "Millennium",
+    "hex": "#ca669a"
+  },
+  {
+    "codigo": "7456N",
+    "nombre": "Majestic Magenta",
+    "cartilla": "Millennium",
+    "hex": "#b94f7f"
+  },
+  {
+    "codigo": "7460W",
+    "nombre": "Rose Morn",
+    "cartilla": "Millennium",
+    "hex": "#f2e8eb"
+  },
+  {
+    "codigo": "7461W",
+    "nombre": "Island Dawn",
+    "cartilla": "Millennium",
+    "hex": "#eeddeb"
+  },
+  {
+    "codigo": "7462W",
+    "nombre": "Fresh Bud",
+    "cartilla": "Millennium",
+    "hex": "#e7cae3"
+  },
+  {
+    "codigo": "7463M",
+    "nombre": "Laurel Blossom",
+    "cartilla": "Millennium",
+    "hex": "#d3a3cb"
+  },
+  {
+    "codigo": "7464D",
+    "nombre": "Violet Cluster",
+    "cartilla": "Millennium",
+    "hex": "#c88ebb"
+  },
+  {
+    "codigo": "7465D",
+    "nombre": "Imperial Purple",
+    "cartilla": "Millennium",
+    "hex": "#b87bab"
+  },
+  {
+    "codigo": "7466N",
+    "nombre": "Royal Robe",
+    "cartilla": "Millennium",
+    "hex": "#9e5d89"
+  },
+  {
+    "codigo": "7470W",
+    "nombre": "Iced Orchid",
+    "cartilla": "Millennium",
+    "hex": "#ede1ee"
+  },
+  {
+    "codigo": "7471W",
+    "nombre": "Lavender Posy",
+    "cartilla": "Millennium",
+    "hex": "#e8d7ea"
+  },
+  {
+    "codigo": "7472W",
+    "nombre": "Orchid Scent",
+    "cartilla": "Millennium",
+    "hex": "#e0c9e2"
+  },
+  {
+    "codigo": "7473M",
+    "nombre": "Lavender Mist",
+    "cartilla": "Millennium",
+    "hex": "#c8a4ce"
+  },
+  {
+    "codigo": "7474D",
+    "nombre": "Salina Grape",
+    "cartilla": "Millennium",
+    "hex": "#bb90be"
+  },
+  {
+    "codigo": "7475D",
+    "nombre": "Wild Orchid",
+    "cartilla": "Millennium",
+    "hex": "#aa7eb0"
+  },
+  {
+    "codigo": "7476N",
+    "nombre": "Purplestone",
+    "cartilla": "Millennium",
+    "hex": "#895f8d"
+  },
+  {
+    "codigo": "7960W",
+    "nombre": "Embracing Lilac",
+    "cartilla": "Millennium",
+    "hex": "#e1e1e9"
+  },
+  {
+    "codigo": "7961W",
+    "nombre": "Spring Parasol",
+    "cartilla": "Millennium",
+    "hex": "#d3d2dc"
+  },
+  {
+    "codigo": "7962W",
+    "nombre": "Venice Lavender",
+    "cartilla": "Millennium",
+    "hex": "#c9c7d5"
+  },
+  {
+    "codigo": "7963M",
+    "nombre": "Slow Dancer",
+    "cartilla": "Millennium",
+    "hex": "#b7b4c5"
+  },
+  {
+    "codigo": "7964M",
+    "nombre": "Rhinestone",
+    "cartilla": "Millennium",
+    "hex": "#a09cb7"
+  },
+  {
+    "codigo": "7965D",
+    "nombre": "Prestige Purple",
+    "cartilla": "Millennium",
+    "hex": "#807f9c"
+  },
+  {
+    "codigo": "7966A",
+    "nombre": "Valhalla",
+    "cartilla": "Millennium",
+    "hex": "#686780"
+  },
+  {
+    "codigo": "7970W",
+    "nombre": "Sheer Lilac",
+    "cartilla": "Millennium",
+    "hex": "#e7e6f0"
+  },
+  {
+    "codigo": "7971W",
+    "nombre": "Canterbury Bell",
+    "cartilla": "Millennium",
+    "hex": "#d8d6e4"
+  },
+  {
+    "codigo": "7972W",
+    "nombre": "Crushed Heather",
+    "cartilla": "Millennium",
+    "hex": "#d0cbdf"
+  },
+  {
+    "codigo": "7973M",
+    "nombre": "Pretty Purple",
+    "cartilla": "Millennium",
+    "hex": "#b8b8d4"
+  },
+  {
+    "codigo": "7974M",
+    "nombre": "Purple Rain",
+    "cartilla": "Millennium",
+    "hex": "#a0a1c4"
+  },
+  {
+    "codigo": "7975D",
+    "nombre": "Stargazing Night",
+    "cartilla": "Millennium",
+    "hex": "#8080a9"
+  },
+  {
+    "codigo": "7976N",
+    "nombre": "Planetary Plume",
+    "cartilla": "Millennium",
+    "hex": "#616186"
+  },
+  {
+    "codigo": "7980W",
+    "nombre": "Iced Blue",
+    "cartilla": "Millennium",
+    "hex": "#dde2ed"
+  },
+  {
+    "codigo": "7981W",
+    "nombre": "Glacier Wall",
+    "cartilla": "Millennium",
+    "hex": "#d1d8e8"
+  },
+  {
+    "codigo": "7982W",
+    "nombre": "Blue Sash",
+    "cartilla": "Millennium",
+    "hex": "#c1cadf"
+  },
+  {
+    "codigo": "7983M",
+    "nombre": "Bracing Blue",
+    "cartilla": "Millennium",
+    "hex": "#b3bfdb"
+  },
+  {
+    "codigo": "7984M",
+    "nombre": "Tapestry Blue",
+    "cartilla": "Millennium",
+    "hex": "#98a9cb"
+  },
+  {
+    "codigo": "7985D",
+    "nombre": "Blue Border",
+    "cartilla": "Millennium",
+    "hex": "#7688b0"
+  },
+  {
+    "codigo": "7986N",
+    "nombre": "Indigo Night",
+    "cartilla": "Millennium",
+    "hex": "#556183"
+  },
+  {
+    "codigo": "7990W",
+    "nombre": "Pearl Violet",
+    "cartilla": "Millennium",
+    "hex": "#dfe6ee"
+  },
+  {
+    "codigo": "7991W",
+    "nombre": "Basin Blue",
+    "cartilla": "Millennium",
+    "hex": "#cdd6e5"
+  },
+  {
+    "codigo": "7992W",
+    "nombre": "Studio Blue",
+    "cartilla": "Millennium",
+    "hex": "#bfcce2"
+  },
+  {
+    "codigo": "7993M",
+    "nombre": "Perfect Blue",
+    "cartilla": "Millennium",
+    "hex": "#abbbd8"
+  },
+  {
+    "codigo": "7994M",
+    "nombre": "Ceremonial Blue",
+    "cartilla": "Millennium",
+    "hex": "#96abce"
+  },
+  {
+    "codigo": "7995D",
+    "nombre": "Valor Blue",
+    "cartilla": "Millennium",
+    "hex": "#718ab0"
+  },
+  {
+    "codigo": "7996N",
+    "nombre": "Twilight Zone",
+    "cartilla": "Millennium",
+    "hex": "#4c6082"
+  },
+  {
+    "codigo": "8000W",
+    "nombre": "Airland Blue",
+    "cartilla": "Millennium",
+    "hex": "#dbe3ed"
+  },
+  {
+    "codigo": "8001W",
+    "nombre": "Nimbus Blue",
+    "cartilla": "Millennium",
+    "hex": "#d1dce9"
+  },
+  {
+    "codigo": "8002W",
+    "nombre": "Floss Flower",
+    "cartilla": "Millennium",
+    "hex": "#bfcfe4"
+  },
+  {
+    "codigo": "8003M",
+    "nombre": "Blue Wainscot",
+    "cartilla": "Millennium",
+    "hex": "#a8beda"
+  },
+  {
+    "codigo": "8004M",
+    "nombre": "Blue Room",
+    "cartilla": "Millennium",
+    "hex": "#8babcf"
+  },
+  {
+    "codigo": "8005D",
+    "nombre": "Wilshire Blue",
+    "cartilla": "Millennium",
+    "hex": "#678bb3"
+  },
+  {
+    "codigo": "8006N",
+    "nombre": "Academy Blue",
+    "cartilla": "Millennium",
+    "hex": "#496a90"
+  },
+  {
+    "codigo": "8010W",
+    "nombre": "Blue Edge",
+    "cartilla": "Millennium",
+    "hex": "#d3e2ec"
+  },
+  {
+    "codigo": "8011W",
+    "nombre": "Corn Flower",
+    "cartilla": "Millennium",
+    "hex": "#c5d8e7"
+  },
+  {
+    "codigo": "8012W",
+    "nombre": "Jeffrey Blue",
+    "cartilla": "Millennium",
+    "hex": "#b6cee2"
+  },
+  {
+    "codigo": "8013W",
+    "nombre": "Blue Hat",
+    "cartilla": "Millennium",
+    "hex": "#98bbd8"
+  },
+  {
+    "codigo": "8014M",
+    "nombre": "Blue Surf",
+    "cartilla": "Millennium",
+    "hex": "#80a8c7"
+  },
+  {
+    "codigo": "8015D",
+    "nombre": "Water Works",
+    "cartilla": "Millennium",
+    "hex": "#5c8aad"
+  },
+  {
+    "codigo": "8016N",
+    "nombre": "Deep Waters",
+    "cartilla": "Millennium",
+    "hex": "#456a88"
+  },
+  {
+    "codigo": "8020W",
+    "nombre": "Tender Blue",
+    "cartilla": "Millennium",
+    "hex": "#dee9ef"
+  },
+  {
+    "codigo": "8021W",
+    "nombre": "Blue Waltz",
+    "cartilla": "Millennium",
+    "hex": "#d5e5ef"
+  },
+  {
+    "codigo": "8022W",
+    "nombre": "Cool Starlight",
+    "cartilla": "Millennium",
+    "hex": "#b8d5e5"
+  },
+  {
+    "codigo": "8023M",
+    "nombre": "Clear Sky",
+    "cartilla": "Millennium",
+    "hex": "#99c2d9"
+  },
+  {
+    "codigo": "8024M",
+    "nombre": "Capri Grotto",
+    "cartilla": "Millennium",
+    "hex": "#75aac9"
+  },
+  {
+    "codigo": "8025D",
+    "nombre": "Florentine Blue",
+    "cartilla": "Millennium",
+    "hex": "#4c8aab"
+  },
+  {
+    "codigo": "8026N",
+    "nombre": "Italian Tile",
+    "cartilla": "Millennium",
+    "hex": "#3b6c8a"
+  },
+  {
+    "codigo": "8030W",
+    "nombre": "Song Blue",
+    "cartilla": "Millennium",
+    "hex": "#d6e9ec"
+  },
+  {
+    "codigo": "8031W",
+    "nombre": "Bugle Blue",
+    "cartilla": "Millennium",
+    "hex": "#c4dfe9"
+  },
+  {
+    "codigo": "8032W",
+    "nombre": "High Flyer",
+    "cartilla": "Millennium",
+    "hex": "#b1d3e2"
+  },
+  {
+    "codigo": "8033M",
+    "nombre": "Sky Dive",
+    "cartilla": "Millennium",
+    "hex": "#96c3d8"
+  },
+  {
+    "codigo": "8034M",
+    "nombre": "Pacific Ocean",
+    "cartilla": "Millennium",
+    "hex": "#7bb5cf"
+  },
+  {
+    "codigo": "8035D",
+    "nombre": "Seaquest",
+    "cartilla": "Millennium",
+    "hex": "#3f91b0"
+  },
+  {
+    "codigo": "8036N",
+    "nombre": "Undersea Blue",
+    "cartilla": "Millennium",
+    "hex": "#2d6b84"
+  },
+  {
+    "codigo": "8040W",
+    "nombre": "Ice Cavern",
+    "cartilla": "Millennium",
+    "hex": "#d8ebee"
+  },
+  {
+    "codigo": "8041W",
+    "nombre": "Polar Blue",
+    "cartilla": "Millennium",
+    "hex": "#c7e1e9"
+  },
+  {
+    "codigo": "8042W",
+    "nombre": "Sweeping Blue",
+    "cartilla": "Millennium",
+    "hex": "#abd4e0"
+  },
+  {
+    "codigo": "8043M",
+    "nombre": "Beaux Blue",
+    "cartilla": "Millennium",
+    "hex": "#9ac3cf"
+  },
+  {
+    "codigo": "8044M",
+    "nombre": "Dutch Aqua",
+    "cartilla": "Millennium",
+    "hex": "#80b2c2"
+  },
+  {
+    "codigo": "8045D",
+    "nombre": "Ocean Depths",
+    "cartilla": "Millennium",
+    "hex": "#5891a3"
+  },
+  {
+    "codigo": "8046N",
+    "nombre": "Mutiny",
+    "cartilla": "Millennium",
+    "hex": "#3f6b79"
+  },
+  {
+    "codigo": "8050W",
+    "nombre": "Zenith Blue",
+    "cartilla": "Millennium",
+    "hex": "#dbebeb"
+  },
+  {
+    "codigo": "8051W",
+    "nombre": "Seadrifter",
+    "cartilla": "Millennium",
+    "hex": "#cfe7e9"
+  },
+  {
+    "codigo": "8052W",
+    "nombre": "West Keys",
+    "cartilla": "Millennium",
+    "hex": "#b2d7dd"
+  },
+  {
+    "codigo": "8053M",
+    "nombre": "Sea View",
+    "cartilla": "Millennium",
+    "hex": "#9bc8cd"
+  },
+  {
+    "codigo": "8054M",
+    "nombre": "Ocean Grove",
+    "cartilla": "Millennium",
+    "hex": "#83b7bf"
+  },
+  {
+    "codigo": "8055D",
+    "nombre": "Poseidon",
+    "cartilla": "Millennium",
+    "hex": "#52939d"
+  },
+  {
+    "codigo": "8056N",
+    "nombre": "Lost Atlantis",
+    "cartilla": "Millennium",
+    "hex": "#486e76"
+  },
+  {
+    "codigo": "8060W",
+    "nombre": "Retreat",
+    "cartilla": "Millennium",
+    "hex": "#d6eceb"
+  },
+  {
+    "codigo": "8061W",
+    "nombre": "Noonday Tide",
+    "cartilla": "Millennium",
+    "hex": "#cee5e5"
+  },
+  {
+    "codigo": "8062W",
+    "nombre": "Sea Silence",
+    "cartilla": "Millennium",
+    "hex": "#b5d7d9"
+  },
+  {
+    "codigo": "8063M",
+    "nombre": "Wayward Wind",
+    "cartilla": "Millennium",
+    "hex": "#9bc4c7"
+  },
+  {
+    "codigo": "8064M",
+    "nombre": "Cape Barran",
+    "cartilla": "Millennium",
+    "hex": "#83b4b7"
+  },
+  {
+    "codigo": "8065D",
+    "nombre": "Aqualogic",
+    "cartilla": "Millennium",
+    "hex": "#599094"
+  },
+  {
+    "codigo": "8066A",
+    "nombre": "Abyss",
+    "cartilla": "Millennium",
+    "hex": "#4d7376"
+  },
+  {
+    "codigo": "8070W",
+    "nombre": "Bermuda Shoal",
+    "cartilla": "Millennium",
+    "hex": "#dbefec"
+  },
+  {
+    "codigo": "8071W",
+    "nombre": "Cool Aqua",
+    "cartilla": "Millennium",
+    "hex": "#cbe6e3"
+  },
+  {
+    "codigo": "8072W",
+    "nombre": "Scuba",
+    "cartilla": "Millennium",
+    "hex": "#b4dada"
+  },
+  {
+    "codigo": "8073M",
+    "nombre": "Seabeck",
+    "cartilla": "Millennium",
+    "hex": "#98cbca"
+  },
+  {
+    "codigo": "8074M",
+    "nombre": "Sea Meadow",
+    "cartilla": "Millennium",
+    "hex": "#80bcbb"
+  },
+  {
+    "codigo": "8075D",
+    "nombre": "Aqua Sea",
+    "cartilla": "Millennium",
+    "hex": "#569695"
+  },
+  {
+    "codigo": "8076A",
+    "nombre": "Deep Teal",
+    "cartilla": "Millennium",
+    "hex": "#457d7b"
+  },
+  {
+    "codigo": "8080W",
+    "nombre": "Dissolving Blue",
+    "cartilla": "Millennium",
+    "hex": "#e4efeb"
+  },
+  {
+    "codigo": "8081W",
+    "nombre": "Blue Bauble",
+    "cartilla": "Millennium",
+    "hex": "#cfe1dd"
+  },
+  {
+    "codigo": "8082W",
+    "nombre": "Alaskan Jade",
+    "cartilla": "Millennium",
+    "hex": "#bfd9d3"
+  },
+  {
+    "codigo": "8083M",
+    "nombre": "Blue Ridge",
+    "cartilla": "Millennium",
+    "hex": "#a7cac2"
+  },
+  {
+    "codigo": "8084M",
+    "nombre": "Kentucky Grass",
+    "cartilla": "Millennium",
+    "hex": "#91bab3"
+  },
+  {
+    "codigo": "8085D",
+    "nombre": "India Green",
+    "cartilla": "Millennium",
+    "hex": "#6e978f"
+  },
+  {
+    "codigo": "8086A",
+    "nombre": "Green Wharf",
+    "cartilla": "Millennium",
+    "hex": "#5d7e77"
+  },
+  {
+    "codigo": "8090W",
+    "nombre": "Winter Whisper",
+    "cartilla": "Millennium",
+    "hex": "#e6f1e6"
+  },
+  {
+    "codigo": "8091W",
+    "nombre": "Drifting Green",
+    "cartilla": "Millennium",
+    "hex": "#d0e1db"
+  },
+  {
+    "codigo": "8092W",
+    "nombre": "Cool Comfort",
+    "cartilla": "Millennium",
+    "hex": "#c2d8d1"
+  },
+  {
+    "codigo": "8093W",
+    "nombre": "Teal Suede",
+    "cartilla": "Millennium",
+    "hex": "#b4cdc5"
+  },
+  {
+    "codigo": "8094M",
+    "nombre": "Himalaya",
+    "cartilla": "Millennium",
+    "hex": "#9ebab0"
+  },
+  {
+    "codigo": "8095D",
+    "nombre": "Cool Forest",
+    "cartilla": "Millennium",
+    "hex": "#809d91"
+  },
+  {
+    "codigo": "8096N",
+    "nombre": "Bering Green",
+    "cartilla": "Millennium",
+    "hex": "#637d72"
+  },
+  {
+    "codigo": "8100W",
+    "nombre": "Micro Mint",
+    "cartilla": "Millennium",
+    "hex": "#e2ede9"
+  },
+  {
+    "codigo": "8101W",
+    "nombre": "Green Sprinkle",
+    "cartilla": "Millennium",
+    "hex": "#d1e5de"
+  },
+  {
+    "codigo": "8102W",
+    "nombre": "Green Sweeps",
+    "cartilla": "Millennium",
+    "hex": "#c2d8d1"
+  },
+  {
+    "codigo": "8103W",
+    "nombre": "Sweet Grass",
+    "cartilla": "Millennium",
+    "hex": "#b2cdc5"
+  },
+  {
+    "codigo": "8104M",
+    "nombre": "Green Plaza",
+    "cartilla": "Millennium",
+    "hex": "#99bbb0"
+  },
+  {
+    "codigo": "8105D",
+    "nombre": "Acanthus Leaf",
+    "cartilla": "Millennium",
+    "hex": "#7c9e91"
+  },
+  {
+    "codigo": "8106N",
+    "nombre": "Caulfield Green",
+    "cartilla": "Millennium",
+    "hex": "#5a766b"
+  },
+  {
+    "codigo": "8110W",
+    "nombre": "Gentle Rain",
+    "cartilla": "Millennium",
+    "hex": "#e1eae2"
+  },
+  {
+    "codigo": "8111W",
+    "nombre": "Shy Green",
+    "cartilla": "Millennium",
+    "hex": "#cfe6db"
+  },
+  {
+    "codigo": "8112W",
+    "nombre": "Green Mist",
+    "cartilla": "Millennium",
+    "hex": "#bfddd1"
+  },
+  {
+    "codigo": "8113M",
+    "nombre": "Fragrant Spruce",
+    "cartilla": "Millennium",
+    "hex": "#a5cbb9"
+  },
+  {
+    "codigo": "8114M",
+    "nombre": "Vineleaf",
+    "cartilla": "Millennium",
+    "hex": "#8fbca7"
+  },
+  {
+    "codigo": "8115D",
+    "nombre": "Ivy Wreath",
+    "cartilla": "Millennium",
+    "hex": "#75a189"
+  },
+  {
+    "codigo": "8116N",
+    "nombre": "Casino Green",
+    "cartilla": "Millennium",
+    "hex": "#5b7963"
+  },
+  {
+    "codigo": "8120W",
+    "nombre": "Frosted Pine",
+    "cartilla": "Millennium",
+    "hex": "#e5f0e5"
+  },
+  {
+    "codigo": "8121W",
+    "nombre": "Garden Herb",
+    "cartilla": "Millennium",
+    "hex": "#d0e3d3"
+  },
+  {
+    "codigo": "8122W",
+    "nombre": "Light Jade",
+    "cartilla": "Millennium",
+    "hex": "#c7dfca"
+  },
+  {
+    "codigo": "8123W",
+    "nombre": "Chapparel Pea",
+    "cartilla": "Millennium",
+    "hex": "#b3cfb6"
+  },
+  {
+    "codigo": "8124M",
+    "nombre": "Green Terrace",
+    "cartilla": "Millennium",
+    "hex": "#9ec0a2"
+  },
+  {
+    "codigo": "8125D",
+    "nombre": "Water Hawthorne",
+    "cartilla": "Millennium",
+    "hex": "#7fa281"
+  },
+  {
+    "codigo": "8126N",
+    "nombre": "Racing Green",
+    "cartilla": "Millennium",
+    "hex": "#5f795d"
+  },
+  {
+    "codigo": "8130W",
+    "nombre": "Morning Dew",
+    "cartilla": "Millennium",
+    "hex": "#e5eadb"
+  },
+  {
+    "codigo": "8131W",
+    "nombre": "Night Hush",
+    "cartilla": "Millennium",
+    "hex": "#dae1ce"
+  },
+  {
+    "codigo": "8132W",
+    "nombre": "Lunar Green",
+    "cartilla": "Millennium",
+    "hex": "#cbd6c0"
+  },
+  {
+    "codigo": "8133W",
+    "nombre": "Green Knoll",
+    "cartilla": "Millennium",
+    "hex": "#becdb4"
+  },
+  {
+    "codigo": "8134M",
+    "nombre": "Glenhaven",
+    "cartilla": "Millennium",
+    "hex": "#aaba9c"
+  },
+  {
+    "codigo": "8135D",
+    "nombre": "Hollyhock",
+    "cartilla": "Millennium",
+    "hex": "#8f9f7e"
+  },
+  {
+    "codigo": "8136N",
+    "nombre": "Shaded Moss",
+    "cartilla": "Millennium",
+    "hex": "#6c7a5b"
+  },
+  {
+    "codigo": "8140W",
+    "nombre": "Misted Pollen",
+    "cartilla": "Millennium",
+    "hex": "#ecefde"
+  },
+  {
+    "codigo": "8141W",
+    "nombre": "Aviary",
+    "cartilla": "Millennium",
+    "hex": "#dae1ca"
+  },
+  {
+    "codigo": "8142W",
+    "nombre": "Bermuda Grass",
+    "cartilla": "Millennium",
+    "hex": "#d0d8bd"
+  },
+  {
+    "codigo": "8143M",
+    "nombre": "Grazing Field",
+    "cartilla": "Millennium",
+    "hex": "#cad1b1"
+  },
+  {
+    "codigo": "8144M",
+    "nombre": "Revere Green",
+    "cartilla": "Millennium",
+    "hex": "#bbc29f"
+  },
+  {
+    "codigo": "8145D",
+    "nombre": "Green Acre",
+    "cartilla": "Millennium",
+    "hex": "#9da67c"
+  },
+  {
+    "codigo": "8146N",
+    "nombre": "Green Gables",
+    "cartilla": "Millennium",
+    "hex": "#777e56"
+  },
+  {
+    "codigo": "8150W",
+    "nombre": "Scrimshaw",
+    "cartilla": "Millennium",
+    "hex": "#eae9da"
+  },
+  {
+    "codigo": "8151W",
+    "nombre": "Cut Hay",
+    "cartilla": "Millennium",
+    "hex": "#e4e2cc"
+  },
+  {
+    "codigo": "8152W",
+    "nombre": "Rock Cress",
+    "cartilla": "Millennium",
+    "hex": "#dcdbc0"
+  },
+  {
+    "codigo": "8153M",
+    "nombre": "Hiking Path",
+    "cartilla": "Millennium",
+    "hex": "#cdccae"
+  },
+  {
+    "codigo": "8154M",
+    "nombre": "Marshland",
+    "cartilla": "Millennium",
+    "hex": "#c2c19c"
+  },
+  {
+    "codigo": "8155D",
+    "nombre": "Ozark Green",
+    "cartilla": "Millennium",
+    "hex": "#a3a176"
+  },
+  {
+    "codigo": "8156N",
+    "nombre": "Florida Palm",
+    "cartilla": "Millennium",
+    "hex": "#7e7c56"
+  },
+  {
+    "codigo": "8160W",
+    "nombre": "White Leek",
+    "cartilla": "Millennium",
+    "hex": "#e6e3d3"
+  },
+  {
+    "codigo": "8161W",
+    "nombre": "Sulphur Springs",
+    "cartilla": "Millennium",
+    "hex": "#e0ddc7"
+  },
+  {
+    "codigo": "8162W",
+    "nombre": "Omar",
+    "cartilla": "Millennium",
+    "hex": "#d7d5bd"
+  },
+  {
+    "codigo": "8163W",
+    "nombre": "Olive Branch",
+    "cartilla": "Millennium",
+    "hex": "#cec9ac"
+  },
+  {
+    "codigo": "8164M",
+    "nombre": "Gumleaf",
+    "cartilla": "Millennium",
+    "hex": "#bcb596"
+  },
+  {
+    "codigo": "8165D",
+    "nombre": "Antique Pine",
+    "cartilla": "Millennium",
+    "hex": "#a49d79"
+  },
+  {
+    "codigo": "8166N",
+    "nombre": "Hawthorne Valley",
+    "cartilla": "Millennium",
+    "hex": "#7b765a"
+  },
+  {
+    "codigo": "8170W",
+    "nombre": "Owl Wing",
+    "cartilla": "Millennium",
+    "hex": "#ece8dd"
+  },
+  {
+    "codigo": "8171W",
+    "nombre": "Olive Fog",
+    "cartilla": "Millennium",
+    "hex": "#ddd7c5"
+  },
+  {
+    "codigo": "8172W",
+    "nombre": "Shire Fields",
+    "cartilla": "Millennium",
+    "hex": "#d6cfbc"
+  },
+  {
+    "codigo": "8173M",
+    "nombre": "Herbivore",
+    "cartilla": "Millennium",
+    "hex": "#cac3ac"
+  },
+  {
+    "codigo": "8174M",
+    "nombre": "Fenland",
+    "cartilla": "Millennium",
+    "hex": "#bcb49c"
+  },
+  {
+    "codigo": "8175D",
+    "nombre": "Wild Grasses",
+    "cartilla": "Millennium",
+    "hex": "#9a9277"
+  },
+  {
+    "codigo": "8176N",
+    "nombre": "Pinon Green",
+    "cartilla": "Millennium",
+    "hex": "#746e58"
+  },
+  {
+    "codigo": "8180W",
+    "nombre": "Almond White",
+    "cartilla": "Millennium",
+    "hex": "#ece5d8"
+  },
+  {
+    "codigo": "8181W",
+    "nombre": "Maison Blanche",
+    "cartilla": "Millennium",
+    "hex": "#dfd6c5"
+  },
+  {
+    "codigo": "8182W",
+    "nombre": "Candlebark",
+    "cartilla": "Millennium",
+    "hex": "#d9ceba"
+  },
+  {
+    "codigo": "8183M",
+    "nombre": "Saltbush",
+    "cartilla": "Millennium",
+    "hex": "#cfc4ad"
+  },
+  {
+    "codigo": "8184M",
+    "nombre": "Moselle",
+    "cartilla": "Millennium",
+    "hex": "#c3b79a"
+  },
+  {
+    "codigo": "8185D",
+    "nombre": "Ardmore Green",
+    "cartilla": "Millennium",
+    "hex": "#a49778"
+  },
+  {
+    "codigo": "8186N",
+    "nombre": "Scrubgum Green",
+    "cartilla": "Millennium",
+    "hex": "#7e7157"
+  },
+  {
+    "codigo": "8190W",
+    "nombre": "Impressive Ivory",
+    "cartilla": "Millennium",
+    "hex": "#f2eadb"
+  },
+  {
+    "codigo": "8191W",
+    "nombre": "Madonna Lily",
+    "cartilla": "Millennium",
+    "hex": "#e6dbc3"
+  },
+  {
+    "codigo": "8192W",
+    "nombre": "Graceful Gold",
+    "cartilla": "Millennium",
+    "hex": "#dfd1b3"
+  },
+  {
+    "codigo": "8193M",
+    "nombre": "Winter Garden",
+    "cartilla": "Millennium",
+    "hex": "#dbccac"
+  },
+  {
+    "codigo": "8194M",
+    "nombre": "Capertree",
+    "cartilla": "Millennium",
+    "hex": "#cebd98"
+  },
+  {
+    "codigo": "8195D",
+    "nombre": "Eddystone",
+    "cartilla": "Millennium",
+    "hex": "#af9d74"
+  },
+  {
+    "codigo": "8196N",
+    "nombre": "Wood Sorrel",
+    "cartilla": "Millennium",
+    "hex": "#8f7e5a"
+  },
+  {
+    "codigo": "8200W",
+    "nombre": "Bleached Sand",
+    "cartilla": "Millennium",
+    "hex": "#efe5d2"
+  },
+  {
+    "codigo": "8201W",
+    "nombre": "Burma Buff",
+    "cartilla": "Millennium",
+    "hex": "#e9ddc7"
+  },
+  {
+    "codigo": "8202W",
+    "nombre": "Coast Pointe",
+    "cartilla": "Millennium",
+    "hex": "#e3d3b5"
+  },
+  {
+    "codigo": "8203M",
+    "nombre": "Gobi Beige",
+    "cartilla": "Millennium",
+    "hex": "#dfcdae"
+  },
+  {
+    "codigo": "8204M",
+    "nombre": "Spice Bounty",
+    "cartilla": "Millennium",
+    "hex": "#d1bc97"
+  },
+  {
+    "codigo": "8205D",
+    "nombre": "Brass Bucket",
+    "cartilla": "Millennium",
+    "hex": "#bca377"
+  },
+  {
+    "codigo": "8206N",
+    "nombre": "Tarrytown",
+    "cartilla": "Millennium",
+    "hex": "#9f8961"
+  },
+  {
+    "codigo": "8210W",
+    "nombre": "Whispering Birch",
+    "cartilla": "Millennium",
+    "hex": "#f8f2e5"
+  },
+  {
+    "codigo": "8211W",
+    "nombre": "Sandy Lane",
+    "cartilla": "Millennium",
+    "hex": "#eee2cc"
+  },
+  {
+    "codigo": "8212W",
+    "nombre": "Millet",
+    "cartilla": "Millennium",
+    "hex": "#e9d7bb"
+  },
+  {
+    "codigo": "8213M",
+    "nombre": "Plantation Beige",
+    "cartilla": "Millennium",
+    "hex": "#e4d0af"
+  },
+  {
+    "codigo": "8214M",
+    "nombre": "Tobacco Road",
+    "cartilla": "Millennium",
+    "hex": "#d9c198"
+  },
+  {
+    "codigo": "8215D",
+    "nombre": "Tattersall Brown",
+    "cartilla": "Millennium",
+    "hex": "#c3aa83"
+  },
+  {
+    "codigo": "8216N",
+    "nombre": "Dried Tobacco",
+    "cartilla": "Millennium",
+    "hex": "#a1845b"
+  },
+  {
+    "codigo": "8220W",
+    "nombre": "Hayseed",
+    "cartilla": "Millennium",
+    "hex": "#f0e7da"
+  },
+  {
+    "codigo": "8221W",
+    "nombre": "Botany Beige",
+    "cartilla": "Millennium",
+    "hex": "#e6dbca"
+  },
+  {
+    "codigo": "8222W",
+    "nombre": "Desert Fawn",
+    "cartilla": "Millennium",
+    "hex": "#e3d5c2"
+  },
+  {
+    "codigo": "8223M",
+    "nombre": "Sienna Sand",
+    "cartilla": "Millennium",
+    "hex": "#dcc7ad"
+  },
+  {
+    "codigo": "8224M",
+    "nombre": "Balsam Bark",
+    "cartilla": "Millennium",
+    "hex": "#cbb595"
+  },
+  {
+    "codigo": "8225D",
+    "nombre": "Autumn Wheat",
+    "cartilla": "Millennium",
+    "hex": "#b39975"
+  },
+  {
+    "codigo": "8226N",
+    "nombre": "October Oak",
+    "cartilla": "Millennium",
+    "hex": "#9b805b"
+  },
+  {
+    "codigo": "8230W",
+    "nombre": "Sunbaked Sand",
+    "cartilla": "Millennium",
+    "hex": "#f7ebdf"
+  },
+  {
+    "codigo": "8231W",
+    "nombre": "Sawyer's Fence",
+    "cartilla": "Millennium",
+    "hex": "#e9dac9"
+  },
+  {
+    "codigo": "8232W",
+    "nombre": "Lulled Beige",
+    "cartilla": "Millennium",
+    "hex": "#e1d0ba"
+  },
+  {
+    "codigo": "8233M",
+    "nombre": "Crisp Khaki",
+    "cartilla": "Millennium",
+    "hex": "#d6c0a6"
+  },
+  {
+    "codigo": "8234M",
+    "nombre": "Daplin",
+    "cartilla": "Millennium",
+    "hex": "#cdb699"
+  },
+  {
+    "codigo": "8235D",
+    "nombre": "Brush Box",
+    "cartilla": "Millennium",
+    "hex": "#b29574"
+  },
+  {
+    "codigo": "8236N",
+    "nombre": "Gumnut",
+    "cartilla": "Millennium",
+    "hex": "#987a5a"
+  },
+  {
+    "codigo": "8240W",
+    "nombre": "Windrift",
+    "cartilla": "Millennium",
+    "hex": "#f9ebdb"
+  },
+  {
+    "codigo": "8241W",
+    "nombre": "Tenderfoot",
+    "cartilla": "Millennium",
+    "hex": "#e5cdad"
+  },
+  {
+    "codigo": "8242W",
+    "nombre": "Northern Plains",
+    "cartilla": "Millennium",
+    "hex": "#e7cab0"
+  },
+  {
+    "codigo": "8243M",
+    "nombre": "Amber Waves",
+    "cartilla": "Millennium",
+    "hex": "#debe9f"
+  },
+  {
+    "codigo": "8244D",
+    "nombre": "Copper Springs",
+    "cartilla": "Millennium",
+    "hex": "#cda681"
+  },
+  {
+    "codigo": "8245A",
+    "nombre": "Ochre Rust",
+    "cartilla": "Millennium",
+    "hex": "#b38a66"
+  },
+  {
+    "codigo": "8246N",
+    "nombre": "Queensland Walnut",
+    "cartilla": "Millennium",
+    "hex": "#9c7455"
+  },
+  {
+    "codigo": "8250W",
+    "nombre": "Ivory Sampler",
+    "cartilla": "Millennium",
+    "hex": "#f7e9dd"
+  },
+  {
+    "codigo": "8251W",
+    "nombre": "Plaza Buff",
+    "cartilla": "Millennium",
+    "hex": "#ebd5c6"
+  },
+  {
+    "codigo": "8252W",
+    "nombre": "Strata Light",
+    "cartilla": "Millennium",
+    "hex": "#e5cab7"
+  },
+  {
+    "codigo": "8253M",
+    "nombre": "Swept Plains",
+    "cartilla": "Millennium",
+    "hex": "#dbbba4"
+  },
+  {
+    "codigo": "8254M",
+    "nombre": "Cinnamon Spice",
+    "cartilla": "Millennium",
+    "hex": "#cca98e"
+  },
+  {
+    "codigo": "8255D",
+    "nombre": "Jamocha",
+    "cartilla": "Millennium",
+    "hex": "#b48d71"
+  },
+  {
+    "codigo": "8256N",
+    "nombre": "Sweet Earth",
+    "cartilla": "Millennium",
+    "hex": "#997157"
+  },
+  {
+    "codigo": "8260W",
+    "nombre": "Pavilion",
+    "cartilla": "Millennium",
+    "hex": "#f1e0d1"
+  },
+  {
+    "codigo": "8261W",
+    "nombre": "Traditional Tan",
+    "cartilla": "Millennium",
+    "hex": "#eed8c5"
+  },
+  {
+    "codigo": "8262W",
+    "nombre": "Peanut Shell",
+    "cartilla": "Millennium",
+    "hex": "#e5cbb3"
+  },
+  {
+    "codigo": "8263M",
+    "nombre": "Deerfield",
+    "cartilla": "Millennium",
+    "hex": "#dbb59a"
+  },
+  {
+    "codigo": "8264D",
+    "nombre": "Tucson Clay",
+    "cartilla": "Millennium",
+    "hex": "#cca384"
+  },
+  {
+    "codigo": "8265A",
+    "nombre": "Basque Brown",
+    "cartilla": "Millennium",
+    "hex": "#b18367"
+  },
+  {
+    "codigo": "8266N",
+    "nombre": "Brazilian Brown",
+    "cartilla": "Millennium",
+    "hex": "#9c7054"
+  },
+  {
+    "codigo": "8270W",
+    "nombre": "Renoir Bisque",
+    "cartilla": "Millennium",
+    "hex": "#f0e4db"
+  },
+  {
+    "codigo": "8271W",
+    "nombre": "Palacio",
+    "cartilla": "Millennium",
+    "hex": "#efd7ca"
+  },
+  {
+    "codigo": "8272W",
+    "nombre": "La Mesa",
+    "cartilla": "Millennium",
+    "hex": "#e6cab8"
+  },
+  {
+    "codigo": "8273M",
+    "nombre": "Spiced Cognac",
+    "cartilla": "Millennium",
+    "hex": "#dcb7a3"
+  },
+  {
+    "codigo": "8274M",
+    "nombre": "Festoon",
+    "cartilla": "Millennium",
+    "hex": "#cb9e88"
+  },
+  {
+    "codigo": "8275D",
+    "nombre": "Round-up",
+    "cartilla": "Millennium",
+    "hex": "#b5856e"
+  },
+  {
+    "codigo": "8276A",
+    "nombre": "Mesquite Canyon",
+    "cartilla": "Millennium",
+    "hex": "#a6735e"
+  },
+  {
+    "codigo": "8280W",
+    "nombre": "Sand Motif",
+    "cartilla": "Millennium",
+    "hex": "#f4e9e2"
+  },
+  {
+    "codigo": "8281W",
+    "nombre": "Pink Mocha",
+    "cartilla": "Millennium",
+    "hex": "#ecd8cc"
+  },
+  {
+    "codigo": "8282W",
+    "nombre": "Nutmeat",
+    "cartilla": "Millennium",
+    "hex": "#e2cabc"
+  },
+  {
+    "codigo": "8283W",
+    "nombre": "Indian Painting",
+    "cartilla": "Millennium",
+    "hex": "#d1b3a3"
+  },
+  {
+    "codigo": "8284D",
+    "nombre": "Falling Leaf",
+    "cartilla": "Millennium",
+    "hex": "#ba9480"
+  },
+  {
+    "codigo": "8285A",
+    "nombre": "Monk's Hood",
+    "cartilla": "Millennium",
+    "hex": "#a27b67"
+  },
+  {
+    "codigo": "8286N",
+    "nombre": "Burntside",
+    "cartilla": "Millennium",
+    "hex": "#8e6855"
+  },
+  {
+    "codigo": "8290W",
+    "nombre": "Water Chestnut",
+    "cartilla": "Millennium",
+    "hex": "#f1e6df"
+  },
+  {
+    "codigo": "8291W",
+    "nombre": "Mallow",
+    "cartilla": "Millennium",
+    "hex": "#efddd4"
+  },
+  {
+    "codigo": "8292W",
+    "nombre": "Coral Brown",
+    "cartilla": "Millennium",
+    "hex": "#ddc5ba"
+  },
+  {
+    "codigo": "8293M",
+    "nombre": "Clove Dust",
+    "cartilla": "Millennium",
+    "hex": "#d4b6a9"
+  },
+  {
+    "codigo": "8294M",
+    "nombre": "Red Dust",
+    "cartilla": "Millennium",
+    "hex": "#bf9b8d"
+  },
+  {
+    "codigo": "8295D",
+    "nombre": "Copper Nail",
+    "cartilla": "Millennium",
+    "hex": "#a68070"
+  },
+  {
+    "codigo": "8296N",
+    "nombre": "Treasure Chest",
+    "cartilla": "Millennium",
+    "hex": "#866051"
+  },
+  {
+    "codigo": "8300W",
+    "nombre": "Nomadic Ivory",
+    "cartilla": "Millennium",
+    "hex": "#ede1d8"
+  },
+  {
+    "codigo": "8301W",
+    "nombre": "Bedouin Beige",
+    "cartilla": "Millennium",
+    "hex": "#e7d9d1"
+  },
+  {
+    "codigo": "8302W",
+    "nombre": "Mineral Mauve",
+    "cartilla": "Millennium",
+    "hex": "#dbccc3"
+  },
+  {
+    "codigo": "8303W",
+    "nombre": "Lapstone",
+    "cartilla": "Millennium",
+    "hex": "#cab5aa"
+  },
+  {
+    "codigo": "8304M",
+    "nombre": "Washed Suede",
+    "cartilla": "Millennium",
+    "hex": "#b59c8f"
+  },
+  {
+    "codigo": "8305D",
+    "nombre": "Jericho Brown",
+    "cartilla": "Millennium",
+    "hex": "#9c8173"
+  },
+  {
+    "codigo": "8306N",
+    "nombre": "Alcazar Brown",
+    "cartilla": "Millennium",
+    "hex": "#7e6658"
+  },
+  {
+    "codigo": "8310W",
+    "nombre": "Pink Reed",
+    "cartilla": "Millennium",
+    "hex": "#e7d9d1"
+  },
+  {
+    "codigo": "8311W",
+    "nombre": "Ambient Sound",
+    "cartilla": "Millennium",
+    "hex": "#ded1cb"
+  },
+  {
+    "codigo": "8312W",
+    "nombre": "Misted Beige",
+    "cartilla": "Millennium",
+    "hex": "#d6c4bc"
+  },
+  {
+    "codigo": "8313M",
+    "nombre": "Cast Pebble",
+    "cartilla": "Millennium",
+    "hex": "#c3aea5"
+  },
+  {
+    "codigo": "8314M",
+    "nombre": "Slivered Bark",
+    "cartilla": "Millennium",
+    "hex": "#b39c92"
+  },
+  {
+    "codigo": "8315D",
+    "nombre": "Ravenwood",
+    "cartilla": "Millennium",
+    "hex": "#937a6f"
+  },
+  {
+    "codigo": "8316N",
+    "nombre": "Black Burgundy",
+    "cartilla": "Millennium",
+    "hex": "#786159"
+  },
+  {
+    "codigo": "8320W",
+    "nombre": "Thin Pink",
+    "cartilla": "Millennium",
+    "hex": "#f2e5e1"
+  },
+  {
+    "codigo": "8321W",
+    "nombre": "Quiet Alcove",
+    "cartilla": "Millennium",
+    "hex": "#e5d3ce"
+  },
+  {
+    "codigo": "8322W",
+    "nombre": "Auburn Sand",
+    "cartilla": "Millennium",
+    "hex": "#dcc4bf"
+  },
+  {
+    "codigo": "8323M",
+    "nombre": "Pancho Brown",
+    "cartilla": "Millennium",
+    "hex": "#cbada7"
+  },
+  {
+    "codigo": "8324M",
+    "nombre": "Smooth Brown",
+    "cartilla": "Millennium",
+    "hex": "#b9968e"
+  },
+  {
+    "codigo": "8325D",
+    "nombre": "Timber Tan",
+    "cartilla": "Millennium",
+    "hex": "#a07b72"
+  },
+  {
+    "codigo": "8326N",
+    "nombre": "Brick Shadow",
+    "cartilla": "Millennium",
+    "hex": "#856156"
+  },
+  {
+    "codigo": "8330W",
+    "nombre": "Sachet Rose",
+    "cartilla": "Millennium",
+    "hex": "#f1e3dd"
+  },
+  {
+    "codigo": "8331W",
+    "nombre": "Mauve Blush",
+    "cartilla": "Millennium",
+    "hex": "#e9d5cd"
+  },
+  {
+    "codigo": "8332W",
+    "nombre": "Spice Beige",
+    "cartilla": "Millennium",
+    "hex": "#e3c9c1"
+  },
+  {
+    "codigo": "8333M",
+    "nombre": "Incense",
+    "cartilla": "Millennium",
+    "hex": "#d4b1a7"
+  },
+  {
+    "codigo": "8334M",
+    "nombre": "Taupe Rose",
+    "cartilla": "Millennium",
+    "hex": "#c8a297"
+  },
+  {
+    "codigo": "8335D",
+    "nombre": "Terrawood",
+    "cartilla": "Millennium",
+    "hex": "#ab7d72"
+  },
+  {
+    "codigo": "8336N",
+    "nombre": "Bavarian Chalet",
+    "cartilla": "Millennium",
+    "hex": "#8a6154"
+  },
+  {
+    "codigo": "8340W",
+    "nombre": "Pale Coral",
+    "cartilla": "Millennium",
+    "hex": "#f5e5df"
+  },
+  {
+    "codigo": "8341W",
+    "nombre": "Prairie Tan",
+    "cartilla": "Millennium",
+    "hex": "#ebd1cb"
+  },
+  {
+    "codigo": "8342W",
+    "nombre": "Sanibel Sunset",
+    "cartilla": "Millennium",
+    "hex": "#e3c3ba"
+  },
+  {
+    "codigo": "8343M",
+    "nombre": "Condo Coral",
+    "cartilla": "Millennium",
+    "hex": "#d3a99e"
+  },
+  {
+    "codigo": "8344M",
+    "nombre": "Sante Fe Brown",
+    "cartilla": "Millennium",
+    "hex": "#c29387"
+  },
+  {
+    "codigo": "8345D",
+    "nombre": "Western Cedar",
+    "cartilla": "Millennium",
+    "hex": "#a6796e"
+  },
+  {
+    "codigo": "8346N",
+    "nombre": "Taiga",
+    "cartilla": "Millennium",
+    "hex": "#8a5e51"
+  },
+  {
+    "codigo": "8350W",
+    "nombre": "Miami Sand",
+    "cartilla": "Millennium",
+    "hex": "#f2dfd8"
+  },
+  {
+    "codigo": "8351W",
+    "nombre": "Tan Blush",
+    "cartilla": "Millennium",
+    "hex": "#efd3cb"
+  },
+  {
+    "codigo": "8352W",
+    "nombre": "Beaux Beige",
+    "cartilla": "Millennium",
+    "hex": "#eac7be"
+  },
+  {
+    "codigo": "8353M",
+    "nombre": "Fire Haze",
+    "cartilla": "Millennium",
+    "hex": "#dcafa3"
+  },
+  {
+    "codigo": "8354M",
+    "nombre": "Parched Earth",
+    "cartilla": "Millennium",
+    "hex": "#cc9a8d"
+  },
+  {
+    "codigo": "8355D",
+    "nombre": "Burnt Copper",
+    "cartilla": "Millennium",
+    "hex": "#b47e6f"
+  },
+  {
+    "codigo": "8356N",
+    "nombre": "Mackay Cedar",
+    "cartilla": "Millennium",
+    "hex": "#966051"
+  },
+  {
+    "codigo": "8360W",
+    "nombre": "Bubble Bath",
+    "cartilla": "Millennium",
+    "hex": "#efddd8"
+  },
+  {
+    "codigo": "8361W",
+    "nombre": "Baby Bouquet",
+    "cartilla": "Millennium",
+    "hex": "#e9cec8"
+  },
+  {
+    "codigo": "8362W",
+    "nombre": "Franciscan Pink",
+    "cartilla": "Millennium",
+    "hex": "#e1c0ba"
+  },
+  {
+    "codigo": "8363M",
+    "nombre": "Cinnabar",
+    "cartilla": "Millennium",
+    "hex": "#d1a9a2"
+  },
+  {
+    "codigo": "8364M",
+    "nombre": "Olde Town",
+    "cartilla": "Millennium",
+    "hex": "#c3968f"
+  },
+  {
+    "codigo": "8365D",
+    "nombre": "Colonial Brown",
+    "cartilla": "Millennium",
+    "hex": "#a57269"
+  },
+  {
+    "codigo": "8366N",
+    "nombre": "Heartwood",
+    "cartilla": "Millennium",
+    "hex": "#8c5d53"
+  },
+  {
+    "codigo": "8370W",
+    "nombre": "Novette",
+    "cartilla": "Millennium",
+    "hex": "#fae6e4"
+  },
+  {
+    "codigo": "8371W",
+    "nombre": "Ancient Pink",
+    "cartilla": "Millennium",
+    "hex": "#ecd0ce"
+  },
+  {
+    "codigo": "8372W",
+    "nombre": "Cinnaswirl",
+    "cartilla": "Millennium",
+    "hex": "#e6c1be"
+  },
+  {
+    "codigo": "8373M",
+    "nombre": "Norman Rose",
+    "cartilla": "Millennium",
+    "hex": "#d9aead"
+  },
+  {
+    "codigo": "8374M",
+    "nombre": "Forest Berry",
+    "cartilla": "Millennium",
+    "hex": "#c69796"
+  },
+  {
+    "codigo": "8375D",
+    "nombre": "Ruby River",
+    "cartilla": "Millennium",
+    "hex": "#aa7673"
+  },
+  {
+    "codigo": "8376N",
+    "nombre": "Deep Henna",
+    "cartilla": "Millennium",
+    "hex": "#8e5e59"
+  },
+  {
+    "codigo": "8380W",
+    "nombre": "Pink Shadow",
+    "cartilla": "Millennium",
+    "hex": "#f2e2e0"
+  },
+  {
+    "codigo": "8381W",
+    "nombre": "Rosewater",
+    "cartilla": "Millennium",
+    "hex": "#ead1ce"
+  },
+  {
+    "codigo": "8382W",
+    "nombre": "Victorian Heath",
+    "cartilla": "Millennium",
+    "hex": "#e4c6c4"
+  },
+  {
+    "codigo": "8383M",
+    "nombre": "Melodious Mauve",
+    "cartilla": "Millennium",
+    "hex": "#d5b4b2"
+  },
+  {
+    "codigo": "8384M",
+    "nombre": "Broadmoor Rose",
+    "cartilla": "Millennium",
+    "hex": "#c49c9a"
+  },
+  {
+    "codigo": "8385D",
+    "nombre": "Brick Rose",
+    "cartilla": "Millennium",
+    "hex": "#ad807b"
+  },
+  {
+    "codigo": "8386N",
+    "nombre": "Winestain",
+    "cartilla": "Millennium",
+    "hex": "#8e625d"
+  },
+  {
+    "codigo": "8390W",
+    "nombre": "Rose Pearl",
+    "cartilla": "Millennium",
+    "hex": "#f9ecf0"
+  },
+  {
+    "codigo": "8391W",
+    "nombre": "Fragile Pink",
+    "cartilla": "Millennium",
+    "hex": "#e9d0d3"
+  },
+  {
+    "codigo": "8392W",
+    "nombre": "Fetching Pink",
+    "cartilla": "Millennium",
+    "hex": "#e2c1c5"
+  },
+  {
+    "codigo": "8393M",
+    "nombre": "Rose Areys",
+    "cartilla": "Millennium",
+    "hex": "#d5adb0"
+  },
+  {
+    "codigo": "8394M",
+    "nombre": "Montrose",
+    "cartilla": "Millennium",
+    "hex": "#c8999e"
+  },
+  {
+    "codigo": "8395D",
+    "nombre": "Monterey Rose",
+    "cartilla": "Millennium",
+    "hex": "#a47476"
+  },
+  {
+    "codigo": "8396N",
+    "nombre": "Cedar Rose",
+    "cartilla": "Millennium",
+    "hex": "#875b58"
+  },
+  {
+    "codigo": "8400W",
+    "nombre": "Sunset Snow",
+    "cartilla": "Millennium",
+    "hex": "#f9dfe2"
+  },
+  {
+    "codigo": "8401W",
+    "nombre": "Strawberry Cream",
+    "cartilla": "Millennium",
+    "hex": "#eed1d7"
+  },
+  {
+    "codigo": "8402W",
+    "nombre": "Pinkwater",
+    "cartilla": "Millennium",
+    "hex": "#e9c5cd"
+  },
+  {
+    "codigo": "8403M",
+    "nombre": "Moon Rose",
+    "cartilla": "Millennium",
+    "hex": "#ddb0b9"
+  },
+  {
+    "codigo": "8404M",
+    "nombre": "Wine Cordial",
+    "cartilla": "Millennium",
+    "hex": "#cc96a3"
+  },
+  {
+    "codigo": "8405D",
+    "nombre": "Red Valerian",
+    "cartilla": "Millennium",
+    "hex": "#b37782"
+  },
+  {
+    "codigo": "8406N",
+    "nombre": "Red Jarrah",
+    "cartilla": "Millennium",
+    "hex": "#7f3e37"
+  },
+  {
+    "codigo": "8410W",
+    "nombre": "Pink Gown",
+    "cartilla": "Millennium",
+    "hex": "#f2e8eb"
+  },
+  {
+    "codigo": "8411W",
+    "nombre": "Debutante Pink",
+    "cartilla": "Millennium",
+    "hex": "#ebd6dd"
+  },
+  {
+    "codigo": "8412W",
+    "nombre": "Satin Lining",
+    "cartilla": "Millennium",
+    "hex": "#e2c7d2"
+  },
+  {
+    "codigo": "8413M",
+    "nombre": "Marjory Phlox",
+    "cartilla": "Millennium",
+    "hex": "#d2aebe"
+  },
+  {
+    "codigo": "8414M",
+    "nombre": "Wineberry",
+    "cartilla": "Millennium",
+    "hex": "#caa0b1"
+  },
+  {
+    "codigo": "8415D",
+    "nombre": "Rich Plum",
+    "cartilla": "Millennium",
+    "hex": "#a17688"
+  },
+  {
+    "codigo": "8416N",
+    "nombre": "Royal Garnet",
+    "cartilla": "Millennium",
+    "hex": "#7e575c"
+  },
+  {
+    "codigo": "8420W",
+    "nombre": "Tranquility",
+    "cartilla": "Millennium",
+    "hex": "#eae4e7"
+  },
+  {
+    "codigo": "8421W",
+    "nombre": "Meadow Sweet",
+    "cartilla": "Millennium",
+    "hex": "#e7d6e1"
+  },
+  {
+    "codigo": "8422W",
+    "nombre": "Violet Fluff",
+    "cartilla": "Millennium",
+    "hex": "#deccd8"
+  },
+  {
+    "codigo": "8423M",
+    "nombre": "Fading Amethyst",
+    "cartilla": "Millennium",
+    "hex": "#d0b6c6"
+  },
+  {
+    "codigo": "8424M",
+    "nombre": "Viola Satin",
+    "cartilla": "Millennium",
+    "hex": "#c3a6b9"
+  },
+  {
+    "codigo": "8425D",
+    "nombre": "Exotic Bloom",
+    "cartilla": "Millennium",
+    "hex": "#9f8196"
+  },
+  {
+    "codigo": "8426N",
+    "nombre": "Purple Empire",
+    "cartilla": "Millennium",
+    "hex": "#6a5662"
+  },
+  {
+    "codigo": "8430W",
+    "nombre": "Plum Light",
+    "cartilla": "Millennium",
+    "hex": "#f0e9eb"
+  },
+  {
+    "codigo": "8431W",
+    "nombre": "Dusted Violet",
+    "cartilla": "Millennium",
+    "hex": "#e6dadf"
+  },
+  {
+    "codigo": "8432W",
+    "nombre": "Odyssey Orchid",
+    "cartilla": "Millennium",
+    "hex": "#decfd7"
+  },
+  {
+    "codigo": "8433M",
+    "nombre": "Plum Vine",
+    "cartilla": "Millennium",
+    "hex": "#cebbc6"
+  },
+  {
+    "codigo": "8434M",
+    "nombre": "Moss Phlox",
+    "cartilla": "Millennium",
+    "hex": "#c0a8b4"
+  },
+  {
+    "codigo": "8435D",
+    "nombre": "Blackberry Wine",
+    "cartilla": "Millennium",
+    "hex": "#9b8391"
+  },
+  {
+    "codigo": "8436N",
+    "nombre": "Abundant Wine",
+    "cartilla": "Millennium",
+    "hex": "#715b65"
+  },
+  {
+    "codigo": "8440W",
+    "nombre": "First Light",
+    "cartilla": "Millennium",
+    "hex": "#dfe0e5"
+  },
+  {
+    "codigo": "8441W",
+    "nombre": "Purple Pearl",
+    "cartilla": "Millennium",
+    "hex": "#d7dce8"
+  },
+  {
+    "codigo": "8442W",
+    "nombre": "Moon Violet",
+    "cartilla": "Millennium",
+    "hex": "#d3d5de"
+  },
+  {
+    "codigo": "8443M",
+    "nombre": "Tribute",
+    "cartilla": "Millennium",
+    "hex": "#b1b5c5"
+  },
+  {
+    "codigo": "8444M",
+    "nombre": "Illusive Lilac",
+    "cartilla": "Millennium",
+    "hex": "#999cae"
+  },
+  {
+    "codigo": "8445D",
+    "nombre": "Violet Kohl",
+    "cartilla": "Millennium",
+    "hex": "#797d90"
+  },
+  {
+    "codigo": "8446N",
+    "nombre": "Purple Fable",
+    "cartilla": "Millennium",
+    "hex": "#5e606f"
+  },
+  {
+    "codigo": "8450W",
+    "nombre": "Twi-night",
+    "cartilla": "Millennium",
+    "hex": "#dde0e7"
+  },
+  {
+    "codigo": "8451W",
+    "nombre": "Violet Dimensions",
+    "cartilla": "Millennium",
+    "hex": "#d1d6e0"
+  },
+  {
+    "codigo": "8452W",
+    "nombre": "Aragon Violet",
+    "cartilla": "Millennium",
+    "hex": "#c3c9d7"
+  },
+  {
+    "codigo": "8453W",
+    "nombre": "Cinder Grey",
+    "cartilla": "Millennium",
+    "hex": "#b4bdcc"
+  },
+  {
+    "codigo": "8454M",
+    "nombre": "Smoky Mountain",
+    "cartilla": "Millennium",
+    "hex": "#98a2b4"
+  },
+  {
+    "codigo": "8455D",
+    "nombre": "Old Amethyst",
+    "cartilla": "Millennium",
+    "hex": "#757e91"
+  },
+  {
+    "codigo": "8456A",
+    "nombre": "Odyssey Blue",
+    "cartilla": "Millennium",
+    "hex": "#5e6576"
+  },
+  {
+    "codigo": "8460W",
+    "nombre": "Violet Cherub",
+    "cartilla": "Millennium",
+    "hex": "#dde3e9"
+  },
+  {
+    "codigo": "8461W",
+    "nombre": "Soft Ballad",
+    "cartilla": "Millennium",
+    "hex": "#d4dce5"
+  },
+  {
+    "codigo": "8462W",
+    "nombre": "Brushed Blue",
+    "cartilla": "Millennium",
+    "hex": "#c1ccdd"
+  },
+  {
+    "codigo": "8463M",
+    "nombre": "Moonless Morn",
+    "cartilla": "Millennium",
+    "hex": "#b0bbcf"
+  },
+  {
+    "codigo": "8464M",
+    "nombre": "Paris Evening",
+    "cartilla": "Millennium",
+    "hex": "#97a4bd"
+  },
+  {
+    "codigo": "8465D",
+    "nombre": "Indigo Violet",
+    "cartilla": "Millennium",
+    "hex": "#6e809e"
+  },
+  {
+    "codigo": "8466N",
+    "nombre": "Night Magic",
+    "cartilla": "Millennium",
+    "hex": "#55627b"
+  },
+  {
+    "codigo": "8470W",
+    "nombre": "Diamond Minuet",
+    "cartilla": "Millennium",
+    "hex": "#d9e1e7"
+  },
+  {
+    "codigo": "8471W",
+    "nombre": "Silk Whisper",
+    "cartilla": "Millennium",
+    "hex": "#cfd9e2"
+  },
+  {
+    "codigo": "8472W",
+    "nombre": "Handsome Blue",
+    "cartilla": "Millennium",
+    "hex": "#c1cfdd"
+  },
+  {
+    "codigo": "8473M",
+    "nombre": "Toccata",
+    "cartilla": "Millennium",
+    "hex": "#a9bac9"
+  },
+  {
+    "codigo": "8474M",
+    "nombre": "Autumn Evening",
+    "cartilla": "Millennium",
+    "hex": "#95a8ba"
+  },
+  {
+    "codigo": "8475D",
+    "nombre": "Cavalier",
+    "cartilla": "Millennium",
+    "hex": "#6d8196"
+  },
+  {
+    "codigo": "8476N",
+    "nombre": "Symphony Blue",
+    "cartilla": "Millennium",
+    "hex": "#576679"
+  },
+  {
+    "codigo": "8480W",
+    "nombre": "Fluid Blue",
+    "cartilla": "Millennium",
+    "hex": "#dee6ec"
+  },
+  {
+    "codigo": "8481W",
+    "nombre": "Lingering Blue",
+    "cartilla": "Millennium",
+    "hex": "#cdd9e4"
+  },
+  {
+    "codigo": "8482W",
+    "nombre": "Blue Visage",
+    "cartilla": "Millennium",
+    "hex": "#bdd0df"
+  },
+  {
+    "codigo": "8483M",
+    "nombre": "Antioch Blue",
+    "cartilla": "Millennium",
+    "hex": "#a3bbce"
+  },
+  {
+    "codigo": "8484M",
+    "nombre": "Huckleberry",
+    "cartilla": "Millennium",
+    "hex": "#93acc2"
+  },
+  {
+    "codigo": "8485D",
+    "nombre": "Napole贸n",
+    "cartilla": "Millennium",
+    "hex": "#6b87a2"
+  },
+  {
+    "codigo": "8486N",
+    "nombre": "Beethoven Blue",
+    "cartilla": "Millennium",
+    "hex": "#546981"
+  },
+  {
+    "codigo": "8490W",
+    "nombre": "Divine",
+    "cartilla": "Millennium",
+    "hex": "#e0e9ec"
+  },
+  {
+    "codigo": "8491W",
+    "nombre": "Domicile Blue",
+    "cartilla": "Millennium",
+    "hex": "#cddde5"
+  },
+  {
+    "codigo": "8492W",
+    "nombre": "Young Cadet",
+    "cartilla": "Millennium",
+    "hex": "#bacfdb"
+  },
+  {
+    "codigo": "8493M",
+    "nombre": "Endicott Bay",
+    "cartilla": "Millennium",
+    "hex": "#9fbac8"
+  },
+  {
+    "codigo": "8494M",
+    "nombre": "Rebel Blue",
+    "cartilla": "Millennium",
+    "hex": "#8aa8ba"
+  },
+  {
+    "codigo": "8495D",
+    "nombre": "Twain Blue",
+    "cartilla": "Millennium",
+    "hex": "#628196"
+  },
+  {
+    "codigo": "8496A",
+    "nombre": "Dark Quest",
+    "cartilla": "Millennium",
+    "hex": "#506879"
+  },
+  {
+    "codigo": "8500W",
+    "nombre": "Windstar",
+    "cartilla": "Millennium",
+    "hex": "#e1e9eb"
+  },
+  {
+    "codigo": "8501W",
+    "nombre": "Blue Frost",
+    "cartilla": "Millennium",
+    "hex": "#cedae1"
+  },
+  {
+    "codigo": "8502W",
+    "nombre": "Dawn Wonder",
+    "cartilla": "Millennium",
+    "hex": "#bccbd5"
+  },
+  {
+    "codigo": "8503M",
+    "nombre": "Faded Jeans",
+    "cartilla": "Millennium",
+    "hex": "#a2b6c2"
+  },
+  {
+    "codigo": "8504M",
+    "nombre": "Pottery Blue",
+    "cartilla": "Millennium",
+    "hex": "#8da5b4"
+  },
+  {
+    "codigo": "8505D",
+    "nombre": "Bluecoat",
+    "cartilla": "Millennium",
+    "hex": "#657e8e"
+  },
+  {
+    "codigo": "8506A",
+    "nombre": "Valley Forge Blue",
+    "cartilla": "Millennium",
+    "hex": "#536876"
+  },
+  {
+    "codigo": "8510W",
+    "nombre": "Clean Vapor",
+    "cartilla": "Millennium",
+    "hex": "#dee3e6"
+  },
+  {
+    "codigo": "8511W",
+    "nombre": "Snowcloud",
+    "cartilla": "Millennium",
+    "hex": "#cdd8dd"
+  },
+  {
+    "codigo": "8512W",
+    "nombre": "Hidden Brook",
+    "cartilla": "Millennium",
+    "hex": "#bfcbd2"
+  },
+  {
+    "codigo": "8513M",
+    "nombre": "Still Creek",
+    "cartilla": "Millennium",
+    "hex": "#a7b5bf"
+  },
+  {
+    "codigo": "8514M",
+    "nombre": "Grey Blue",
+    "cartilla": "Millennium",
+    "hex": "#92a2ad"
+  },
+  {
+    "codigo": "8515D",
+    "nombre": "Thunder Gray",
+    "cartilla": "Millennium",
+    "hex": "#6c7d89"
+  },
+  {
+    "codigo": "8516A",
+    "nombre": "Temptress",
+    "cartilla": "Millennium",
+    "hex": "#59646e"
+  },
+  {
+    "codigo": "8520W",
+    "nombre": "Glamour Gray",
+    "cartilla": "Millennium",
+    "hex": "#dfe3e4"
+  },
+  {
+    "codigo": "8521W",
+    "nombre": "Halation",
+    "cartilla": "Millennium",
+    "hex": "#d4d9dc"
+  },
+  {
+    "codigo": "8522W",
+    "nombre": "Gray Dignity",
+    "cartilla": "Millennium",
+    "hex": "#c2c8cc"
+  },
+  {
+    "codigo": "8523M",
+    "nombre": "Downing Slate",
+    "cartilla": "Millennium",
+    "hex": "#abb2b8"
+  },
+  {
+    "codigo": "8524M",
+    "nombre": "Vanderbilt Gray",
+    "cartilla": "Millennium",
+    "hex": "#959ea5"
+  },
+  {
+    "codigo": "8525D",
+    "nombre": "Rock Garden",
+    "cartilla": "Millennium",
+    "hex": "#6f787f"
+  },
+  {
+    "codigo": "8526A",
+    "nombre": "Dark Colossus",
+    "cartilla": "Millennium",
+    "hex": "#5c6269"
+  },
+  {
+    "codigo": "8530W",
+    "nombre": "Blizzard White",
+    "cartilla": "Millennium",
+    "hex": "#e2e3e1"
+  },
+  {
+    "codigo": "8531W",
+    "nombre": "Lombardy Mist",
+    "cartilla": "Millennium",
+    "hex": "#d8dcdd"
+  },
+  {
+    "codigo": "8532W",
+    "nombre": "Light Showers",
+    "cartilla": "Millennium",
+    "hex": "#c1c5c6"
+  },
+  {
+    "codigo": "8533M",
+    "nombre": "Summer Fog",
+    "cartilla": "Millennium",
+    "hex": "#adb5b7"
+  },
+  {
+    "codigo": "8534M",
+    "nombre": "Solid Gray",
+    "cartilla": "Millennium",
+    "hex": "#9ba1a5"
+  },
+  {
+    "codigo": "8535D",
+    "nombre": "Wayfarer Gray",
+    "cartilla": "Millennium",
+    "hex": "#747d80"
+  },
+  {
+    "codigo": "8536N",
+    "nombre": "Blackmar",
+    "cartilla": "Millennium",
+    "hex": "#585d5f"
+  },
+  {
+    "codigo": "8540W",
+    "nombre": "Windstream",
+    "cartilla": "Millennium",
+    "hex": "#dde4e4"
+  },
+  {
+    "codigo": "8541W",
+    "nombre": "Minimal Gray",
+    "cartilla": "Millennium",
+    "hex": "#d2dadc"
+  },
+  {
+    "codigo": "8542W",
+    "nombre": "Lido Bay",
+    "cartilla": "Millennium",
+    "hex": "#bbc6cb"
+  },
+  {
+    "codigo": "8543M",
+    "nombre": "Frosted Denim",
+    "cartilla": "Millennium",
+    "hex": "#a6b0b5"
+  },
+  {
+    "codigo": "8544M",
+    "nombre": "Blue Comet",
+    "cartilla": "Millennium",
+    "hex": "#939fa5"
+  },
+  {
+    "codigo": "8545D",
+    "nombre": "Quasar Blue",
+    "cartilla": "Millennium",
+    "hex": "#6e7880"
+  },
+  {
+    "codigo": "8546N",
+    "nombre": "Sable Night",
+    "cartilla": "Millennium",
+    "hex": "#565d62"
+  },
+  {
+    "codigo": "8550W",
+    "nombre": "Refined Blue",
+    "cartilla": "Millennium",
+    "hex": "#d7dfe1"
+  },
+  {
+    "codigo": "8551W",
+    "nombre": "Crackling Blue",
+    "cartilla": "Millennium",
+    "hex": "#cfd8db"
+  },
+  {
+    "codigo": "8552W",
+    "nombre": "Blue Of January",
+    "cartilla": "Millennium",
+    "hex": "#becbd0"
+  },
+  {
+    "codigo": "8553M",
+    "nombre": "Myth Gray",
+    "cartilla": "Millennium",
+    "hex": "#a7b6bc"
+  },
+  {
+    "codigo": "8554M",
+    "nombre": "Rising Smoke",
+    "cartilla": "Millennium",
+    "hex": "#93a5ac"
+  },
+  {
+    "codigo": "8555D",
+    "nombre": "Alden Charcoal",
+    "cartilla": "Millennium",
+    "hex": "#6f7e85"
+  },
+  {
+    "codigo": "8556A",
+    "nombre": "Peking Blue",
+    "cartilla": "Millennium",
+    "hex": "#58656b"
+  },
+  {
+    "codigo": "8560W",
+    "nombre": "Moon River",
+    "cartilla": "Millennium",
+    "hex": "#e0e9e9"
+  },
+  {
+    "codigo": "8561W",
+    "nombre": "Blue Emblem",
+    "cartilla": "Millennium",
+    "hex": "#cad9db"
+  },
+  {
+    "codigo": "8562W",
+    "nombre": "Impressionist Sky",
+    "cartilla": "Millennium",
+    "hex": "#bdcfd3"
+  },
+  {
+    "codigo": "8563M",
+    "nombre": "Gorse Blue",
+    "cartilla": "Millennium",
+    "hex": "#a4babf"
+  },
+  {
+    "codigo": "8564M",
+    "nombre": "Old Blue Sea",
+    "cartilla": "Millennium",
+    "hex": "#8ca6ac"
+  },
+  {
+    "codigo": "8565D",
+    "nombre": "Winter Sea",
+    "cartilla": "Millennium",
+    "hex": "#698287"
+  },
+  {
+    "codigo": "8566N",
+    "nombre": "Night Sail",
+    "cartilla": "Millennium",
+    "hex": "#4f6266"
+  },
+  {
+    "codigo": "8570W",
+    "nombre": "Aqua Pura",
+    "cartilla": "Millennium",
+    "hex": "#e3e9e6"
+  },
+  {
+    "codigo": "8571W",
+    "nombre": "Rushing River",
+    "cartilla": "Millennium",
+    "hex": "#d3dedb"
+  },
+  {
+    "codigo": "8572W",
+    "nombre": "San Fran Fog",
+    "cartilla": "Millennium",
+    "hex": "#bdcccc"
+  },
+  {
+    "codigo": "8573M",
+    "nombre": "Snug Harbor",
+    "cartilla": "Millennium",
+    "hex": "#a7bbb8"
+  },
+  {
+    "codigo": "8574M",
+    "nombre": "Fog Buoy",
+    "cartilla": "Millennium",
+    "hex": "#93a9aa"
+  },
+  {
+    "codigo": "8575D",
+    "nombre": "Bay Bridge",
+    "cartilla": "Millennium",
+    "hex": "#6f8485"
+  },
+  {
+    "codigo": "8576N",
+    "nombre": "Briny Deep",
+    "cartilla": "Millennium",
+    "hex": "#5a6969"
+  },
+  {
+    "codigo": "8580W",
+    "nombre": "Gray Etching",
+    "cartilla": "Millennium",
+    "hex": "#dbe2de"
+  },
+  {
+    "codigo": "8581W",
+    "nombre": "Designer Gray",
+    "cartilla": "Millennium",
+    "hex": "#d3dad6"
+  },
+  {
+    "codigo": "8582W",
+    "nombre": "Terrazzo Gray",
+    "cartilla": "Millennium",
+    "hex": "#c7cec9"
+  },
+  {
+    "codigo": "8583W",
+    "nombre": "Gray Nuance",
+    "cartilla": "Millennium",
+    "hex": "#bac3be"
+  },
+  {
+    "codigo": "8584M",
+    "nombre": "Grey Expectations",
+    "cartilla": "Millennium",
+    "hex": "#9ca8a3"
+  },
+  {
+    "codigo": "8585D",
+    "nombre": "Smokebush",
+    "cartilla": "Millennium",
+    "hex": "#7a827f"
+  },
+  {
+    "codigo": "8586A",
+    "nombre": "Metropolis",
+    "cartilla": "Millennium",
+    "hex": "#646c69"
+  },
+  {
+    "codigo": "8590W",
+    "nombre": "Seed Pearl",
+    "cartilla": "Millennium",
+    "hex": "#e3e9e6"
+  },
+  {
+    "codigo": "8591W",
+    "nombre": "Salt Water",
+    "cartilla": "Millennium",
+    "hex": "#cdd9d4"
+  },
+  {
+    "codigo": "8592W",
+    "nombre": "Seahawk",
+    "cartilla": "Millennium",
+    "hex": "#becdc7"
+  },
+  {
+    "codigo": "8593M",
+    "nombre": "Bayou Waters",
+    "cartilla": "Millennium",
+    "hex": "#b1bfb9"
+  },
+  {
+    "codigo": "8594M",
+    "nombre": "Mystic Green",
+    "cartilla": "Millennium",
+    "hex": "#96a9a3"
+  },
+  {
+    "codigo": "8595D",
+    "nombre": "Elm Court",
+    "cartilla": "Millennium",
+    "hex": "#788a84"
+  },
+  {
+    "codigo": "8596N",
+    "nombre": "Olympic Pine",
+    "cartilla": "Millennium",
+    "hex": "#5d6963"
+  },
+  {
+    "codigo": "8600W",
+    "nombre": "Glass Block",
+    "cartilla": "Millennium",
+    "hex": "#dfe4df"
+  },
+  {
+    "codigo": "8601W",
+    "nombre": "Metropolitan Gray",
+    "cartilla": "Millennium",
+    "hex": "#d6ddd8"
+  },
+  {
+    "codigo": "8602W",
+    "nombre": "Green Granule",
+    "cartilla": "Millennium",
+    "hex": "#cad0c9"
+  },
+  {
+    "codigo": "8603M",
+    "nombre": "Gray Nut",
+    "cartilla": "Millennium",
+    "hex": "#b4bfb5"
+  },
+  {
+    "codigo": "8604M",
+    "nombre": "Victoria Falls",
+    "cartilla": "Millennium",
+    "hex": "#a0aea5"
+  },
+  {
+    "codigo": "8605D",
+    "nombre": "English Pine",
+    "cartilla": "Millennium",
+    "hex": "#7c8981"
+  },
+  {
+    "codigo": "8606N",
+    "nombre": "Spruce Island",
+    "cartilla": "Millennium",
+    "hex": "#5c645d"
+  },
+  {
+    "codigo": "8610W",
+    "nombre": "Garden Light",
+    "cartilla": "Millennium",
+    "hex": "#e0e4dd"
+  },
+  {
+    "codigo": "8611W",
+    "nombre": "Rainforest Dew",
+    "cartilla": "Millennium",
+    "hex": "#d8ddd4"
+  },
+  {
+    "codigo": "8612W",
+    "nombre": "Silver Sage",
+    "cartilla": "Millennium",
+    "hex": "#ccd4ca"
+  },
+  {
+    "codigo": "8613M",
+    "nombre": "Shenandoah",
+    "cartilla": "Millennium",
+    "hex": "#b8c0b3"
+  },
+  {
+    "codigo": "8614M",
+    "nombre": "Shade Tree",
+    "cartilla": "Millennium",
+    "hex": "#a3b0a2"
+  },
+  {
+    "codigo": "8615D",
+    "nombre": "Peppercorn",
+    "cartilla": "Millennium",
+    "hex": "#838e7f"
+  },
+  {
+    "codigo": "8616N",
+    "nombre": "Clermont Green",
+    "cartilla": "Millennium",
+    "hex": "#646e61"
+  },
+  {
+    "codigo": "8620W",
+    "nombre": "Limpet Shell",
+    "cartilla": "Millennium",
+    "hex": "#e3e3df"
+  },
+  {
+    "codigo": "8621W",
+    "nombre": "Chromox Green",
+    "cartilla": "Millennium",
+    "hex": "#d7d9d5"
+  },
+  {
+    "codigo": "8622W",
+    "nombre": "Lunar Stone",
+    "cartilla": "Millennium",
+    "hex": "#d1d5ce"
+  },
+  {
+    "codigo": "8623M",
+    "nombre": "Silent Path",
+    "cartilla": "Millennium",
+    "hex": "#b8bdb5"
+  },
+  {
+    "codigo": "8624M",
+    "nombre": "Steeple Gray",
+    "cartilla": "Millennium",
+    "hex": "#a7aca3"
+  },
+  {
+    "codigo": "8625D",
+    "nombre": "Shipyard",
+    "cartilla": "Millennium",
+    "hex": "#84887e"
+  },
+  {
+    "codigo": "8626N",
+    "nombre": "Wilderness Green",
+    "cartilla": "Millennium",
+    "hex": "#686a61"
+  },
+  {
+    "codigo": "8630W",
+    "nombre": "Prism White",
+    "cartilla": "Millennium",
+    "hex": "#e3e3df"
+  },
+  {
+    "codigo": "8631W",
+    "nombre": "European Gray",
+    "cartilla": "Millennium",
+    "hex": "#dcdcd8"
+  },
+  {
+    "codigo": "8632W",
+    "nombre": "Timeless Gray",
+    "cartilla": "Millennium",
+    "hex": "#cecfc9"
+  },
+  {
+    "codigo": "8633W",
+    "nombre": "Smoky Candle",
+    "cartilla": "Millennium",
+    "hex": "#c2c3bd"
+  },
+  {
+    "codigo": "8634M",
+    "nombre": "Dusty Miller",
+    "cartilla": "Millennium",
+    "hex": "#a9aba5"
+  },
+  {
+    "codigo": "8635D",
+    "nombre": "Mansard Stone",
+    "cartilla": "Millennium",
+    "hex": "#86877f"
+  },
+  {
+    "codigo": "8636N",
+    "nombre": "Old Porch",
+    "cartilla": "Millennium",
+    "hex": "#64645d"
+  },
+  {
+    "codigo": "8640W",
+    "nombre": "Creative White",
+    "cartilla": "Millennium",
+    "hex": "#ebebe7"
+  },
+  {
+    "codigo": "8641W",
+    "nombre": "Tradewind",
+    "cartilla": "Millennium",
+    "hex": "#ddded8"
+  },
+  {
+    "codigo": "8642W",
+    "nombre": "Foggy London",
+    "cartilla": "Millennium",
+    "hex": "#d2d2ca"
+  },
+  {
+    "codigo": "8643M",
+    "nombre": "Tram Gray",
+    "cartilla": "Millennium",
+    "hex": "#bcbcb5"
+  },
+  {
+    "codigo": "8644M",
+    "nombre": "Seal Beach",
+    "cartilla": "Millennium",
+    "hex": "#ababa2"
+  },
+  {
+    "codigo": "8645D",
+    "nombre": "Greylock",
+    "cartilla": "Millennium",
+    "hex": "#87877c"
+  },
+  {
+    "codigo": "8646N",
+    "nombre": "Blackened Beam",
+    "cartilla": "Millennium",
+    "hex": "#66645a"
+  },
+  {
+    "codigo": "8650W",
+    "nombre": "Paraffin",
+    "cartilla": "Millennium",
+    "hex": "#ebe8df"
+  },
+  {
+    "codigo": "8651W",
+    "nombre": "Canvasback",
+    "cartilla": "Millennium",
+    "hex": "#e0ded3"
+  },
+  {
+    "codigo": "8652W",
+    "nombre": "Whippoorwill",
+    "cartilla": "Millennium",
+    "hex": "#d5d2c5"
+  },
+  {
+    "codigo": "8653M",
+    "nombre": "Stone Lion",
+    "cartilla": "Millennium",
+    "hex": "#c5c1b3"
+  },
+  {
+    "codigo": "8654M",
+    "nombre": "Elkhorn Cactus",
+    "cartilla": "Millennium",
+    "hex": "#b3afa1"
+  },
+  {
+    "codigo": "8655D",
+    "nombre": "Pinedale",
+    "cartilla": "Millennium",
+    "hex": "#8e8b7c"
+  },
+  {
+    "codigo": "8656N",
+    "nombre": "Greek Olive",
+    "cartilla": "Millennium",
+    "hex": "#6d695c"
+  },
+  {
+    "codigo": "8660W",
+    "nombre": "Grecian Ivory",
+    "cartilla": "Millennium",
+    "hex": "#ebe8df"
+  },
+  {
+    "codigo": "8661W",
+    "nombre": "Light Almond",
+    "cartilla": "Millennium",
+    "hex": "#e0dbd1"
+  },
+  {
+    "codigo": "8662W",
+    "nombre": "Jogging Path",
+    "cartilla": "Millennium",
+    "hex": "#d6d1c7"
+  },
+  {
+    "codigo": "8663W",
+    "nombre": "Rugged Trail",
+    "cartilla": "Millennium",
+    "hex": "#cbc4b7"
+  },
+  {
+    "codigo": "8664M",
+    "nombre": "Backpack",
+    "cartilla": "Millennium",
+    "hex": "#b3ac9d"
+  },
+  {
+    "codigo": "8665D",
+    "nombre": "Gristmill",
+    "cartilla": "Millennium",
+    "hex": "#8f8878"
+  },
+  {
+    "codigo": "8666N",
+    "nombre": "Potting Shed",
+    "cartilla": "Millennium",
+    "hex": "#6c6658"
+  },
+  {
+    "codigo": "8670W",
+    "nombre": "Walrus Tusk",
+    "cartilla": "Millennium",
+    "hex": "#ebe5d9"
+  },
+  {
+    "codigo": "8671W",
+    "nombre": "Burbury Beige",
+    "cartilla": "Millennium",
+    "hex": "#e7e0d3"
+  },
+  {
+    "codigo": "8672W",
+    "nombre": "Tequila",
+    "cartilla": "Millennium",
+    "hex": "#ded6c7"
+  },
+  {
+    "codigo": "8673M",
+    "nombre": "Tavern Taupe",
+    "cartilla": "Millennium",
+    "hex": "#ccbfac"
+  },
+  {
+    "codigo": "8674M",
+    "nombre": "Muddy River",
+    "cartilla": "Millennium",
+    "hex": "#beb19c"
+  },
+  {
+    "codigo": "8675D",
+    "nombre": "Wooden Oar",
+    "cartilla": "Millennium",
+    "hex": "#9d8e77"
+  },
+  {
+    "codigo": "8676N",
+    "nombre": "Turned Earth",
+    "cartilla": "Millennium",
+    "hex": "#7c6e5c"
+  },
+  {
+    "codigo": "8680W",
+    "nombre": "Aria Ivory",
+    "cartilla": "Millennium",
+    "hex": "#ebe5dd"
+  },
+  {
+    "codigo": "8681W",
+    "nombre": "Artist's Canvas",
+    "cartilla": "Millennium",
+    "hex": "#e2dbd1"
+  },
+  {
+    "codigo": "8682W",
+    "nombre": "Estate Greige",
+    "cartilla": "Millennium",
+    "hex": "#dad1c4"
+  },
+  {
+    "codigo": "8683W",
+    "nombre": "Tinderbox",
+    "cartilla": "Millennium",
+    "hex": "#cec4b5"
+  },
+  {
+    "codigo": "8684M",
+    "nombre": "Oak Flats",
+    "cartilla": "Millennium",
+    "hex": "#baae9d"
+  },
+  {
+    "codigo": "8685D",
+    "nombre": "Woodlet",
+    "cartilla": "Millennium",
+    "hex": "#9a8b78"
+  },
+  {
+    "codigo": "8686N",
+    "nombre": "Northwest Trail",
+    "cartilla": "Millennium",
+    "hex": "#7c6e5c"
+  },
+  {
+    "codigo": "8690W",
+    "nombre": "Snow Ballet",
+    "cartilla": "Millennium",
+    "hex": "#eeede7"
+  },
+  {
+    "codigo": "8691W",
+    "nombre": "City Loft",
+    "cartilla": "Millennium",
+    "hex": "#e3ddd5"
+  },
+  {
+    "codigo": "8692W",
+    "nombre": "Bauhaus Buff",
+    "cartilla": "Millennium",
+    "hex": "#d9d1c5"
+  },
+  {
+    "codigo": "8693M",
+    "nombre": "Stucco Greige",
+    "cartilla": "Millennium",
+    "hex": "#c4bbae"
+  },
+  {
+    "codigo": "8694M",
+    "nombre": "Wood Cut",
+    "cartilla": "Millennium",
+    "hex": "#b5ab9d"
+  },
+  {
+    "codigo": "8695D",
+    "nombre": "Thatch Roof",
+    "cartilla": "Millennium",
+    "hex": "#958a79"
+  },
+  {
+    "codigo": "8696N",
+    "nombre": "Twisted Branch",
+    "cartilla": "Millennium",
+    "hex": "#74695d"
+  },
+  {
+    "codigo": "8700W",
+    "nombre": "Powdering Snow",
+    "cartilla": "Millennium",
+    "hex": "#f0ece7"
+  },
+  {
+    "codigo": "8701W",
+    "nombre": "Softly Chiming",
+    "cartilla": "Millennium",
+    "hex": "#e5e0d9"
+  },
+  {
+    "codigo": "8702W",
+    "nombre": "Beige Pediment",
+    "cartilla": "Millennium",
+    "hex": "#d5cec4"
+  },
+  {
+    "codigo": "8703M",
+    "nombre": "Rockbridge",
+    "cartilla": "Millennium",
+    "hex": "#ccc1b7"
+  },
+  {
+    "codigo": "8704D",
+    "nombre": "Stratford Brown",
+    "cartilla": "Millennium",
+    "hex": "#b5a99b"
+  },
+  {
+    "codigo": "8705D",
+    "nombre": "Barn Rafter",
+    "cartilla": "Millennium",
+    "hex": "#928478"
+  },
+  {
+    "codigo": "8706N",
+    "nombre": "Saddlebury",
+    "cartilla": "Millennium",
+    "hex": "#746960"
+  },
+  {
+    "codigo": "8710W",
+    "nombre": "Discovery",
+    "cartilla": "Millennium",
+    "hex": "#eae5df"
+  },
+  {
+    "codigo": "8711W",
+    "nombre": "Misty Mica",
+    "cartilla": "Millennium",
+    "hex": "#e2dbd1"
+  },
+  {
+    "codigo": "8712W",
+    "nombre": "Mushroom Basket",
+    "cartilla": "Millennium",
+    "hex": "#d9cdc1"
+  },
+  {
+    "codigo": "8713W",
+    "nombre": "Kindling Wood",
+    "cartilla": "Millennium",
+    "hex": "#cbbfb3"
+  },
+  {
+    "codigo": "8714M",
+    "nombre": "Wildcat",
+    "cartilla": "Millennium",
+    "hex": "#b6a99a"
+  },
+  {
+    "codigo": "8715D",
+    "nombre": "Moose Point",
+    "cartilla": "Millennium",
+    "hex": "#958676"
+  },
+  {
+    "codigo": "8716N",
+    "nombre": "Western Reserve",
+    "cartilla": "Millennium",
+    "hex": "#74675a"
+  },
+  {
+    "codigo": "8720W",
+    "nombre": "Pongee Tint",
+    "cartilla": "Millennium",
+    "hex": "#f0e6dd"
+  },
+  {
+    "codigo": "8721W",
+    "nombre": "Clay Beige",
+    "cartilla": "Millennium",
+    "hex": "#e7dacc"
+  },
+  {
+    "codigo": "8722W",
+    "nombre": "Desert Castle",
+    "cartilla": "Millennium",
+    "hex": "#e0d2c2"
+  },
+  {
+    "codigo": "8723M",
+    "nombre": "Desert Tumbleweed",
+    "cartilla": "Millennium",
+    "hex": "#d7c5b3"
+  },
+  {
+    "codigo": "8724M",
+    "nombre": "Meadowlark",
+    "cartilla": "Millennium",
+    "hex": "#c5b19c"
+  },
+  {
+    "codigo": "8725A",
+    "nombre": "Coach House",
+    "cartilla": "Millennium",
+    "hex": "#9c846f"
+  },
+  {
+    "codigo": "8726N",
+    "nombre": "Mocha Brown",
+    "cartilla": "Millennium",
+    "hex": "#806958"
+  },
+  {
+    "codigo": "8730W",
+    "nombre": "Loggia",
+    "cartilla": "Millennium",
+    "hex": "#f3e9e0"
+  },
+  {
+    "codigo": "8731W",
+    "nombre": "Staghorn",
+    "cartilla": "Millennium",
+    "hex": "#e4d4c7"
+  },
+  {
+    "codigo": "8732W",
+    "nombre": "Frontier Tan",
+    "cartilla": "Millennium",
+    "hex": "#d7c7b8"
+  },
+  {
+    "codigo": "8733M",
+    "nombre": "Walnut Wash",
+    "cartilla": "Millennium",
+    "hex": "#cab6a5"
+  },
+  {
+    "codigo": "8734M",
+    "nombre": "Bark Mulch",
+    "cartilla": "Millennium",
+    "hex": "#bba795"
+  },
+  {
+    "codigo": "8735D",
+    "nombre": "Wild Country",
+    "cartilla": "Millennium",
+    "hex": "#9e8773"
+  },
+  {
+    "codigo": "8736N",
+    "nombre": "Little Bighorn",
+    "cartilla": "Millennium",
+    "hex": "#856e5c"
+  },
+  {
+    "codigo": "8740W",
+    "nombre": "Barrister White",
+    "cartilla": "Millennium",
+    "hex": "#eee4db"
+  },
+  {
+    "codigo": "8741W",
+    "nombre": "Historic Tan",
+    "cartilla": "Millennium",
+    "hex": "#dfd1c7"
+  },
+  {
+    "codigo": "8742W",
+    "nombre": "Brickdust",
+    "cartilla": "Millennium",
+    "hex": "#d8c7ba"
+  },
+  {
+    "codigo": "8743M",
+    "nombre": "Polished Oak",
+    "cartilla": "Millennium",
+    "hex": "#c5b0a2"
+  },
+  {
+    "codigo": "8744D",
+    "nombre": "Sweetwood",
+    "cartilla": "Millennium",
+    "hex": "#b69e8f"
+  },
+  {
+    "codigo": "8745A",
+    "nombre": "Kayak Brown",
+    "cartilla": "Millennium",
+    "hex": "#997e6f"
+  },
+  {
+    "codigo": "8746N",
+    "nombre": "Timber Trail",
+    "cartilla": "Millennium",
+    "hex": "#745e51"
+  },
+  {
+    "codigo": "8750W",
+    "nombre": "Swiss Almond",
+    "cartilla": "Millennium",
+    "hex": "#ece4df"
+  },
+  {
+    "codigo": "8751W",
+    "nombre": "Alencon Lace",
+    "cartilla": "Millennium",
+    "hex": "#ded2c9"
+  },
+  {
+    "codigo": "8752W",
+    "nombre": "Stonehenge Shadow",
+    "cartilla": "Millennium",
+    "hex": "#d6cbc2"
+  },
+  {
+    "codigo": "8753M",
+    "nombre": "Cornico Beige",
+    "cartilla": "Millennium",
+    "hex": "#c4b4a9"
+  },
+  {
+    "codigo": "8754D",
+    "nombre": "Tomorrow's Taupe",
+    "cartilla": "Millennium",
+    "hex": "#b5a297"
+  },
+  {
+    "codigo": "8755A",
+    "nombre": "Spicenut",
+    "cartilla": "Millennium",
+    "hex": "#947f74"
+  },
+  {
+    "codigo": "8756N",
+    "nombre": "Cordwood",
+    "cartilla": "Millennium",
+    "hex": "#6f5f56"
+  },
+  {
+    "codigo": "8760W",
+    "nombre": "Gray Ashlar",
+    "cartilla": "Millennium",
+    "hex": "#e5e0d9"
+  },
+  {
+    "codigo": "8761W",
+    "nombre": "Kennet Square",
+    "cartilla": "Millennium",
+    "hex": "#dfd7d1"
+  },
+  {
+    "codigo": "8762W",
+    "nombre": "Touchstone",
+    "cartilla": "Millennium",
+    "hex": "#d3cbc5"
+  },
+  {
+    "codigo": "8763M",
+    "nombre": "Pewter Works",
+    "cartilla": "Millennium",
+    "hex": "#beb6ae"
+  },
+  {
+    "codigo": "8764M",
+    "nombre": "Lava Rock",
+    "cartilla": "Millennium",
+    "hex": "#afa69d"
+  },
+  {
+    "codigo": "8765D",
+    "nombre": "Beaver Creek",
+    "cartilla": "Millennium",
+    "hex": "#867d75"
+  },
+  {
+    "codigo": "8766N",
+    "nombre": "Caribou",
+    "cartilla": "Millennium",
+    "hex": "#72675e"
+  },
+  {
+    "codigo": "8770W",
+    "nombre": "Silver Slipper",
+    "cartilla": "Millennium",
+    "hex": "#e5e6e4"
+  },
+  {
+    "codigo": "8771W",
+    "nombre": "Silver Shimmer",
+    "cartilla": "Millennium",
+    "hex": "#dbd8d5"
+  },
+  {
+    "codigo": "8772W",
+    "nombre": "Siberian Ice",
+    "cartilla": "Millennium",
+    "hex": "#cdcccb"
+  },
+  {
+    "codigo": "8773M",
+    "nombre": "Dauphin Gray",
+    "cartilla": "Millennium",
+    "hex": "#bab6b2"
+  },
+  {
+    "codigo": "8774M",
+    "nombre": "Tankard",
+    "cartilla": "Millennium",
+    "hex": "#a5a29d"
+  },
+  {
+    "codigo": "8775D",
+    "nombre": "Metal Shavings",
+    "cartilla": "Millennium",
+    "hex": "#84807a"
+  },
+  {
+    "codigo": "8776N",
+    "nombre": "Blacksmith",
+    "cartilla": "Millennium",
+    "hex": "#66615d"
+  },
+  {
+    "codigo": "8780W",
+    "nombre": "Crystal Ball",
+    "cartilla": "Millennium",
+    "hex": "#eae7e4"
+  },
+  {
+    "codigo": "8781W",
+    "nombre": "Silver Chime",
+    "cartilla": "Millennium",
+    "hex": "#dcdcdc"
+  },
+  {
+    "codigo": "8782W",
+    "nombre": "Sterling Coin",
+    "cartilla": "Millennium",
+    "hex": "#d2d1d0"
+  },
+  {
+    "codigo": "8783M",
+    "nombre": "Stonewall",
+    "cartilla": "Millennium",
+    "hex": "#b6b7b5"
+  },
+  {
+    "codigo": "8784D",
+    "nombre": "Blackthorn",
+    "cartilla": "Millennium",
+    "hex": "#9e9e9a"
+  },
+  {
+    "codigo": "8785A",
+    "nombre": "Iron Horse",
+    "cartilla": "Millennium",
+    "hex": "#797976"
+  },
+  {
+    "codigo": "8786N",
+    "nombre": "Black Finish",
+    "cartilla": "Millennium",
+    "hex": "#555452"
+  },
+  {
+    "codigo": "8790W",
+    "nombre": "Intercoastal Gray",
+    "cartilla": "Millennium",
+    "hex": "#e4e0db"
+  },
+  {
+    "codigo": "8791W",
+    "nombre": "Gray Pennant",
+    "cartilla": "Millennium",
+    "hex": "#d4d3d2"
+  },
+  {
+    "codigo": "8792W",
+    "nombre": "Monorail Silver",
+    "cartilla": "Millennium",
+    "hex": "#c8c7c6"
+  },
+  {
+    "codigo": "8793M",
+    "nombre": "Grey Cliff",
+    "cartilla": "Millennium",
+    "hex": "#b2aead"
+  },
+  {
+    "codigo": "8794M",
+    "nombre": "Fired Steel",
+    "cartilla": "Millennium",
+    "hex": "#9e9d9c"
+  },
+  {
+    "codigo": "8795D",
+    "nombre": "Magnet",
+    "cartilla": "Millennium",
+    "hex": "#7a7977"
+  },
+  {
+    "codigo": "8796N",
+    "nombre": "Black Metal",
+    "cartilla": "Millennium",
+    "hex": "#5a5855"
+  },
+  {
+    "codigo": "8800W",
+    "nombre": "Portico",
+    "cartilla": "Millennium",
+    "hex": "#e1e0df"
+  },
+  {
+    "codigo": "8801W",
+    "nombre": "Studio Gray",
+    "cartilla": "Millennium",
+    "hex": "#d4d3d2"
+  },
+  {
+    "codigo": "8802W",
+    "nombre": "Threshold Gray",
+    "cartilla": "Millennium",
+    "hex": "#c9c7c4"
+  },
+  {
+    "codigo": "8803M",
+    "nombre": "Olde Fashion",
+    "cartilla": "Millennium",
+    "hex": "#b6b3b0"
+  },
+  {
+    "codigo": "8804M",
+    "nombre": "Pavestone",
+    "cartilla": "Millennium",
+    "hex": "#a4a29f"
+  },
+  {
+    "codigo": "8805D",
+    "nombre": "Stonington",
+    "cartilla": "Millennium",
+    "hex": "#837e7a"
+  },
+  {
+    "codigo": "8806N",
+    "nombre": "Tudor House",
+    "cartilla": "Millennium",
+    "hex": "#635e5a"
+  },
+  {
+    "codigo": "8810W",
+    "nombre": "Silver Seed",
+    "cartilla": "Millennium",
+    "hex": "#e3e0df"
+  },
+  {
+    "codigo": "8811W",
+    "nombre": "Daytona Gray",
+    "cartilla": "Millennium",
+    "hex": "#dcd5d1"
+  },
+  {
+    "codigo": "8812W",
+    "nombre": "Deville",
+    "cartilla": "Millennium",
+    "hex": "#d0cbc9"
+  },
+  {
+    "codigo": "8813W",
+    "nombre": "Stone Cistern",
+    "cartilla": "Millennium",
+    "hex": "#c2bab6"
+  },
+  {
+    "codigo": "8814M",
+    "nombre": "Brindel",
+    "cartilla": "Millennium",
+    "hex": "#a69f9d"
+  },
+  {
+    "codigo": "8815D",
+    "nombre": "Cultivated Fields",
+    "cartilla": "Millennium",
+    "hex": "#877c78"
+  },
+  {
+    "codigo": "8816N",
+    "nombre": "Burnt Hickory",
+    "cartilla": "Millennium",
+    "hex": "#6c615d"
+  },
+  {
+    "codigo": "8820W",
+    "nombre": "Cassis Ice",
+    "cartilla": "Millennium",
+    "hex": "#e7dfd9"
+  },
+  {
+    "codigo": "8821W",
+    "nombre": "Mogul Mauve",
+    "cartilla": "Millennium",
+    "hex": "#ded5d0"
+  },
+  {
+    "codigo": "8822W",
+    "nombre": "Smoked Glass",
+    "cartilla": "Millennium",
+    "hex": "#cfc6c1"
+  },
+  {
+    "codigo": "8823W",
+    "nombre": "Warm Shadows",
+    "cartilla": "Millennium",
+    "hex": "#c3b6b0"
+  },
+  {
+    "codigo": "8824M",
+    "nombre": "Stone Freize",
+    "cartilla": "Millennium",
+    "hex": "#ab9e98"
+  },
+  {
+    "codigo": "8825D",
+    "nombre": "Jacaranda Brown",
+    "cartilla": "Millennium",
+    "hex": "#887972"
+  },
+  {
+    "codigo": "8826N",
+    "nombre": "Manganese",
+    "cartilla": "Millennium",
+    "hex": "#72635d"
+  },
+  {
+    "codigo": "8830W",
+    "nombre": "Post Modern White",
+    "cartilla": "Millennium",
+    "hex": "#e3dcda"
+  },
+  {
+    "codigo": "8831W",
+    "nombre": "Bohemian Tint",
+    "cartilla": "Millennium",
+    "hex": "#dcd1ce"
+  },
+  {
+    "codigo": "8832W",
+    "nombre": "Hourglass",
+    "cartilla": "Millennium",
+    "hex": "#d2c5c2"
+  },
+  {
+    "codigo": "8833M",
+    "nombre": "Canberra",
+    "cartilla": "Millennium",
+    "hex": "#bfaeab"
+  },
+  {
+    "codigo": "8834M",
+    "nombre": "Faux Marble",
+    "cartilla": "Millennium",
+    "hex": "#ae9d98"
+  },
+  {
+    "codigo": "8835D",
+    "nombre": "Pawnee",
+    "cartilla": "Millennium",
+    "hex": "#8d7773"
+  },
+  {
+    "codigo": "8836A",
+    "nombre": "Wagon Wheel",
+    "cartilla": "Millennium",
+    "hex": "#796762"
+  },
+  {
+    "codigo": "8840W",
+    "nombre": "Rosevale",
+    "cartilla": "Millennium",
+    "hex": "#e9e1df"
+  },
+  {
+    "codigo": "8841W",
+    "nombre": "Sugar Blush",
+    "cartilla": "Millennium",
+    "hex": "#ded0ce"
+  },
+  {
+    "codigo": "8842W",
+    "nombre": "Retro Rose",
+    "cartilla": "Millennium",
+    "hex": "#d4c4c2"
+  },
+  {
+    "codigo": "8843M",
+    "nombre": "Shallow Root",
+    "cartilla": "Millennium",
+    "hex": "#beaba8"
+  },
+  {
+    "codigo": "8844M",
+    "nombre": "Brown Bark",
+    "cartilla": "Millennium",
+    "hex": "#af9996"
+  },
+  {
+    "codigo": "8845D",
+    "nombre": "Colony Brick",
+    "cartilla": "Millennium",
+    "hex": "#8e7773"
+  },
+  {
+    "codigo": "8846N",
+    "nombre": "Bernard Brown",
+    "cartilla": "Millennium",
+    "hex": "#735d56"
+  },
+  {
+    "codigo": "8850W",
+    "nombre": "Blackberry Ice",
+    "cartilla": "Millennium",
+    "hex": "#e2dcdc"
+  },
+  {
+    "codigo": "8851W",
+    "nombre": "Motif Mauve",
+    "cartilla": "Millennium",
+    "hex": "#d9d1d3"
+  },
+  {
+    "codigo": "8852W",
+    "nombre": "Medieval Mauve",
+    "cartilla": "Millennium",
+    "hex": "#cfc5c7"
+  },
+  {
+    "codigo": "8853M",
+    "nombre": "Grey Heather",
+    "cartilla": "Millennium",
+    "hex": "#baa8a7"
+  },
+  {
+    "codigo": "8854M",
+    "nombre": "Drifting Spirit",
+    "cartilla": "Millennium",
+    "hex": "#a59596"
+  },
+  {
+    "codigo": "8855D",
+    "nombre": "Cranbrook",
+    "cartilla": "Millennium",
+    "hex": "#867373"
+  },
+  {
+    "codigo": "8856N",
+    "nombre": "Badlands",
+    "cartilla": "Millennium",
+    "hex": "#6f5e5a"
+  },
+  {
+    "codigo": "8860W",
+    "nombre": "Silver Mink",
+    "cartilla": "Millennium",
+    "hex": "#ebe7e6"
+  },
+  {
+    "codigo": "8861W",
+    "nombre": "Icon Gray",
+    "cartilla": "Millennium",
+    "hex": "#dfdddd"
+  },
+  {
+    "codigo": "8862W",
+    "nombre": "Cliffside",
+    "cartilla": "Millennium",
+    "hex": "#d7d2d3"
+  },
+  {
+    "codigo": "8863M",
+    "nombre": "Gray Archive",
+    "cartilla": "Millennium",
+    "hex": "#b4adaf"
+  },
+  {
+    "codigo": "8864D",
+    "nombre": "Philosophical Gray",
+    "cartilla": "Millennium",
+    "hex": "#a19a9c"
+  },
+  {
+    "codigo": "8865D",
+    "nombre": "Zodiac Gray",
+    "cartilla": "Millennium",
+    "hex": "#90898b"
+  },
+  {
+    "codigo": "8866A",
+    "nombre": "Curtain Call",
+    "cartilla": "Millennium",
+    "hex": "#756e70"
+  },
+  {
+    "codigo": "8870W",
+    "nombre": "Fanlight",
+    "cartilla": "Millennium",
+    "hex": "#eeeced"
+  },
+  {
+    "codigo": "8871W",
+    "nombre": "Classical Mauve",
+    "cartilla": "Millennium",
+    "hex": "#e0d6d8"
+  },
+  {
+    "codigo": "8872W",
+    "nombre": "Mauvedust",
+    "cartilla": "Millennium",
+    "hex": "#d5c6c9"
+  },
+  {
+    "codigo": "8873M",
+    "nombre": "Sassy Mauve",
+    "cartilla": "Millennium",
+    "hex": "#c1afb2"
+  },
+  {
+    "codigo": "8874M",
+    "nombre": "Plum Illusion",
+    "cartilla": "Millennium",
+    "hex": "#b5a0a5"
+  },
+  {
+    "codigo": "8875D",
+    "nombre": "Pigeon Isle",
+    "cartilla": "Millennium",
+    "hex": "#8f797c"
+  },
+  {
+    "codigo": "8876N",
+    "nombre": "Spiced Plum",
+    "cartilla": "Millennium",
+    "hex": "#725d5c"
+  },
+  {
+    "codigo": "8880W",
+    "nombre": "Bashful",
+    "cartilla": "Millennium",
+    "hex": "#e9dedf"
+  },
+  {
+    "codigo": "8881W",
+    "nombre": "Charlotte Rose",
+    "cartilla": "Millennium",
+    "hex": "#e0d2d5"
+  },
+  {
+    "codigo": "8882W",
+    "nombre": "Mauvelous",
+    "cartilla": "Millennium",
+    "hex": "#dcc9ce"
+  },
+  {
+    "codigo": "8883M",
+    "nombre": "Country Berry",
+    "cartilla": "Millennium",
+    "hex": "#c6adb4"
+  },
+  {
+    "codigo": "8884M",
+    "nombre": "Moonstone Mauve",
+    "cartilla": "Millennium",
+    "hex": "#b19aa5"
+  },
+  {
+    "codigo": "8885D",
+    "nombre": "Velvet Maroon",
+    "cartilla": "Millennium",
+    "hex": "#95777a"
+  },
+  {
+    "codigo": "8886N",
+    "nombre": "Best Burgundy",
+    "cartilla": "Millennium",
+    "hex": "#735958"
+  },
+  {
+    "codigo": "8890W",
+    "nombre": "Angel Flutter",
+    "cartilla": "Millennium",
+    "hex": "#e8e0e2"
+  },
+  {
+    "codigo": "8891W",
+    "nombre": "Pinkish Plum",
+    "cartilla": "Millennium",
+    "hex": "#dfd6da"
+  },
+  {
+    "codigo": "8892W",
+    "nombre": "Heather Ashes",
+    "cartilla": "Millennium",
+    "hex": "#d5c9ce"
+  },
+  {
+    "codigo": "8893M",
+    "nombre": "Mauve Silk",
+    "cartilla": "Millennium",
+    "hex": "#c4b4ba"
+  },
+  {
+    "codigo": "8894M",
+    "nombre": "Smoked Mauve",
+    "cartilla": "Millennium",
+    "hex": "#b0a1a8"
+  },
+  {
+    "codigo": "8895D",
+    "nombre": "Aged Plum",
+    "cartilla": "Millennium",
+    "hex": "#8d7c82"
+  },
+  {
+    "codigo": "8896N",
+    "nombre": "Black Bordeaux",
+    "cartilla": "Millennium",
+    "hex": "#6f5f64"
+  },
+  {
+    "codigo": "8900W",
+    "nombre": "Lavender Bouquet",
+    "cartilla": "Millennium",
+    "hex": "#eae6e9"
+  },
+  {
+    "codigo": "8901W",
+    "nombre": "Lavender Design",
+    "cartilla": "Millennium",
+    "hex": "#ded5dd"
+  },
+  {
+    "codigo": "8902W",
+    "nombre": "Secret Lilac",
+    "cartilla": "Millennium",
+    "hex": "#d3c9d3"
+  },
+  {
+    "codigo": "8903W",
+    "nombre": "Violet Villa",
+    "cartilla": "Millennium",
+    "hex": "#c5b9c6"
+  },
+  {
+    "codigo": "8904M",
+    "nombre": "Lilac Memento",
+    "cartilla": "Millennium",
+    "hex": "#afa3b1"
+  },
+  {
+    "codigo": "8905D",
+    "nombre": "Glorious Plum",
+    "cartilla": "Millennium",
+    "hex": "#8c7e8d"
+  },
+  {
+    "codigo": "8906N",
+    "nombre": "Purple Honor",
+    "cartilla": "Millennium",
+    "hex": "#675b65"
+  },
+  {
+    "codigo": "8910W",
+    "nombre": "Etude Lilac",
+    "cartilla": "Millennium",
+    "hex": "#e4e1e6"
+  },
+  {
+    "codigo": "8911W",
+    "nombre": "Pale Thistle",
+    "cartilla": "Millennium",
+    "hex": "#d9d7dd"
+  },
+  {
+    "codigo": "8912W",
+    "nombre": "Pale Amethyst",
+    "cartilla": "Millennium",
+    "hex": "#cccdd7"
+  },
+  {
+    "codigo": "8913W",
+    "nombre": "Vogue Violet",
+    "cartilla": "Millennium",
+    "hex": "#c3beca"
+  },
+  {
+    "codigo": "8914M",
+    "nombre": "Grape Harvest",
+    "cartilla": "Millennium",
+    "hex": "#aba3b4"
+  },
+  {
+    "codigo": "8915D",
+    "nombre": "Crushed Violets",
+    "cartilla": "Millennium",
+    "hex": "#867c8d"
+  },
+  {
+    "codigo": "8916N",
+    "nombre": "Purple Vignette",
+    "cartilla": "Millennium",
+    "hex": "#68606e"
+  },
+  {
+    "codigo": "AC073N",
+    "nombre": "Purple Spectacle",
+    "cartilla": "Millennium",
+    "hex": "#60547a"
+  },
+  {
+    "codigo": "AC074N",
+    "nombre": "Nocturne",
+    "cartilla": "Millennium",
+    "hex": "#505076"
+  },
+  {
+    "codigo": "AC075N",
+    "nombre": "Galaxy Blue",
+    "cartilla": "Millennium",
+    "hex": "#454c6e"
+  },
+  {
+    "codigo": "AC076N",
+    "nombre": "Harbour Blue",
+    "cartilla": "Millennium",
+    "hex": "#325587"
+  },
+  {
+    "codigo": "AC077N",
+    "nombre": "Rendevous Blue",
+    "cartilla": "Millennium",
+    "hex": "#394c75"
+  },
+  {
+    "codigo": "AC078N",
+    "nombre": "Dark Batik",
+    "cartilla": "Millennium",
+    "hex": "#445271"
+  },
+  {
+    "codigo": "AC079N",
+    "nombre": "Blue Brilliance",
+    "cartilla": "Millennium",
+    "hex": "#0072b3"
+  },
+  {
+    "codigo": "AC080N",
+    "nombre": "Delphinium",
+    "cartilla": "Millennium",
+    "hex": "#266094"
+  },
+  {
+    "codigo": "AC081N",
+    "nombre": "Ship's Ahoy",
+    "cartilla": "Millennium",
+    "hex": "#205785"
+  },
+  {
+    "codigo": "AC082N",
+    "nombre": "Coastal Shores",
+    "cartilla": "Millennium",
+    "hex": "#006ca2"
+  },
+  {
+    "codigo": "AC083N",
+    "nombre": "Incan Sapphire",
+    "cartilla": "Millennium",
+    "hex": "#2f5c87"
+  },
+  {
+    "codigo": "AC084N",
+    "nombre": "Night Navy",
+    "cartilla": "Millennium",
+    "hex": "#465772"
+  },
+  {
+    "codigo": "AC085N",
+    "nombre": "Tropical Surf",
+    "cartilla": "Millennium",
+    "hex": "#5678a3"
+  },
+  {
+    "codigo": "AC086N",
+    "nombre": "Teal Edge",
+    "cartilla": "Millennium",
+    "hex": "#006a7d"
+  },
+  {
+    "codigo": "AC087N",
+    "nombre": "Architectural Teal",
+    "cartilla": "Millennium",
+    "hex": "#2a677b"
+  },
+  {
+    "codigo": "AC088N",
+    "nombre": "Ocean Reef",
+    "cartilla": "Millennium",
+    "hex": "#008883"
+  },
+  {
+    "codigo": "AC089N",
+    "nombre": "Green Luster",
+    "cartilla": "Millennium",
+    "hex": "#007c72"
+  },
+  {
+    "codigo": "AC090N",
+    "nombre": "Rainforest Teal",
+    "cartilla": "Millennium",
+    "hex": "#216469"
+  },
+  {
+    "codigo": "AC091N",
+    "nombre": "Earthbound Green",
+    "cartilla": "Millennium",
+    "hex": "#445c5b"
+  },
+  {
+    "codigo": "AC092N",
+    "nombre": "Strong Hunter",
+    "cartilla": "Millennium",
+    "hex": "#3a5e5a"
+  },
+  {
+    "codigo": "AC093N",
+    "nombre": "Alligator",
+    "cartilla": "Millennium",
+    "hex": "#425455"
+  },
+  {
+    "codigo": "AC094N",
+    "nombre": "Holiday Green",
+    "cartilla": "Millennium",
+    "hex": "#366360"
+  },
+  {
+    "codigo": "AC095N",
+    "nombre": "Green Ideal",
+    "cartilla": "Millennium",
+    "hex": "#00846f"
+  },
+  {
+    "codigo": "AC096N",
+    "nombre": "Golfing Green",
+    "cartilla": "Millennium",
+    "hex": "#1d866b"
+  },
+  {
+    "codigo": "AC097N",
+    "nombre": "Kryptonite",
+    "cartilla": "Millennium",
+    "hex": "#509859"
+  },
+  {
+    "codigo": "AC098N",
+    "nombre": "Java Green",
+    "cartilla": "Millennium",
+    "hex": "#009f5e"
+  },
+  {
+    "codigo": "AC099N",
+    "nombre": "Dragonfly",
+    "cartilla": "Millennium",
+    "hex": "#2a9868"
+  },
+  {
+    "codigo": "AC100N",
+    "nombre": "Emeraude",
+    "cartilla": "Millennium",
+    "hex": "#2b7e5e"
+  },
+  {
+    "codigo": "AC101N",
+    "nombre": "New Meadow",
+    "cartilla": "Millennium",
+    "hex": "#487459"
+  },
+  {
+    "codigo": "AC102N",
+    "nombre": "Raintree",
+    "cartilla": "Millennium",
+    "hex": "#3d675a"
+  },
+  {
+    "codigo": "AC103Y",
+    "nombre": "Sun Coast",
+    "cartilla": "Millennium",
+    "hex": "#ffcf1e"
+  },
+  {
+    "codigo": "AC104Y",
+    "nombre": "Southern Phoenix",
+    "cartilla": "Millennium",
+    "hex": "#f5bf2f"
+  },
+  {
+    "codigo": "AC105Y",
+    "nombre": "Sunbury",
+    "cartilla": "Millennium",
+    "hex": "#ffdc00"
+  },
+  {
+    "codigo": "AC106Y",
+    "nombre": "El Sol",
+    "cartilla": "Millennium",
+    "hex": "#ffbc26"
+  },
+  {
+    "codigo": "AC107Y",
+    "nombre": "Orange Fiesta",
+    "cartilla": "Millennium",
+    "hex": "#ffa03f"
+  },
+  {
+    "codigo": "AC108Y",
+    "nombre": "Serengeti Sun",
+    "cartilla": "Millennium",
+    "hex": "#f2824f"
+  },
+  {
+    "codigo": "AC109Y",
+    "nombre": "Mandarin Melody",
+    "cartilla": "Millennium",
+    "hex": "#ee735a"
+  },
+  {
+    "codigo": "AC110N",
+    "nombre": "Fireking Red",
+    "cartilla": "Millennium",
+    "hex": "#d7504f"
+  },
+  {
+    "codigo": "AC111R",
+    "nombre": "Arresting Red",
+    "cartilla": "Millennium",
+    "hex": "#d1424e"
+  },
+  {
+    "codigo": "AC112N",
+    "nombre": "Firebush",
+    "cartilla": "Millennium",
+    "hex": "#cc685a"
+  },
+  {
+    "codigo": "AC113N",
+    "nombre": "Spiced Rum",
+    "cartilla": "Millennium",
+    "hex": "#a85c51"
+  },
+  {
+    "codigo": "AC114N",
+    "nombre": "Robust Red",
+    "cartilla": "Millennium",
+    "hex": "#7d4e4d"
+  },
+  {
+    "codigo": "AC115N",
+    "nombre": "Tomatillo",
+    "cartilla": "Millennium",
+    "hex": "#af5558"
+  },
+  {
+    "codigo": "AC116N",
+    "nombre": "Roasted Pepper",
+    "cartilla": "Millennium",
+    "hex": "#9e4c4e"
+  },
+  {
+    "codigo": "AC117N",
+    "nombre": "French Red",
+    "cartilla": "Millennium",
+    "hex": "#8b5357"
+  },
+  {
+    "codigo": "AC118R",
+    "nombre": "Red Alert",
+    "cartilla": "Millennium",
+    "hex": "#c63b47"
+  },
+  {
+    "codigo": "AC119R",
+    "nombre": "Sizzling Haute",
+    "cartilla": "Millennium",
+    "hex": "#b43b44"
+  },
+  {
+    "codigo": "AC120R",
+    "nombre": "Wright Red",
+    "cartilla": "Millennium",
+    "hex": "#c24056"
+  },
+  {
+    "codigo": "AC121R",
+    "nombre": "Ruby Red",
+    "cartilla": "Millennium",
+    "hex": "#bc475a"
+  },
+  {
+    "codigo": "AC122N",
+    "nombre": "Watermelon Crush",
+    "cartilla": "Millennium",
+    "hex": "#b64b69"
+  },
+  {
+    "codigo": "AC123N",
+    "nombre": "Velvet Rose",
+    "cartilla": "Millennium",
+    "hex": "#a03c56"
+  },
+  {
+    "codigo": "AC124N",
+    "nombre": "Shocking Fuschia",
+    "cartilla": "Millennium",
+    "hex": "#b74c78"
+  },
+  {
+    "codigo": "AC125N",
+    "nombre": "Berry Inspiration",
+    "cartilla": "Millennium",
+    "hex": "#af456d"
+  },
+  {
+    "codigo": "AC126N",
+    "nombre": "New Berry",
+    "cartilla": "Millennium",
+    "hex": "#a4506b"
+  },
+  {
+    "codigo": "AC127N",
+    "nombre": "Cherry Rose",
+    "cartilla": "Millennium",
+    "hex": "#94515e"
+  },
+  {
+    "codigo": "AC128N",
+    "nombre": "Rich Burgundy",
+    "cartilla": "Millennium",
+    "hex": "#894c59"
+  },
+  {
+    "codigo": "AC129N",
+    "nombre": "Pompadour",
+    "cartilla": "Millennium",
+    "hex": "#784e5a"
+  },
+  {
+    "codigo": "AC130N",
+    "nombre": "Rose Bouquet",
+    "cartilla": "Millennium",
+    "hex": "#90506e"
+  },
+  {
+    "codigo": "AC131N",
+    "nombre": "Cassis",
+    "cartilla": "Millennium",
+    "hex": "#844f70"
+  },
+  {
+    "codigo": "AC132N",
+    "nombre": "Purple Opulence",
+    "cartilla": "Millennium",
+    "hex": "#7f566e"
+  },
+  {
+    "codigo": "AC133N",
+    "nombre": "Royal Crest",
+    "cartilla": "Millennium",
+    "hex": "#855a85"
+  },
+  {
+    "codigo": "AC134N",
+    "nombre": "Wild Lilac",
+    "cartilla": "Millennium",
+    "hex": "#7e5e83"
+  },
+  {
+    "codigo": "AC135N",
+    "nombre": "Purple Elegance",
+    "cartilla": "Millennium",
+    "hex": "#6d4d66"
+  },
+  {
+    "codigo": "AC136N",
+    "nombre": "Regal Purple",
+    "cartilla": "Millennium",
+    "hex": "#624f60"
+  },
+  {
+    "codigo": "AC137N",
+    "nombre": "Plumberry",
+    "cartilla": "Millennium",
+    "hex": "#684e59"
+  },
+  {
+    "codigo": "AC138N",
+    "nombre": "Plummit",
+    "cartilla": "Millennium",
+    "hex": "#5e4c56"
+  },
+  {
+    "codigo": "AC139N",
+    "nombre": "Aubergine",
+    "cartilla": "Millennium",
+    "hex": "#594c52"
+  },
+  {
+    "codigo": "AC140N",
+    "nombre": "Mission Brown",
+    "cartilla": "Millennium",
+    "hex": "#5a5251"
+  },
+  {
+    "codigo": "AC141N",
+    "nombre": "Domino",
+    "cartilla": "Millennium",
+    "hex": "#464b4d"
+  },
+  {
+    "codigo": "AC142N",
+    "nombre": "Purple Jazz",
+    "cartilla": "Millennium",
+    "hex": "#4c4a5d"
+  },
+  {
+    "codigo": "AC143N",
+    "nombre": "Night Mission",
+    "cartilla": "Millennium",
+    "hex": "#444b61"
+  },
+  {
+    "codigo": "AC144N",
+    "nombre": "Black Deco",
+    "cartilla": "Millennium",
+    "hex": "#4a4a4a"
+  },
+  {
+    "codigo": "7480W",
+    "nombre": "Demure",
+    "cartilla": "Millennium",
+    "hex": "#e7e5f0"
+  },
+  {
+    "codigo": "7481W",
+    "nombre": "Violet Dust",
+    "cartilla": "Millennium",
+    "hex": "#e2dae8"
+  },
+  {
+    "codigo": "7482W",
+    "nombre": "Early Purple",
+    "cartilla": "Millennium",
+    "hex": "#d8cfe3"
+  },
+  {
+    "codigo": "7483M",
+    "nombre": "Violet Petal",
+    "cartilla": "Millennium",
+    "hex": "#c7b6d3"
+  },
+  {
+    "codigo": "7484M",
+    "nombre": "Wild Iris",
+    "cartilla": "Millennium",
+    "hex": "#b29ec1"
+  },
+  {
+    "codigo": "7485D",
+    "nombre": "Violet Bouquet",
+    "cartilla": "Millennium",
+    "hex": "#9381a9"
+  },
+  {
+    "codigo": "7486N",
+    "nombre": "Prophetic Purple",
+    "cartilla": "Millennium",
+    "hex": "#726081"
+  },
+  {
+    "codigo": "7490W",
+    "nombre": "Faded Lilac",
+    "cartilla": "Millennium",
+    "hex": "#e6e3f0"
+  },
+  {
+    "codigo": "7491W",
+    "nombre": "Lilac Lace",
+    "cartilla": "Millennium",
+    "hex": "#ddd8e9"
+  },
+  {
+    "codigo": "7492W",
+    "nombre": "Lilac Sachet",
+    "cartilla": "Millennium",
+    "hex": "#d2cbe1"
+  },
+  {
+    "codigo": "7493M",
+    "nombre": "Pastoral Purple",
+    "cartilla": "Millennium",
+    "hex": "#bfb8d8"
+  },
+  {
+    "codigo": "7494M",
+    "nombre": "Monet's Purple",
+    "cartilla": "Millennium",
+    "hex": "#aba6cb"
+  },
+  {
+    "codigo": "7495D",
+    "nombre": "Princely Purple",
+    "cartilla": "Millennium",
+    "hex": "#8885b4"
+  },
+  {
+    "codigo": "7496N",
+    "nombre": "Ruling Royalty",
+    "cartilla": "Millennium",
+    "hex": "#615b83"
+  },
+  {
+    "codigo": "7500W",
+    "nombre": "Light Lilac",
+    "cartilla": "Millennium",
+    "hex": "#e5e4ee"
+  },
+  {
+    "codigo": "7501W",
+    "nombre": "Violet Charm",
+    "cartilla": "Millennium",
+    "hex": "#dddbe9"
+  },
+  {
+    "codigo": "7502W",
+    "nombre": "Lyric Iris",
+    "cartilla": "Millennium",
+    "hex": "#d1cee2"
+  },
+  {
+    "codigo": "7503M",
+    "nombre": "Purple Aster",
+    "cartilla": "Millennium",
+    "hex": "#beb9d5"
+  },
+  {
+    "codigo": "7504M",
+    "nombre": "Sparkling Grape",
+    "cartilla": "Millennium",
+    "hex": "#a5a7cd"
+  },
+  {
+    "codigo": "7505D",
+    "nombre": "Night Shade",
+    "cartilla": "Millennium",
+    "hex": "#8484b4"
+  },
+  {
+    "codigo": "7506N",
+    "nombre": "Deep Purple",
+    "cartilla": "Millennium",
+    "hex": "#5b5c84"
+  },
+  {
+    "codigo": "7510W",
+    "nombre": "Snowlight",
+    "cartilla": "Millennium",
+    "hex": "#e3e7f0"
+  },
+  {
+    "codigo": "7511W",
+    "nombre": "Pastel Periwinkle",
+    "cartilla": "Millennium",
+    "hex": "#d4dbeb"
+  },
+  {
+    "codigo": "7512W",
+    "nombre": "Periwinkle Promise",
+    "cartilla": "Millennium",
+    "hex": "#c4cae4"
+  },
+  {
+    "codigo": "7513W",
+    "nombre": "Autumn Blue",
+    "cartilla": "Millennium",
+    "hex": "#b1bfe0"
+  },
+  {
+    "codigo": "7514M",
+    "nombre": "Sedona Shadow",
+    "cartilla": "Millennium",
+    "hex": "#95a4ce"
+  },
+  {
+    "codigo": "7515D",
+    "nombre": "Mysteria",
+    "cartilla": "Millennium",
+    "hex": "#7e8dbc"
+  },
+  {
+    "codigo": "7516N",
+    "nombre": "Pharaoh's Blue",
+    "cartilla": "Millennium",
+    "hex": "#55618f"
+  },
+  {
+    "codigo": "7520W",
+    "nombre": "Blue Dash",
+    "cartilla": "Millennium",
+    "hex": "#e5ebf0"
+  },
+  {
+    "codigo": "7521W",
+    "nombre": "River Run Blue",
+    "cartilla": "Millennium",
+    "hex": "#d0dceb"
+  },
+  {
+    "codigo": "7522W",
+    "nombre": "Fantasia Blue",
+    "cartilla": "Millennium",
+    "hex": "#c2d2e7"
+  },
+  {
+    "codigo": "7523M",
+    "nombre": "Blue Hills",
+    "cartilla": "Millennium",
+    "hex": "#a5bbdd"
+  },
+  {
+    "codigo": "7524M",
+    "nombre": "Wonder Blue",
+    "cartilla": "Millennium",
+    "hex": "#93a9cf"
+  },
+  {
+    "codigo": "7525D",
+    "nombre": "Diva Blue",
+    "cartilla": "Millennium",
+    "hex": "#6a89b7"
+  },
+  {
+    "codigo": "7526N",
+    "nombre": "Enchanted Blue",
+    "cartilla": "Millennium",
+    "hex": "#475a81"
+  },
+  {
+    "codigo": "7530W",
+    "nombre": "Frosted Glass",
+    "cartilla": "Millennium",
+    "hex": "#dee8f2"
+  },
+  {
+    "codigo": "7531W",
+    "nombre": "Milano Blue",
+    "cartilla": "Millennium",
+    "hex": "#cbd9e9"
+  },
+  {
+    "codigo": "7532W",
+    "nombre": "Botticelli Blue",
+    "cartilla": "Millennium",
+    "hex": "#bacfe7"
+  },
+  {
+    "codigo": "7533M",
+    "nombre": "Magic Blue",
+    "cartilla": "Millennium",
+    "hex": "#a5c4e4"
+  },
+  {
+    "codigo": "7534M",
+    "nombre": "Toscana Blue",
+    "cartilla": "Millennium",
+    "hex": "#7faed9"
+  },
+  {
+    "codigo": "7535D",
+    "nombre": "Cobalt Blue",
+    "cartilla": "Millennium",
+    "hex": "#518bc0"
+  },
+  {
+    "codigo": "7536N",
+    "nombre": "Deep Space",
+    "cartilla": "Millennium",
+    "hex": "#356293"
+  },
+  {
+    "codigo": "7540W",
+    "nombre": "Snowdrop",
+    "cartilla": "Millennium",
+    "hex": "#d8e7f1"
+  },
+  {
+    "codigo": "7541W",
+    "nombre": "Lovebird Feather",
+    "cartilla": "Millennium",
+    "hex": "#caddec"
+  },
+  {
+    "codigo": "7542W",
+    "nombre": "Wishful Blue",
+    "cartilla": "Millennium",
+    "hex": "#bad4e9"
+  },
+  {
+    "codigo": "7543M",
+    "nombre": "Flaxflower",
+    "cartilla": "Millennium",
+    "hex": "#9cbedc"
+  },
+  {
+    "codigo": "7544M",
+    "nombre": "Fresh Water",
+    "cartilla": "Millennium",
+    "hex": "#88b1d4"
+  },
+  {
+    "codigo": "7545D",
+    "nombre": "Norwegian Blue",
+    "cartilla": "Millennium",
+    "hex": "#548dba"
+  },
+  {
+    "codigo": "7546N",
+    "nombre": "Baltic Blue",
+    "cartilla": "Millennium",
+    "hex": "#336a94"
+  },
+  {
+    "codigo": "7550W",
+    "nombre": "Iceland Blue",
+    "cartilla": "Millennium",
+    "hex": "#d6e5eb"
+  },
+  {
+    "codigo": "7551W",
+    "nombre": "Bunting Blue",
+    "cartilla": "Millennium",
+    "hex": "#bddaea"
+  },
+  {
+    "codigo": "7552W",
+    "nombre": "Blue Lady",
+    "cartilla": "Millennium",
+    "hex": "#b0d2e6"
+  },
+  {
+    "codigo": "7553M",
+    "nombre": "Nautilus",
+    "cartilla": "Millennium",
+    "hex": "#97c2db"
+  },
+  {
+    "codigo": "7554M",
+    "nombre": "Castaway Blue",
+    "cartilla": "Millennium",
+    "hex": "#74b1d3"
+  },
+  {
+    "codigo": "7555D",
+    "nombre": "Sea Route",
+    "cartilla": "Millennium",
+    "hex": "#3d8db3"
+  },
+  {
+    "codigo": "7556A",
+    "nombre": "Mariner",
+    "cartilla": "Millennium",
+    "hex": "#20769c"
+  },
+  {
+    "codigo": "7560W",
+    "nombre": "Ice Crystal",
+    "cartilla": "Millennium",
+    "hex": "#cfe6eb"
+  },
+  {
+    "codigo": "7561W",
+    "nombre": "Blue Current",
+    "cartilla": "Millennium",
+    "hex": "#bfe1e9"
+  },
+  {
+    "codigo": "7562W",
+    "nombre": "Crescent Blue",
+    "cartilla": "Millennium",
+    "hex": "#a9d4e2"
+  },
+  {
+    "codigo": "7563M",
+    "nombre": "Low Tide",
+    "cartilla": "Millennium",
+    "hex": "#93c7d9"
+  },
+  {
+    "codigo": "7564M",
+    "nombre": "Blue Seclusion",
+    "cartilla": "Millennium",
+    "hex": "#77b6cc"
+  },
+  {
+    "codigo": "7565D",
+    "nombre": "Cove Blue",
+    "cartilla": "Millennium",
+    "hex": "#4094ad"
+  },
+  {
+    "codigo": "7566A",
+    "nombre": "Voyager Blue",
+    "cartilla": "Millennium",
+    "hex": "#197b97"
+  },
+  {
+    "codigo": "7570W",
+    "nombre": "Heaven Scent",
+    "cartilla": "Millennium",
+    "hex": "#d7ebec"
+  },
+  {
+    "codigo": "7571W",
+    "nombre": "Blue Inlet",
+    "cartilla": "Millennium",
+    "hex": "#bde4eb"
+  },
+  {
+    "codigo": "7572W",
+    "nombre": "Placid Sea",
+    "cartilla": "Millennium",
+    "hex": "#aadbe4"
+  },
+  {
+    "codigo": "7573M",
+    "nombre": "Waterside",
+    "cartilla": "Millennium",
+    "hex": "#8bccd7"
+  },
+  {
+    "codigo": "7574M",
+    "nombre": "Perry Blue",
+    "cartilla": "Millennium",
+    "hex": "#6bbccb"
+  },
+  {
+    "codigo": "7575D",
+    "nombre": "Velvet Teal",
+    "cartilla": "Millennium",
+    "hex": "#319cab"
+  },
+  {
+    "codigo": "7576A",
+    "nombre": "Aqueduct Blue",
+    "cartilla": "Millennium",
+    "hex": "#008191"
+  },
+  {
+    "codigo": "7580W",
+    "nombre": "Mermaid Tear",
+    "cartilla": "Millennium",
+    "hex": "#cae8e9"
+  },
+  {
+    "codigo": "7581W",
+    "nombre": "Clarity Blue",
+    "cartilla": "Millennium",
+    "hex": "#bbe2e5"
+  },
+  {
+    "codigo": "7582W",
+    "nombre": "Aqua Edge",
+    "cartilla": "Millennium",
+    "hex": "#a7dade"
+  },
+  {
+    "codigo": "7583M",
+    "nombre": "Aqua Sweeps",
+    "cartilla": "Millennium",
+    "hex": "#8eccd1"
+  },
+  {
+    "codigo": "7584M",
+    "nombre": "Galleon",
+    "cartilla": "Millennium",
+    "hex": "#74bec5"
+  },
+  {
+    "codigo": "7585D",
+    "nombre": "Sea Fascination",
+    "cartilla": "Millennium",
+    "hex": "#409ca3"
+  },
+  {
+    "codigo": "7586A",
+    "nombre": "Mighty Main",
+    "cartilla": "Millennium",
+    "hex": "#128189"
+  },
+  {
+    "codigo": "7590W",
+    "nombre": "Distant Blue",
+    "cartilla": "Millennium",
+    "hex": "#d1eaea"
+  },
+  {
+    "codigo": "7591W",
+    "nombre": "Cruising Blue",
+    "cartilla": "Millennium",
+    "hex": "#c3e7e7"
+  },
+  {
+    "codigo": "7592W",
+    "nombre": "Abstract Aqua",
+    "cartilla": "Millennium",
+    "hex": "#b1e1e2"
+  },
+  {
+    "codigo": "7593M",
+    "nombre": "Aquifer",
+    "cartilla": "Millennium",
+    "hex": "#8fd2d4"
+  },
+  {
+    "codigo": "7594M",
+    "nombre": "Etruscan Blue",
+    "cartilla": "Millennium",
+    "hex": "#6ec5c8"
+  },
+  {
+    "codigo": "7595D",
+    "nombre": "Sea Sphinx",
+    "cartilla": "Millennium",
+    "hex": "#2da1a3"
+  },
+  {
+    "codigo": "7596A",
+    "nombre": "Aqua Dazzle",
+    "cartilla": "Millennium",
+    "hex": "#008a8d"
+  },
+  {
+    "codigo": "7600W",
+    "nombre": "Cistern Blue",
+    "cartilla": "Millennium",
+    "hex": "#d6ece9"
+  },
+  {
+    "codigo": "7601W",
+    "nombre": "Smooth Sailing",
+    "cartilla": "Millennium",
+    "hex": "#c0e8e5"
+  },
+  {
+    "codigo": "7602W",
+    "nombre": "Sea Lyric",
+    "cartilla": "Millennium",
+    "hex": "#abdcd9"
+  },
+  {
+    "codigo": "7603M",
+    "nombre": "Bali Hi",
+    "cartilla": "Millennium",
+    "hex": "#95d2cf"
+  },
+  {
+    "codigo": "7604M",
+    "nombre": "Yama Light",
+    "cartilla": "Millennium",
+    "hex": "#6fc0bd"
+  },
+  {
+    "codigo": "7605D",
+    "nombre": "Turquoise Mosaic",
+    "cartilla": "Millennium",
+    "hex": "#45a49e"
+  },
+  {
+    "codigo": "7606A",
+    "nombre": "Sea Venture",
+    "cartilla": "Millennium",
+    "hex": "#288883"
+  },
+  {
+    "codigo": "7610W",
+    "nombre": "Poolside",
+    "cartilla": "Millennium",
+    "hex": "#d6f1e7"
+  },
+  {
+    "codigo": "7611W",
+    "nombre": "Falling Water",
+    "cartilla": "Millennium",
+    "hex": "#c6e8de"
+  },
+  {
+    "codigo": "7612W",
+    "nombre": "Headwaters",
+    "cartilla": "Millennium",
+    "hex": "#b7e1d6"
+  },
+  {
+    "codigo": "7613M",
+    "nombre": "Sea Spray",
+    "cartilla": "Millennium",
+    "hex": "#99d3c7"
+  },
+  {
+    "codigo": "7614M",
+    "nombre": "Sea Quarry",
+    "cartilla": "Millennium",
+    "hex": "#82c9bb"
+  },
+  {
+    "codigo": "7615D",
+    "nombre": "Sea Queen",
+    "cartilla": "Millennium",
+    "hex": "#57aa96"
+  },
+  {
+    "codigo": "7616N",
+    "nombre": "Ultra Green",
+    "cartilla": "Millennium",
+    "hex": "#3c8570"
+  },
+  {
+    "codigo": "7620W",
+    "nombre": "Opal Green",
+    "cartilla": "Millennium",
+    "hex": "#dcf2e9"
+  },
+  {
+    "codigo": "7621W",
+    "nombre": "Filtered Green",
+    "cartilla": "Millennium",
+    "hex": "#c9eadd"
+  },
+  {
+    "codigo": "7622W",
+    "nombre": "Chiffon Mist",
+    "cartilla": "Millennium",
+    "hex": "#bae5d4"
+  },
+  {
+    "codigo": "7623M",
+    "nombre": "Spun Green",
+    "cartilla": "Millennium",
+    "hex": "#a4d8c0"
+  },
+  {
+    "codigo": "7624M",
+    "nombre": "Porch View",
+    "cartilla": "Millennium",
+    "hex": "#8ccbaf"
+  },
+  {
+    "codigo": "7625D",
+    "nombre": "Maidenhair Fern",
+    "cartilla": "Millennium",
+    "hex": "#68b18f"
+  },
+  {
+    "codigo": "7626N",
+    "nombre": "Irish Juniper",
+    "cartilla": "Millennium",
+    "hex": "#4a8564"
+  },
+  {
+    "codigo": "7630W",
+    "nombre": "Dewmist",
+    "cartilla": "Millennium",
+    "hex": "#eaf5ea"
+  },
+  {
+    "codigo": "7631W",
+    "nombre": "Slender Stem",
+    "cartilla": "Millennium",
+    "hex": "#cee7d4"
+  },
+  {
+    "codigo": "7632W",
+    "nombre": "Green Pond",
+    "cartilla": "Millennium",
+    "hex": "#bddfc8"
+  },
+  {
+    "codigo": "7633M",
+    "nombre": "Water Cress",
+    "cartilla": "Millennium",
+    "hex": "#b1d9b9"
+  },
+  {
+    "codigo": "7634M",
+    "nombre": "Green Summit",
+    "cartilla": "Millennium",
+    "hex": "#9ecfac"
+  },
+  {
+    "codigo": "7635D",
+    "nombre": "Artemis",
+    "cartilla": "Millennium",
+    "hex": "#76b087"
+  },
+  {
+    "codigo": "7636N",
+    "nombre": "Lush Veranda",
+    "cartilla": "Millennium",
+    "hex": "#4b865d"
+  },
+  {
+    "codigo": "7640W",
+    "nombre": "Snowy Pine",
+    "cartilla": "Millennium",
+    "hex": "#e5f0e5"
+  },
+  {
+    "codigo": "7641W",
+    "nombre": "Clover Tip",
+    "cartilla": "Millennium",
+    "hex": "#d3e9d4"
+  },
+  {
+    "codigo": "7642W",
+    "nombre": "Impatient Green",
+    "cartilla": "Millennium",
+    "hex": "#c3e1c7"
+  },
+  {
+    "codigo": "7643M",
+    "nombre": "Weeping Willow",
+    "cartilla": "Millennium",
+    "hex": "#b9d7b8"
+  },
+  {
+    "codigo": "7644M",
+    "nombre": "Shaded Green",
+    "cartilla": "Millennium",
+    "hex": "#a0c9a3"
+  },
+  {
+    "codigo": "7645D",
+    "nombre": "Fairway",
+    "cartilla": "Millennium",
+    "hex": "#83ae82"
+  },
+  {
+    "codigo": "7646N",
+    "nombre": "Wild Mint",
+    "cartilla": "Millennium",
+    "hex": "#648b60"
+  },
+  {
+    "codigo": "7650W",
+    "nombre": "Creamy Cucumber",
+    "cartilla": "Millennium",
+    "hex": "#e5f0e2"
+  },
+  {
+    "codigo": "7651W",
+    "nombre": "Garden Fragrance",
+    "cartilla": "Millennium",
+    "hex": "#d7e6cd"
+  },
+  {
+    "codigo": "7652W",
+    "nombre": "Summer Lullaby",
+    "cartilla": "Millennium",
+    "hex": "#c9ddc0"
+  },
+  {
+    "codigo": "7653M",
+    "nombre": "Village Green",
+    "cartilla": "Millennium",
+    "hex": "#c2d5b6"
+  },
+  {
+    "codigo": "7654M",
+    "nombre": "Garland Green",
+    "cartilla": "Millennium",
+    "hex": "#aec69f"
+  },
+  {
+    "codigo": "7655D",
+    "nombre": "Barbados Green",
+    "cartilla": "Millennium",
+    "hex": "#92af7e"
+  },
+  {
+    "codigo": "7656N",
+    "nombre": "Dandelion Green",
+    "cartilla": "Millennium",
+    "hex": "#738f60"
+  },
+  {
+    "codigo": "7660W",
+    "nombre": "Willow Wind",
+    "cartilla": "Millennium",
+    "hex": "#eff2e2"
+  },
+  {
+    "codigo": "7661W",
+    "nombre": "Delicate Vine",
+    "cartilla": "Millennium",
+    "hex": "#d7e3c5"
+  },
+  {
+    "codigo": "7662W",
+    "nombre": "Cypress Garden",
+    "cartilla": "Millennium",
+    "hex": "#d0dcbe"
+  },
+  {
+    "codigo": "7663M",
+    "nombre": "Aspen Meadows",
+    "cartilla": "Millennium",
+    "hex": "#cdd6b9"
+  },
+  {
+    "codigo": "7664M",
+    "nombre": "Thin Asparagus",
+    "cartilla": "Millennium",
+    "hex": "#bbc6a0"
+  },
+  {
+    "codigo": "7665D",
+    "nombre": "Aloe Vera",
+    "cartilla": "Millennium",
+    "hex": "#9ab07d"
+  },
+  {
+    "codigo": "7666N",
+    "nombre": "Cactus Pete",
+    "cartilla": "Millennium",
+    "hex": "#81935e"
+  },
+  {
+    "codigo": "7670W",
+    "nombre": "Minced Onion",
+    "cartilla": "Millennium",
+    "hex": "#f0efd8"
+  },
+  {
+    "codigo": "7671W",
+    "nombre": "Boc Choy",
+    "cartilla": "Millennium",
+    "hex": "#e5e4bf"
+  },
+  {
+    "codigo": "7672W",
+    "nombre": "Honeydew",
+    "cartilla": "Millennium",
+    "hex": "#dcddb0"
+  },
+  {
+    "codigo": "7673M",
+    "nombre": "Pekoe Tea",
+    "cartilla": "Millennium",
+    "hex": "#cccc95"
+  },
+  {
+    "codigo": "7674D",
+    "nombre": "Dried Basil",
+    "cartilla": "Millennium",
+    "hex": "#b9b774"
+  },
+  {
+    "codigo": "7675A",
+    "nombre": "Romaine",
+    "cartilla": "Millennium",
+    "hex": "#a8a864"
+  },
+  {
+    "codigo": "7676N",
+    "nombre": "Jungle Moss",
+    "cartilla": "Millennium",
+    "hex": "#909251"
+  },
+  {
+    "codigo": "7680W",
+    "nombre": "Evasive White",
+    "cartilla": "Millennium",
+    "hex": "#f1ecd0"
+  },
+  {
+    "codigo": "7681W",
+    "nombre": "Dewy Twig",
+    "cartilla": "Millennium",
+    "hex": "#eae5c3"
+  },
+  {
+    "codigo": "7682W",
+    "nombre": "Lime Ice",
+    "cartilla": "Millennium",
+    "hex": "#e4deb5"
+  },
+  {
+    "codigo": "7683M",
+    "nombre": "Sweet Olive",
+    "cartilla": "Millennium",
+    "hex": "#d8cf97"
+  },
+  {
+    "codigo": "7684D",
+    "nombre": "Spring Sprout",
+    "cartilla": "Millennium",
+    "hex": "#cbbf6f"
+  },
+  {
+    "codigo": "7685A",
+    "nombre": "Liverpool",
+    "cartilla": "Millennium",
+    "hex": "#b9b060"
+  },
+  {
+    "codigo": "7686N",
+    "nombre": "Summer Olive",
+    "cartilla": "Millennium",
+    "hex": "#a7a050"
+  },
+  {
+    "codigo": "7690W",
+    "nombre": "Liming White",
+    "cartilla": "Millennium",
+    "hex": "#f9f3dd"
+  },
+  {
+    "codigo": "7691W",
+    "nombre": "Flora Ivory",
+    "cartilla": "Millennium",
+    "hex": "#f5ecc8"
+  },
+  {
+    "codigo": "7692W",
+    "nombre": "Escarole",
+    "cartilla": "Millennium",
+    "hex": "#f2e8b8"
+  },
+  {
+    "codigo": "7693M",
+    "nombre": "Emeraude Gold",
+    "cartilla": "Millennium",
+    "hex": "#eadb9a"
+  },
+  {
+    "codigo": "7694D",
+    "nombre": "Fife Gold",
+    "cartilla": "Millennium",
+    "hex": "#d8c473"
+  },
+  {
+    "codigo": "7695A",
+    "nombre": "Antebellum",
+    "cartilla": "Millennium",
+    "hex": "#cdb860"
+  },
+  {
+    "codigo": "7696N",
+    "nombre": "Kiwi Fruit",
+    "cartilla": "Millennium",
+    "hex": "#bea850"
+  },
+  {
+    "codigo": "7700W",
+    "nombre": "Downy Duckling",
+    "cartilla": "Millennium",
+    "hex": "#fdf5db"
+  },
+  {
+    "codigo": "7701W",
+    "nombre": "Ivory Paper",
+    "cartilla": "Millennium",
+    "hex": "#faeec1"
+  },
+  {
+    "codigo": "7702W",
+    "nombre": "Yellow Sash",
+    "cartilla": "Millennium",
+    "hex": "#f7eab3"
+  },
+  {
+    "codigo": "7703M",
+    "nombre": "Cool Yellow",
+    "cartilla": "Millennium",
+    "hex": "#f8e599"
+  },
+  {
+    "codigo": "7704D",
+    "nombre": "Cat's Eye",
+    "cartilla": "Millennium",
+    "hex": "#c7d23a"
+  },
+  {
+    "codigo": "7705A",
+    "nombre": "Pyrite",
+    "cartilla": "Millennium",
+    "hex": "#e5c955"
+  },
+  {
+    "codigo": "7706N",
+    "nombre": "Green Citrus",
+    "cartilla": "Millennium",
+    "hex": "#ceaf38"
+  },
+  {
+    "codigo": "7710W",
+    "nombre": "Star Magnolia",
+    "cartilla": "Millennium",
+    "hex": "#faf0d5"
+  },
+  {
+    "codigo": "7711W",
+    "nombre": "Angelica Blossom",
+    "cartilla": "Millennium",
+    "hex": "#faebc2"
+  },
+  {
+    "codigo": "7712W",
+    "nombre": "Dijon",
+    "cartilla": "Millennium",
+    "hex": "#f9e6b5"
+  },
+  {
+    "codigo": "7713M",
+    "nombre": "Mustard Bloom",
+    "cartilla": "Millennium",
+    "hex": "#f7db94"
+  },
+  {
+    "codigo": "7714D",
+    "nombre": "Honey Gold",
+    "cartilla": "Millennium",
+    "hex": "#f3d281"
+  },
+  {
+    "codigo": "7715D",
+    "nombre": "Golden Rotunda",
+    "cartilla": "Millennium",
+    "hex": "#eac66c"
+  },
+  {
+    "codigo": "7716N",
+    "nombre": "Evergold",
+    "cartilla": "Millennium",
+    "hex": "#daad49"
+  },
+  {
+    "codigo": "7720W",
+    "nombre": "Delicate Cream",
+    "cartilla": "Millennium",
+    "hex": "#fbf2d9"
+  },
+  {
+    "codigo": "7721W",
+    "nombre": "Light Honey",
+    "cartilla": "Millennium",
+    "hex": "#ffedc3"
+  },
+  {
+    "codigo": "7722W",
+    "nombre": "Roman Chamomile",
+    "cartilla": "Millennium",
+    "hex": "#ffe7b1"
+  },
+  {
+    "codigo": "7723M",
+    "nombre": "Daisetta",
+    "cartilla": "Millennium",
+    "hex": "#fddc94"
+  },
+  {
+    "codigo": "7724D",
+    "nombre": "Golden Horn",
+    "cartilla": "Millennium",
+    "hex": "#f5c96c"
+  },
+  {
+    "codigo": "7725A",
+    "nombre": "Cortez Gold",
+    "cartilla": "Millennium",
+    "hex": "#eebd5a"
+  },
+  {
+    "codigo": "7726N",
+    "nombre": "Gold Rush",
+    "cartilla": "Millennium",
+    "hex": "#e5b048"
+  },
+  {
+    "codigo": "7730W",
+    "nombre": "Corinthian",
+    "cartilla": "Millennium",
+    "hex": "#fcf1df"
+  },
+  {
+    "codigo": "7731W",
+    "nombre": "Light Topaz",
+    "cartilla": "Millennium",
+    "hex": "#fee6bc"
+  },
+  {
+    "codigo": "7732W",
+    "nombre": "Butter Pecan",
+    "cartilla": "Millennium",
+    "hex": "#f4dd7c"
+  },
+  {
+    "codigo": "7733M",
+    "nombre": "Sahara Gold",
+    "cartilla": "Millennium",
+    "hex": "#fddaa1"
+  },
+  {
+    "codigo": "7734M",
+    "nombre": "Cane",
+    "cartilla": "Millennium",
+    "hex": "#f8cf8d"
+  },
+  {
+    "codigo": "7735D",
+    "nombre": "Topaz",
+    "cartilla": "Millennium",
+    "hex": "#edba68"
+  },
+  {
+    "codigo": "7736N",
+    "nombre": "Butterbrickle",
+    "cartilla": "Millennium",
+    "hex": "#daa14b"
+  },
+  {
+    "codigo": "7740W",
+    "nombre": "Snow Gum",
+    "cartilla": "Millennium",
+    "hex": "#fbf5e9"
+  },
+  {
+    "codigo": "7741W",
+    "nombre": "Slivered Pecan",
+    "cartilla": "Millennium",
+    "hex": "#fae4c1"
+  },
+  {
+    "codigo": "7742W",
+    "nombre": "Light Toast",
+    "cartilla": "Millennium",
+    "hex": "#fbdeb2"
+  },
+  {
+    "codigo": "7743M",
+    "nombre": "Cupola Yellow",
+    "cartilla": "Millennium",
+    "hex": "#f8d9a8"
+  },
+  {
+    "codigo": "7744M",
+    "nombre": "September Leaf",
+    "cartilla": "Millennium",
+    "hex": "#f4cd94"
+  },
+  {
+    "codigo": "7745D",
+    "nombre": "Spanish Gold",
+    "cartilla": "Millennium",
+    "hex": "#e6b56f"
+  },
+  {
+    "codigo": "7746N",
+    "nombre": "Golden Glove",
+    "cartilla": "Millennium",
+    "hex": "#c8964e"
+  },
+  {
+    "codigo": "7750W",
+    "nombre": "Beach Basket",
+    "cartilla": "Millennium",
+    "hex": "#faefdc"
+  },
+  {
+    "codigo": "7751W",
+    "nombre": "Beach Grass",
+    "cartilla": "Millennium",
+    "hex": "#f3dec3"
+  },
+  {
+    "codigo": "7752W",
+    "nombre": "Oakbuff",
+    "cartilla": "Millennium",
+    "hex": "#ebd1b0"
+  },
+  {
+    "codigo": "7753M",
+    "nombre": "Harvest Tan",
+    "cartilla": "Millennium",
+    "hex": "#e9cba7"
+  },
+  {
+    "codigo": "7754M",
+    "nombre": "Safari Tan",
+    "cartilla": "Millennium",
+    "hex": "#e2c195"
+  },
+  {
+    "codigo": "7755D",
+    "nombre": "Tannery",
+    "cartilla": "Millennium",
+    "hex": "#d2a978"
+  },
+  {
+    "codigo": "7756N",
+    "nombre": "Cockatoo Gold",
+    "cartilla": "Millennium",
+    "hex": "#b68a58"
+  },
+  {
+    "codigo": "7760W",
+    "nombre": "Weaverbird",
+    "cartilla": "Millennium",
+    "hex": "#f6efe5"
+  },
+  {
+    "codigo": "7761W",
+    "nombre": "Nutmeg Dust",
+    "cartilla": "Millennium",
+    "hex": "#f4e1c7"
+  },
+  {
+    "codigo": "7762W",
+    "nombre": "Western Sand",
+    "cartilla": "Millennium",
+    "hex": "#f9debb"
+  },
+  {
+    "codigo": "7763M",
+    "nombre": "Highland Buff",
+    "cartilla": "Millennium",
+    "hex": "#f0c99d"
+  },
+  {
+    "codigo": "7764M",
+    "nombre": "Coffee 'N Cream",
+    "cartilla": "Millennium",
+    "hex": "#e4b784"
+  },
+  {
+    "codigo": "7765D",
+    "nombre": "Terracotta Tile",
+    "cartilla": "Millennium",
+    "hex": "#d9a36d"
+  },
+  {
+    "codigo": "7766A",
+    "nombre": "Rich Amber",
+    "cartilla": "Millennium",
+    "hex": "#bf8652"
+  },
+  {
+    "codigo": "7770W",
+    "nombre": "Frosty Toffee",
+    "cartilla": "Millennium",
+    "hex": "#f9ebdb"
+  },
+  {
+    "codigo": "7771W",
+    "nombre": "Ceramic Beige",
+    "cartilla": "Millennium",
+    "hex": "#fbe5cf"
+  },
+  {
+    "codigo": "7772W",
+    "nombre": "Pale Adobe",
+    "cartilla": "Millennium",
+    "hex": "#f9d9bd"
+  },
+  {
+    "codigo": "7773M",
+    "nombre": "Desert Sunset",
+    "cartilla": "Millennium",
+    "hex": "#f1c8a2"
+  },
+  {
+    "codigo": "7774D",
+    "nombre": "Desert Vista",
+    "cartilla": "Millennium",
+    "hex": "#e2aa78"
+  },
+  {
+    "codigo": "7775D",
+    "nombre": "Canyon Wall",
+    "cartilla": "Millennium",
+    "hex": "#da9f6d"
+  },
+  {
+    "codigo": "7776N",
+    "nombre": "Galena Gold",
+    "cartilla": "Millennium",
+    "hex": "#c78b56"
+  },
+  {
+    "codigo": "7780W",
+    "nombre": "Blushed Cotton",
+    "cartilla": "Millennium",
+    "hex": "#faeee2"
+  },
+  {
+    "codigo": "7781W",
+    "nombre": "Enchilada",
+    "cartilla": "Millennium",
+    "hex": "#f9e2cd"
+  },
+  {
+    "codigo": "7782W",
+    "nombre": "Peach Beige",
+    "cartilla": "Millennium",
+    "hex": "#f5dac0"
+  },
+  {
+    "codigo": "7783M",
+    "nombre": "Toasted Tan",
+    "cartilla": "Millennium",
+    "hex": "#e7c1a2"
+  },
+  {
+    "codigo": "7784M",
+    "nombre": "Nullabor Sand",
+    "cartilla": "Millennium",
+    "hex": "#e0b490"
+  },
+  {
+    "codigo": "7785D",
+    "nombre": "Heathcote",
+    "cartilla": "Millennium",
+    "hex": "#ce9870"
+  },
+  {
+    "codigo": "7786N",
+    "nombre": "Contemporary Maple",
+    "cartilla": "Millennium",
+    "hex": "#ba805a"
+  },
+  {
+    "codigo": "7790W",
+    "nombre": "Opalescence",
+    "cartilla": "Millennium",
+    "hex": "#fceede"
+  },
+  {
+    "codigo": "7791W",
+    "nombre": "Ivory Peach",
+    "cartilla": "Millennium",
+    "hex": "#fce4d1"
+  },
+  {
+    "codigo": "7792W",
+    "nombre": "Dusky Coral",
+    "cartilla": "Millennium",
+    "hex": "#fdddc7"
+  },
+  {
+    "codigo": "7793M",
+    "nombre": "Taffy Crunch",
+    "cartilla": "Millennium",
+    "hex": "#f5c09a"
+  },
+  {
+    "codigo": "7794D",
+    "nombre": "Appealing Apricot",
+    "cartilla": "Millennium",
+    "hex": "#e8a478"
+  },
+  {
+    "codigo": "7795A",
+    "nombre": "Southwest Amber",
+    "cartilla": "Millennium",
+    "hex": "#e09769"
+  },
+  {
+    "codigo": "7796N",
+    "nombre": "Mythic Fire",
+    "cartilla": "Millennium",
+    "hex": "#c67f51"
+  },
+  {
+    "codigo": "7800W",
+    "nombre": "Ivory Powder",
+    "cartilla": "Millennium",
+    "hex": "#f5e9dd"
+  },
+  {
+    "codigo": "7801W",
+    "nombre": "Strata Beige",
+    "cartilla": "Millennium",
+    "hex": "#f9e5d5"
+  },
+  {
+    "codigo": "7802W",
+    "nombre": "Westerly Tan",
+    "cartilla": "Millennium",
+    "hex": "#f7dcca"
+  },
+  {
+    "codigo": "7803M",
+    "nombre": "Mission Beige",
+    "cartilla": "Millennium",
+    "hex": "#ebc3a4"
+  },
+  {
+    "codigo": "7804D",
+    "nombre": "Clay Urn",
+    "cartilla": "Millennium",
+    "hex": "#dca47f"
+  },
+  {
+    "codigo": "7805A",
+    "nombre": "Copper Gold",
+    "cartilla": "Millennium",
+    "hex": "#c58b65"
+  },
+  {
+    "codigo": "7806N",
+    "nombre": "Roaring Hearth",
+    "cartilla": "Millennium",
+    "hex": "#b57855"
+  },
+  {
+    "codigo": "7810W",
+    "nombre": "Taffy Tint",
+    "cartilla": "Millennium",
+    "hex": "#faeae1"
+  },
+  {
+    "codigo": "7811W",
+    "nombre": "Golden Apricot",
+    "cartilla": "Millennium",
+    "hex": "#f8dccc"
+  },
+  {
+    "codigo": "7812W",
+    "nombre": "Confection Tan",
+    "cartilla": "Millennium",
+    "hex": "#f2d1bd"
+  },
+  {
+    "codigo": "7813M",
+    "nombre": "Apple Taffy",
+    "cartilla": "Millennium",
+    "hex": "#e6b89c"
+  },
+  {
+    "codigo": "7814D",
+    "nombre": "Honeysuckle Coral",
+    "cartilla": "Millennium",
+    "hex": "#d49b80"
+  },
+  {
+    "codigo": "7815A",
+    "nombre": "Paprika",
+    "cartilla": "Millennium",
+    "hex": "#cb8e72"
+  },
+  {
+    "codigo": "7816N",
+    "nombre": "Tasmanian Myrtle",
+    "cartilla": "Millennium",
+    "hex": "#be7e61"
+  },
+  {
+    "codigo": "7820W",
+    "nombre": "Sheer Natural",
+    "cartilla": "Millennium",
+    "hex": "#f7e7dc"
+  },
+  {
+    "codigo": "7821W",
+    "nombre": "Blush Beige",
+    "cartilla": "Millennium",
+    "hex": "#f2d7c7"
+  },
+  {
+    "codigo": "7822W",
+    "nombre": "Tyrian Tan",
+    "cartilla": "Millennium",
+    "hex": "#eecbb8"
+  },
+  {
+    "codigo": "7823M",
+    "nombre": "Mayan Sun",
+    "cartilla": "Millennium",
+    "hex": "#e7b7a3"
+  },
+  {
+    "codigo": "7824M",
+    "nombre": "Desert Edge",
+    "cartilla": "Millennium",
+    "hex": "#d9a48d"
+  },
+  {
+    "codigo": "7825D",
+    "nombre": "Tawny Copper",
+    "cartilla": "Millennium",
+    "hex": "#c88b73"
+  },
+  {
+    "codigo": "7826A",
+    "nombre": "Ayers Rock",
+    "cartilla": "Millennium",
+    "hex": "#b2755e"
+  },
+  {
+    "codigo": "7830W",
+    "nombre": "Apple Blush",
+    "cartilla": "Millennium",
+    "hex": "#f7ebe8"
+  },
+  {
+    "codigo": "7831W",
+    "nombre": "French Floral",
+    "cartilla": "Millennium",
+    "hex": "#fce2dc"
+  },
+  {
+    "codigo": "7832W",
+    "nombre": "Pale Rose",
+    "cartilla": "Millennium",
+    "hex": "#fadad1"
+  },
+  {
+    "codigo": "7833M",
+    "nombre": "Matador Pink",
+    "cartilla": "Millennium",
+    "hex": "#f4bdb1"
+  },
+  {
+    "codigo": "7834D",
+    "nombre": "Breccia",
+    "cartilla": "Millennium",
+    "hex": "#eaa796"
+  },
+  {
+    "codigo": "7835D",
+    "nombre": "Reef Rust",
+    "cartilla": "Millennium",
+    "hex": "#e39785"
+  },
+  {
+    "codigo": "7836N",
+    "nombre": "Copper Canyon",
+    "cartilla": "Millennium",
+    "hex": "#c0715c"
+  },
+  {
+    "codigo": "7840W",
+    "nombre": "Pink Candle",
+    "cartilla": "Millennium",
+    "hex": "#fce9e4"
+  },
+  {
+    "codigo": "7841W",
+    "nombre": "Candied Apricot",
+    "cartilla": "Millennium",
+    "hex": "#fbe3dd"
+  },
+  {
+    "codigo": "7842W",
+    "nombre": "Misted Coral",
+    "cartilla": "Millennium",
+    "hex": "#fad6d0"
+  },
+  {
+    "codigo": "7843M",
+    "nombre": "Terra Cotta Tint",
+    "cartilla": "Millennium",
+    "hex": "#f4bab2"
+  },
+  {
+    "codigo": "7844D",
+    "nombre": "Rockies Red",
+    "cartilla": "Millennium",
+    "hex": "#e6988c"
+  },
+  {
+    "codigo": "7845D",
+    "nombre": "Sunburst",
+    "cartilla": "Millennium",
+    "hex": "#dc877b"
+  },
+  {
+    "codigo": "7846N",
+    "nombre": "Eldorado",
+    "cartilla": "Millennium",
+    "hex": "#bd6557"
+  },
+  {
+    "codigo": "7850W",
+    "nombre": "Cosmetic Pink",
+    "cartilla": "Millennium",
+    "hex": "#fce9e4"
+  },
+  {
+    "codigo": "7851W",
+    "nombre": "Rose Damask",
+    "cartilla": "Millennium",
+    "hex": "#f9e0db"
+  },
+  {
+    "codigo": "7852W",
+    "nombre": "Dutchess Dawn",
+    "cartilla": "Millennium",
+    "hex": "#f5d1cb"
+  },
+  {
+    "codigo": "7853W",
+    "nombre": "Muted Mesa",
+    "cartilla": "Millennium",
+    "hex": "#ebb4ab"
+  },
+  {
+    "codigo": "7854M",
+    "nombre": "Rose Pueblo",
+    "cartilla": "Millennium",
+    "hex": "#d28880"
+  },
+  {
+    "codigo": "7855D",
+    "nombre": "Cajun Spice",
+    "cartilla": "Millennium",
+    "hex": "#c7776c"
+  },
+  {
+    "codigo": "7856A",
+    "nombre": "Tomahawk",
+    "cartilla": "Millennium",
+    "hex": "#ae6158"
+  },
+  {
+    "codigo": "7860W",
+    "nombre": "Pink Shine",
+    "cartilla": "Millennium",
+    "hex": "#f7eae6"
+  },
+  {
+    "codigo": "7861W",
+    "nombre": "Oregon Rose",
+    "cartilla": "Millennium",
+    "hex": "#f4dedc"
+  },
+  {
+    "codigo": "7862W",
+    "nombre": "Wild Carnation",
+    "cartilla": "Millennium",
+    "hex": "#f0d1d0"
+  },
+  {
+    "codigo": "7863M",
+    "nombre": "Opening Bud",
+    "cartilla": "Millennium",
+    "hex": "#efb1ad"
+  },
+  {
+    "codigo": "7864D",
+    "nombre": "Coral Berry",
+    "cartilla": "Millennium",
+    "hex": "#dd918b"
+  },
+  {
+    "codigo": "7865A",
+    "nombre": "Field Poppy",
+    "cartilla": "Millennium",
+    "hex": "#ca7c76"
+  },
+  {
+    "codigo": "7866N",
+    "nombre": "Baked Apple",
+    "cartilla": "Millennium",
+    "hex": "#b25e5a"
+  },
+  {
+    "codigo": "7870W",
+    "nombre": "Pinafore",
+    "cartilla": "Millennium",
+    "hex": "#fbe8e8"
+  },
+  {
+    "codigo": "7871W",
+    "nombre": "Pink Light",
+    "cartilla": "Millennium",
+    "hex": "#f6d3d5"
+  },
+  {
+    "codigo": "7872W",
+    "nombre": "Berry Mousse",
+    "cartilla": "Millennium",
+    "hex": "#f1c7c9"
+  },
+  {
+    "codigo": "7873M",
+    "nombre": "Cashmere Rose",
+    "cartilla": "Millennium",
+    "hex": "#ebabad"
+  },
+  {
+    "codigo": "7874D",
+    "nombre": "Canterbury Rose",
+    "cartilla": "Millennium",
+    "hex": "#dd8c8d"
+  },
+  {
+    "codigo": "7875A",
+    "nombre": "Polished Coral",
+    "cartilla": "Millennium",
+    "hex": "#cb7b77"
+  },
+  {
+    "codigo": "7876N",
+    "nombre": "Briar Berry",
+    "cartilla": "Millennium",
+    "hex": "#b0625e"
+  },
+  {
+    "codigo": "7880W",
+    "nombre": "Softly Pink",
+    "cartilla": "Millennium",
+    "hex": "#fbe2e1"
+  },
+  {
+    "codigo": "7881W",
+    "nombre": "Dawn Glow",
+    "cartilla": "Millennium",
+    "hex": "#fad5d7"
+  },
+  {
+    "codigo": "7882W",
+    "nombre": "Rouge",
+    "cartilla": "Millennium",
+    "hex": "#f9c7cb"
+  },
+  {
+    "codigo": "7883M",
+    "nombre": "Charming Pink",
+    "cartilla": "Millennium",
+    "hex": "#f4aeb4"
+  },
+  {
+    "codigo": "7884D",
+    "nombre": "Rambler Rose",
+    "cartilla": "Millennium",
+    "hex": "#e58e95"
+  },
+  {
+    "codigo": "7885A",
+    "nombre": "Crimson Barberry",
+    "cartilla": "Millennium",
+    "hex": "#d16e72"
+  },
+  {
+    "codigo": "7886N",
+    "nombre": "Rio Red",
+    "cartilla": "Millennium",
+    "hex": "#bf5d5d"
+  },
+  {
+    "codigo": "7890W",
+    "nombre": "Pink Clarity",
+    "cartilla": "Millennium",
+    "hex": "#f8e7e7"
+  },
+  {
+    "codigo": "7891W",
+    "nombre": "Ginger Pink",
+    "cartilla": "Millennium",
+    "hex": "#f0cacb"
+  },
+  {
+    "codigo": "7892W",
+    "nombre": "Cherokee Rose",
+    "cartilla": "Millennium",
+    "hex": "#edbec0"
+  },
+  {
+    "codigo": "7893M",
+    "nombre": "Gaiety Rose",
+    "cartilla": "Millennium",
+    "hex": "#e2a4a7"
+  },
+  {
+    "codigo": "7894D",
+    "nombre": "Sun Poppy",
+    "cartilla": "Millennium",
+    "hex": "#d89394"
+  },
+  {
+    "codigo": "7895A",
+    "nombre": "Blazen Pink",
+    "cartilla": "Millennium",
+    "hex": "#be7273"
+  },
+  {
+    "codigo": "7896N",
+    "nombre": "Duberry Red",
+    "cartilla": "Millennium",
+    "hex": "#a8605d"
+  },
+  {
+    "codigo": "7900W",
+    "nombre": "Tatiana Pink",
+    "cartilla": "Millennium",
+    "hex": "#f6e7e7"
+  },
+  {
+    "codigo": "7901W",
+    "nombre": "Cameo Glass",
+    "cartilla": "Millennium",
+    "hex": "#f4d3d8"
+  },
+  {
+    "codigo": "7902W",
+    "nombre": "Rose Memory",
+    "cartilla": "Millennium",
+    "hex": "#edc4ca"
+  },
+  {
+    "codigo": "7903M",
+    "nombre": "Autumn Rose",
+    "cartilla": "Millennium",
+    "hex": "#e3a9b1"
+  },
+  {
+    "codigo": "7904D",
+    "nombre": "Rose Shade",
+    "cartilla": "Millennium",
+    "hex": "#d8959d"
+  },
+  {
+    "codigo": "7905D",
+    "nombre": "Chinaberry",
+    "cartilla": "Millennium",
+    "hex": "#c78087"
+  },
+  {
+    "codigo": "7906N",
+    "nombre": "Remember Rose",
+    "cartilla": "Millennium",
+    "hex": "#a25d64"
+  },
+  {
+    "codigo": "7910W",
+    "nombre": "Rose Thought",
+    "cartilla": "Millennium",
+    "hex": "#fadee6"
+  },
+  {
+    "codigo": "7911W",
+    "nombre": "Sweet Columbine",
+    "cartilla": "Millennium",
+    "hex": "#f8d1de"
+  },
+  {
+    "codigo": "7912W",
+    "nombre": "Sweetrose",
+    "cartilla": "Millennium",
+    "hex": "#f4c4d4"
+  },
+  {
+    "codigo": "7913M",
+    "nombre": "Cactus Bloom",
+    "cartilla": "Millennium",
+    "hex": "#eeaabe"
+  },
+  {
+    "codigo": "7914D",
+    "nombre": "Pink Gardenia",
+    "cartilla": "Millennium",
+    "hex": "#db879d"
+  },
+  {
+    "codigo": "7915A",
+    "nombre": "Miniature Rose",
+    "cartilla": "Millennium",
+    "hex": "#ca7084"
+  },
+  {
+    "codigo": "7916N",
+    "nombre": "Regency Red",
+    "cartilla": "Millennium",
+    "hex": "#a44f58"
+  },
+  {
+    "codigo": "7920W",
+    "nombre": "Swiss Pink",
+    "cartilla": "Millennium",
+    "hex": "#f2d6e1"
+  },
+  {
+    "codigo": "7921W",
+    "nombre": "Windflower",
+    "cartilla": "Millennium",
+    "hex": "#f2ccda"
+  },
+  {
+    "codigo": "7922W",
+    "nombre": "Viva La Pink",
+    "cartilla": "Millennium",
+    "hex": "#e7bbcd"
+  },
+  {
+    "codigo": "7923M",
+    "nombre": "Madeline",
+    "cartilla": "Millennium",
+    "hex": "#e1a5bc"
+  },
+  {
+    "codigo": "7924D",
+    "nombre": "Floral Plum",
+    "cartilla": "Millennium",
+    "hex": "#c9839d"
+  },
+  {
+    "codigo": "7925A",
+    "nombre": "Rose Velvet",
+    "cartilla": "Millennium",
+    "hex": "#b56c84"
+  },
+  {
+    "codigo": "7926N",
+    "nombre": "Magenta Royale",
+    "cartilla": "Millennium",
+    "hex": "#96566a"
+  },
+  {
+    "codigo": "7930W",
+    "nombre": "Raspberry Pink",
+    "cartilla": "Millennium",
+    "hex": "#f8e6eb"
+  },
+  {
+    "codigo": "7931W",
+    "nombre": "May Blossom",
+    "cartilla": "Millennium",
+    "hex": "#ecc9dc"
+  },
+  {
+    "codigo": "7932W",
+    "nombre": "Garden Paradise",
+    "cartilla": "Millennium",
+    "hex": "#e5bbd2"
+  },
+  {
+    "codigo": "7933M",
+    "nombre": "Viola Phlox",
+    "cartilla": "Millennium",
+    "hex": "#daa0be"
+  },
+  {
+    "codigo": "7934D",
+    "nombre": "Geisha",
+    "cartilla": "Millennium",
+    "hex": "#c780a1"
+  },
+  {
+    "codigo": "7935A",
+    "nombre": "Exotic Plum",
+    "cartilla": "Millennium",
+    "hex": "#ad6a8b"
+  },
+  {
+    "codigo": "7936N",
+    "nombre": "Bright Bordeaux",
+    "cartilla": "Millennium",
+    "hex": "#95536a"
+  },
+  {
+    "codigo": "7940W",
+    "nombre": "Cherish",
+    "cartilla": "Millennium",
+    "hex": "#f0e1eb"
+  },
+  {
+    "codigo": "7941W",
+    "nombre": "Romantic Violet",
+    "cartilla": "Millennium",
+    "hex": "#e2ccdf"
+  },
+  {
+    "codigo": "7942W",
+    "nombre": "Violet Trace",
+    "cartilla": "Millennium",
+    "hex": "#dec0d7"
+  },
+  {
+    "codigo": "7943D",
+    "nombre": "Violet Aero",
+    "cartilla": "Millennium",
+    "hex": "#c596b6"
+  },
+  {
+    "codigo": "7944D",
+    "nombre": "Rose Amaranth",
+    "cartilla": "Millennium",
+    "hex": "#b583a6"
+  },
+  {
+    "codigo": "7945A",
+    "nombre": "Fresh Berry",
+    "cartilla": "Millennium",
+    "hex": "#a16d8f"
+  },
+  {
+    "codigo": "7946N",
+    "nombre": "Blackberry Swirl",
+    "cartilla": "Millennium",
+    "hex": "#725264"
+  },
+  {
+    "codigo": "7950W",
+    "nombre": "Plum Frost",
+    "cartilla": "Millennium",
+    "hex": "#efe4eb"
+  },
+  {
+    "codigo": "7951W",
+    "nombre": "Ophelia Violet",
+    "cartilla": "Millennium",
+    "hex": "#e6d0df"
+  },
+  {
+    "codigo": "7952W",
+    "nombre": "Captivating Violet",
+    "cartilla": "Millennium",
+    "hex": "#dcc1d5"
+  },
+  {
+    "codigo": "7953D",
+    "nombre": "Plum Sparkle",
+    "cartilla": "Millennium",
+    "hex": "#bc9ab6"
+  },
+  {
+    "codigo": "7954D",
+    "nombre": "Perfect Plum",
+    "cartilla": "Millennium",
+    "hex": "#a785a5"
+  },
+  {
+    "codigo": "7955A",
+    "nombre": "Regal Bearing",
+    "cartilla": "Millennium",
+    "hex": "#91708f"
+  },
+  {
+    "codigo": "7956N",
+    "nombre": "Bacchus",
+    "cartilla": "Millennium",
+    "hex": "#6e576b"
+  }
+]

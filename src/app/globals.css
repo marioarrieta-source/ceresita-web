@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+/*
+  Sistema visual Ceresita Perú (prototipo) — identidad de marca real.
+  Azul marino profundo + amarillo Ceresita. Tipografía bold.
+  El color del catálogo resalta contra el fondo oscuro.
+*/
+
+@theme {
+  /* Fondos (azul marino) */
+  --color-bg: #0a1226;
+  --color-bg-raised: #0e1a38;
+  --color-panel: #122246;
+  --color-panel-2: #16294f;
+
+  /* Marca */
+  --color-navy: #123a75;
+  --color-navy-bright: #1f5fc0;
+  --color-gold: #f7b500;
+  --color-gold-soft: #ffc738;
+  --color-gold-deep: #d99e00;
+  --color-on-gold: #0a1226;
+
+  /* Texto sobre marino */
+  --color-ink: #f4f6fb;
+  --color-ink-soft: #aab4cc;
+  --color-ink-faint: #6b7794;
+
+  /* Apoyo */
+  --color-mint: #37d99a;
+  --color-mint-deep: #0f3b2e;
+
+  /* Líneas */
+  --color-line: #223154;
+
+  --font-display: var(--font-archivo), "Arial Black", system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-xl: 1.1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
+}
+
+:root {
+  color-scheme: dark;
+  --spectrum: linear-gradient(
+    90deg,
+    #29c5f6 0%,
+    #2f6bff 22%,
+    #7b3ff2 42%,
+    #c93ccb 60%,
+    #f2567b 74%,
+    #f7a53f 88%,
+    #f7b500 100%
+  );
+}
+
+* {
+  border-color: var(--color-line);
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-bg);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-on-gold);
+}
+
+/* Composición */
+.container-page {
+  width: 100%;
+  max-width: 78rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .container-page {
+    padding-inline: 2rem;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* Banda de espectro de color (motivo de marca) */
+.spectrum-bar {
+  background-image: var(--spectrum);
+}
+.spectrum-text {
+  background-image: var(--spectrum);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Checkerboard detrás de swatches muy claros */
+.swatch-checker {
+  background-image:
+    linear-gradient(45deg, rgba(255, 255, 255, 0.08) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(255, 255, 255, 0.08) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.08) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.08) 75%);
+  background-size: 14px 14px;
+  background-position: 0 0, 0 7px, 7px -7px, -7px 0;
+}
