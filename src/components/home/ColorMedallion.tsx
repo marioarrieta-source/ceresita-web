@@ -1,21 +1,23 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { hslToHex } from "@/lib/color";
 
 /*
-  Franja "+1500 colores": una ruleta cromática de aspas gira detrás de una
-  placa metálica estática. La placa se construye con CSS (gradientes +
-  sombras, sin imagen) para que el trazo del bisel y las esquinas asimétricas
-  queden nítidos en cualquier resolución, incluida Retina.
+  Franja "+1500 colores": dos alas de láminas de color, fijas en su forma
+  (abanico que se abre desde la placa hacia afuera y hacia arriba, como en la
+  referencia de marca), con una placa metálica estática al centro construida
+  en CSS (gradientes + sombras, sin imagen) para que el bisel y las esquinas
+  asimétricas queden nítidos en cualquier resolución, incluida Retina.
 
-  La rueda es un único contenedor rotado (transform: rotate(0→360deg)); al
-  ser una rotación rígida completa, el loop es matemáticamente perfecto sin
-  necesidad de sincronizar colores en el punto de reinicio.
+  El "movimiento continuo" no rota el abanico (eso rompería su silueta fija):
+  cada lámina cicla un shimmer interno de brillo/color vía background-position,
+  con una fase distinta por lámina, así el flujo cromático se percibe
+  atravesando el abanico sin mover su geometría.
 */
 
-const HUE_STOPS = [175, 195, 215, 255, 275, 320, 380, 400, 415, 535];
-const BLADE_COUNT = 20;
+const HUE_STOPS = [175, 195, 215, 255, 275, 320, 380, 400, 415];
+const PANELS_PER_SIDE = 9;
 
 function hueAt(t: number): number {
   const segments = HUE_STOPS.length - 1;
@@ -27,23 +29,59 @@ function hueAt(t: number): number {
   return (a + (b - a) * frac) % 360;
 }
 
-const blades = Array.from({ length: BLADE_COUNT }, (_, i) => {
-  const hue = hueAt(i / BLADE_COUNT);
-  // sombreado alterno entre piezas vecinas: refuerza la lectura de facetas
-  // plegadas en vez de una franja de color plana.
-  const fold = i % 2 === 0 ? -6 : 5;
-  return {
-    id: i,
-    angle: (i / BLADE_COUNT) * 360,
-    dark: hslToHex({ h: hue, s: 66, l: 26 + fold }),
-    mid: hslToHex({ h: hue, s: 76, l: 52 + fold }),
-    light: hslToHex({ h: hue, s: 58, l: 76 + fold * 0.5 }),
-  };
-});
+interface FanPanel {
+  id: string;
+  d: number; // distancia del centro, 0 (junto a la placa) .. 1 (punta del ala)
+  parity: 0 | 1;
+  dark: string;
+  mid: string;
+  light: string;
+}
+
+function buildSide(side: "left" | "right"): FanPanel[] {
+  return Array.from({ length: PANELS_PER_SIDE }, (_, idx) => {
+    const d = (idx + 1) / PANELS_PER_SIDE;
+    const t = side === "left" ? 0.5 - d * 0.5 : 0.5 + d * 0.5;
+    const hue = hueAt(t);
+    return {
+      id: `${side}-${idx}`,
+      d,
+      parity: (idx % 2) as 0 | 1,
+      dark: hslToHex({ h: hue, s: 64, l: 27 }),
+      mid: hslToHex({ h: hue, s: 76, l: 53 }),
+      light: hslToHex({ h: hue, s: 56, l: 75 }),
+    };
+  });
+}
+
+const leftPanels = buildSide("left").reverse(); // punta del ala → placa
+const rightPanels = buildSide("right"); // placa → punta del ala
+
+function FanSide({ panels, sign }: { panels: FanPanel[]; sign: 1 | -1 }) {
+  return (
+    <div className="color-fan-side flex items-end">
+      {panels.map((p, i) => (
+        <span
+          key={p.id}
+          className="color-fan-panel"
+          data-parity={p.parity}
+          style={
+            {
+              "--d": p.d,
+              "--rotate-sign": sign,
+              backgroundImage: `linear-gradient(180deg, ${p.dark} 0%, ${p.mid} 32%, ${p.light} 50%, ${p.mid} 68%, ${p.dark} 100%)`,
+              animationDelay: `${-i * 0.4}s`,
+            } as CSSProperties
+          }
+        />
+      ))}
+    </div>
+  );
+}
 
 function Plaque() {
   return (
-    <div className="relative z-10 h-[190px] w-[136px] rounded-tl-[32px] rounded-tr-[11px] rounded-br-[32px] rounded-bl-[11px] bg-linear-to-br from-white via-[#c6ccd6] to-[#868e9c] p-[6px] shadow-[0_30px_70px_-20px_rgba(0,0,0,0.9)] sm:h-[248px] sm:w-[178px] sm:p-[7px] lg:h-[292px] lg:w-[212px] lg:p-2">
+    <div className="absolute left-1/2 top-1/2 z-10 h-[190px] w-[136px] -translate-x-1/2 -translate-y-1/2 rounded-tl-[32px] rounded-tr-[11px] rounded-br-[32px] rounded-bl-[11px] bg-linear-to-br from-white via-[#c6ccd6] to-[#868e9c] p-[6px] shadow-[0_30px_70px_-20px_rgba(0,0,0,0.9)] sm:h-[248px] sm:w-[178px] sm:p-[7px] lg:h-[292px] lg:w-[212px] lg:p-2">
       {/* barrido de brillo diagonal sobre el marco cromado */}
       <div className="pointer-events-none absolute inset-0 rounded-[inherit] bg-linear-to-tr from-transparent via-white/45 to-transparent" />
       {/* anillo interno oscuro (segundo bisel) */}
@@ -96,25 +134,18 @@ export function ColorMedallion() {
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 bg-linear-to-t from-bg to-transparent" />
 
       <div
-        className="relative mx-auto flex h-[260px] max-w-6xl items-center justify-center sm:h-[340px] lg:h-[420px]"
+        className="relative mx-auto flex h-[240px] max-w-6xl items-center justify-center sm:h-[320px] lg:h-[400px]"
         style={{
           WebkitMaskImage:
-            "linear-gradient(to right, transparent, black 8%, black 92%, transparent)",
+            "linear-gradient(to right, transparent, black 6%, black 94%, transparent)",
           maskImage:
-            "linear-gradient(to right, transparent, black 8%, black 92%, transparent)",
+            "linear-gradient(to right, transparent, black 6%, black 94%, transparent)",
         }}
       >
-        <div className="color-wheel" data-spinning={inView} aria-hidden>
-          {blades.map((b) => (
-            <span
-              key={b.id}
-              className="color-wheel-blade"
-              style={{
-                transform: `rotate(${b.angle}deg) translateY(calc(-1 * (var(--wheel-radius) + var(--blade-h) / 2)))`,
-                backgroundImage: `linear-gradient(100deg, ${b.dark} 0%, ${b.mid} 34%, ${b.light} 50%, ${b.mid} 66%, ${b.dark} 100%)`,
-              }}
-            />
-          ))}
+        <div className="color-fan flex items-end" data-spinning={inView} aria-hidden>
+          <FanSide panels={leftPanels} sign={-1} />
+          <div className="color-fan-gap shrink-0" />
+          <FanSide panels={rightPanels} sign={1} />
         </div>
 
         <Plaque />

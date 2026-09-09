@@ -132,61 +132,85 @@ body {
   }
 }
 
-/* Ruleta cromática "+1500 colores": aspas radiales que giran como un solo
-   bloque rígido (loop matemáticamente perfecto, sin costura). */
-.color-wheel {
-  --wheel-radius: 58px;
-  --blade-w: 26px;
-  --blade-h: 58px;
-  position: absolute;
-  inset: 0;
-  animation: color-wheel-spin 16s linear infinite;
+/* Abanico cromático "+1500 colores": dos alas de láminas con forma FIJA
+   (no rotan — su silueta es la referencia de marca). El movimiento continuo
+   vive dentro de cada lámina, como un shimmer de fase escalonada. */
+.color-fan {
+  --panel-w: 15px;
+  --panel-h: 128px;
+  --panel-overlap: 9px;
+  --lift-max: 30px;
+  --rotate-max: 15deg;
+  --gap-w: 130px;
 }
 
 @media (min-width: 640px) {
-  .color-wheel {
-    --wheel-radius: 90px;
-    --blade-w: 38px;
-    --blade-h: 88px;
+  .color-fan {
+    --panel-w: 20px;
+    --panel-h: 168px;
+    --panel-overlap: 12px;
+    --lift-max: 44px;
+    --rotate-max: 19deg;
+    --gap-w: 172px;
   }
 }
 
 @media (min-width: 1024px) {
-  .color-wheel {
-    --wheel-radius: 120px;
-    --blade-w: 48px;
-    --blade-h: 112px;
+  .color-fan {
+    --panel-w: 25px;
+    --panel-h: 204px;
+    --panel-overlap: 15px;
+    --lift-max: 58px;
+    --rotate-max: 23deg;
+    --gap-w: 206px;
   }
 }
 
-.color-wheel[data-spinning="false"] {
+.color-fan-gap {
+  width: var(--gap-w);
+}
+
+.color-fan-panel {
+  position: relative;
+  flex: none;
+  width: var(--panel-w);
+  height: var(--panel-h);
+  border-radius: 2px;
+  background-size: 100% 260%;
+  box-shadow: 0 4px 16px -6px rgba(0, 0, 0, 0.6);
+  transform: translateY(calc(-1 * var(--lift-max) * var(--d)))
+    rotate(calc(var(--rotate-sign) * var(--rotate-max) * var(--d)));
+  transform-origin: 50% 100%;
+  animation: fan-shimmer 10s linear infinite;
+  will-change: background-position;
+}
+
+.color-fan-panel + .color-fan-panel {
+  margin-left: calc(-1 * var(--panel-overlap));
+}
+
+.color-fan-panel[data-parity="0"] {
+  clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+}
+.color-fan-panel[data-parity="1"] {
+  clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 100%);
+}
+
+@keyframes fan-shimmer {
+  from {
+    background-position: 0% 0%;
+  }
+  to {
+    background-position: 0% 100%;
+  }
+}
+
+.color-fan[data-spinning="false"] .color-fan-panel {
   animation-play-state: paused;
 }
 
-@keyframes color-wheel-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.color-wheel-blade {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: var(--blade-w);
-  height: var(--blade-h);
-  margin: calc(var(--blade-h) / -2) 0 0 calc(var(--blade-w) / -2);
-  border-radius: 4px;
-  clip-path: polygon(2% 0%, 98% 0%, 74% 100%, 26% 100%);
-  box-shadow: 0 3px 14px -4px rgba(0, 0, 0, 0.65);
-  will-change: transform;
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .color-wheel {
+  .color-fan-panel {
     animation: none;
   }
 }
