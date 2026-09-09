@@ -6,6 +6,8 @@ export const site = {
   direccion: "Av. Enrique Meiggs 2925, Lima",
   telefono: "(01) 200 5000",
   email: "contacto@ceresita.pe",
+  instagram: "https://www.instagram.com/ceresita_pe/",
+  instagramHandle: "@ceresita_pe",
 };
 
 export const nav = [
