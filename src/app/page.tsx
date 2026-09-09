@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, Wand2 } from "lucide-react";
 import { Hero } from "@/components/home/Hero";
+import { ColorMedallion } from "@/components/home/ColorMedallion";
 import { SpectrumBand } from "@/components/ui/SpectrumBand";
 import { BrandAttributes } from "@/components/home/BrandAttributes";
 import { ColorPreview } from "@/components/home/ColorPreview";
@@ -13,6 +14,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <ColorMedallion />
       <SpectrumBand />
       <div className="h-6" />
       <BrandAttributes />

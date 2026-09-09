@@ -132,6 +132,65 @@ body {
   }
 }
 
+/* Ruleta cromática "+1500 colores": aspas radiales que giran como un solo
+   bloque rígido (loop matemáticamente perfecto, sin costura). */
+.color-wheel {
+  --wheel-radius: 58px;
+  --blade-w: 26px;
+  --blade-h: 58px;
+  position: absolute;
+  inset: 0;
+  animation: color-wheel-spin 16s linear infinite;
+}
+
+@media (min-width: 640px) {
+  .color-wheel {
+    --wheel-radius: 90px;
+    --blade-w: 38px;
+    --blade-h: 88px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .color-wheel {
+    --wheel-radius: 120px;
+    --blade-w: 48px;
+    --blade-h: 112px;
+  }
+}
+
+.color-wheel[data-spinning="false"] {
+  animation-play-state: paused;
+}
+
+@keyframes color-wheel-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.color-wheel-blade {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--blade-w);
+  height: var(--blade-h);
+  margin: calc(var(--blade-h) / -2) 0 0 calc(var(--blade-w) / -2);
+  border-radius: 4px;
+  clip-path: polygon(2% 0%, 98% 0%, 74% 100%, 26% 100%);
+  box-shadow: 0 3px 14px -4px rgba(0, 0, 0, 0.65);
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .color-wheel {
+    animation: none;
+  }
+}
+
 /* Grano sutil reutilizable (texturas de la franja Inspírate) */
 .grain-overlay::after {
   content: "";
