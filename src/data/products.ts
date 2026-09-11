@@ -265,6 +265,7 @@ export const products: Product[] = [
     fichaTecnica:
       "https://ceresita.pe/sites/default/files/2026/ficha-tecnica/07/imprimante-para-muros.pdf",
     swatch: "#ede7dc",
+    imagen: "/productos/imprimante-para-muros.png",
   },
 ];
 
