@@ -1,3 +1,12 @@
+/*
+  URL pública del sitio. En Vercel, `VERCEL_URL` se define automáticamente en
+  cada deploy (preview o producción) sin protocolo, por eso se le antepone
+  `https://`. En local (`npm run dev`) cae a localhost.
+*/
+export const siteUrl = process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}`
+  : "http://localhost:3000";
+
 export const site = {
   nombre: "Ceresita",
   pais: "Perú",
