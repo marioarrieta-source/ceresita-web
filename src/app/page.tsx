@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight, Wand2 } from "lucide-react";
 import { Hero } from "@/components/home/Hero";
 import { ColorMedallion } from "@/components/home/ColorMedallion";
-import { BrandAttributes } from "@/components/home/BrandAttributes";
+import { ProductLineup } from "@/components/home/ProductLineup";
 import { ColorPreview } from "@/components/home/ColorPreview";
 import { Inspiration } from "@/components/home/Inspiration";
 import { FeaturedProducts } from "@/components/home/FeaturedProducts";
@@ -14,7 +14,7 @@ export default function HomePage() {
     <>
       <Hero />
       <ColorMedallion />
-      <BrandAttributes />
+      <ProductLineup />
       <ColorPreview />
 
       {/* Teaser del simulador / Color Studio */}
