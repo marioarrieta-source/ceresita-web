@@ -190,6 +190,7 @@ export const products: Product[] = [
     fichaTecnica:
       "https://ceresita.pe/sites/default/files/2026/ficha-tecnica/07/sellador-muros-250_compressed.pdf",
     swatch: "#efe9de",
+    imagen: "/productos/sellador-para-muros-250.png",
   },
   {
     id: "sellador-imprimante-acrilico",
@@ -214,6 +215,7 @@ export const products: Product[] = [
     fichaTecnica:
       "https://ceresita.pe/sites/default/files/2026/ficha-tecnica/07/sellador-imprimante-acrilico_compressed.pdf",
     swatch: "#ece6da",
+    imagen: "/productos/sellador-imprimante-acrilico.png",
   },
   {
     id: "pasta-mural",
@@ -238,6 +240,7 @@ export const products: Product[] = [
     fichaTecnica:
       "https://ceresita.pe/sites/default/files/2026/ficha-tecnica/07/pasta-mural_compressed.pdf",
     swatch: "#f0ebe1",
+    imagen: "/productos/pasta-mural.png",
   },
   {
     id: "imprimante-para-muros",
