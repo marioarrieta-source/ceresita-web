@@ -28,7 +28,7 @@ export function Hero() {
         }}
       />
 
-      <div className="container-page relative grid items-center gap-12 py-16 md:grid-cols-[1.02fr_0.98fr] md:py-24">
+      <div className="container-page relative grid items-center gap-12 pb-0 pt-16 md:grid-cols-[1.02fr_0.98fr] md:pt-24">
         <div>
           <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-line bg-white/5 px-3 py-1 text-xs font-medium text-ink-soft">
             <span className="h-1.5 w-1.5 rounded-full bg-gold" />

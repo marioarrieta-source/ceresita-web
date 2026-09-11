@@ -1,5 +1,7 @@
+import Image from "next/image";
 import { Timer, Wind, ShieldCheck, Layers, Leaf } from "lucide-react";
 import { ImageSlot } from "@/components/ui/ImageSlot";
+import { getProduct } from "@/data/products";
 
 const attrs = [
   {
@@ -25,6 +27,8 @@ const attrs = [
 ];
 
 export function BrandAttributes() {
+  const featured = getProduct("latex-satinado-premium");
+
   return (
     <section className="border-y border-line bg-bg-raised">
       <div className="container-page grid gap-10 py-14 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
@@ -32,7 +36,32 @@ export function BrandAttributes() {
           ratio="aspect-[4/3] lg:aspect-[3/4]"
           label="Detalle de producto"
           caption="Foto de la lata / aplicación en primer plano"
-        />
+        >
+          {featured?.imagen && (
+            <>
+              <div
+                className="pointer-events-none absolute -right-10 -top-10 h-56 w-56 rounded-full opacity-50"
+                style={{
+                  background:
+                    "radial-gradient(circle, #f7b500 0%, transparent 70%)",
+                }}
+              />
+              <div className="absolute inset-0 flex items-center justify-center p-10">
+                <Image
+                  src={featured.imagen}
+                  alt={featured.nombre}
+                  width={220}
+                  height={242}
+                  unoptimized
+                  className="h-full w-auto object-contain drop-shadow-[0_24px_40px_rgba(0,0,0,0.5)]"
+                />
+              </div>
+              <span className="absolute bottom-4 left-4 rounded-full border border-line bg-white/5 px-3 py-1 text-xs font-medium text-ink-soft">
+                {featured.nombre}
+              </span>
+            </>
+          )}
+        </ImageSlot>
 
         <div>
           <div className="grid gap-8 sm:grid-cols-2">
