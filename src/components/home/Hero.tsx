@@ -76,7 +76,7 @@ export function Hero() {
           </ImageSlot>
 
           {/* Cartilla flotante de colores de temporada */}
-          <div className="absolute bottom-3 left-3 w-[14rem] rounded-2xl border border-line bg-panel/95 p-3 shadow-[0_24px_60px_-30px_rgba(0,0,0,0.8)]">
+          <div className="absolute left-3 top-3 w-[14rem] rounded-2xl border border-line bg-panel/95 p-3 shadow-[0_24px_60px_-30px_rgba(0,0,0,0.8)]">
             <p className="px-1 pb-2 text-[10px] font-semibold uppercase tracking-[0.16em] text-ink-soft">
               Colores de temporada
             </p>
