@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { ButtonLink } from "@/components/ui/Button";
 import { ImageSlot } from "@/components/ui/ImageSlot";
@@ -63,7 +64,16 @@ export function Hero() {
             label="Ambiente de portada"
             caption="Foto lifestyle de un espacio pintado con un color de temporada"
             className="shadow-[0_40px_90px_-40px_rgba(0,0,0,0.7)]"
-          />
+          >
+            <Image
+              src="/hero-ambiente-portada.jpg"
+              alt="Comedor pintado con un color cálido de la cartilla Ceresita"
+              fill
+              priority
+              sizes="(min-width: 768px) 45vw, 90vw"
+              className="object-cover"
+            />
+          </ImageSlot>
 
           {/* Cartilla flotante de colores de temporada */}
           <div className="absolute bottom-3 left-3 w-[14rem] rounded-2xl border border-line bg-panel/95 p-3 shadow-[0_24px_60px_-30px_rgba(0,0,0,0.8)]">
