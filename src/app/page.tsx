@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { ArrowRight, Wand2 } from "lucide-react";
 import { Hero } from "@/components/home/Hero";
-import { SpectrumBand } from "@/components/ui/SpectrumBand";
-import { BrandAttributes } from "@/components/home/BrandAttributes";
+import { ColorMedallion } from "@/components/home/ColorMedallion";
+import { ProductLineup } from "@/components/home/ProductLineup";
 import { ColorPreview } from "@/components/home/ColorPreview";
 import { Inspiration } from "@/components/home/Inspiration";
 import { FeaturedProducts } from "@/components/home/FeaturedProducts";
@@ -13,9 +13,8 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <SpectrumBand />
-      <div className="h-6" />
-      <BrandAttributes />
+      <ColorMedallion />
+      <ProductLineup />
       <ColorPreview />
 
       {/* Teaser del simulador / Color Studio */}
