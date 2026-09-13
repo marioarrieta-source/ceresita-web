@@ -3,7 +3,7 @@ import {
   Droplets,
   ShieldCheck,
   Wind,
-  Leaf,
+  Layers,
   HeartHandshake,
 } from "lucide-react";
 import { HeritageBadge } from "@/components/ui/HeritageBadge";
@@ -13,7 +13,7 @@ import { ContactSection } from "@/components/home/ContactSection";
 export const metadata: Metadata = {
   title: "Nosotros",
   description:
-    "Ceresita: pinturas base agua, sin metales pesados y con bajo olor. Tecnología BIO TECH antibacterial y antihongos. Colores que hacen bien desde 1933.",
+    "Ceresita: pinturas base agua, sin metales pesados, bajo olor y alto poder cubritivo. Colores que hacen bien desde 1933.",
 };
 
 const stats = [
@@ -40,9 +40,9 @@ const valores = [
     text: "Puedes pintar y volver a habitar el ambiente el mismo día.",
   },
   {
-    icon: Leaf,
-    title: "Tecnología BIO TECH",
-    text: "Protección antibacterial y antihongos en toda la línea de látex.",
+    icon: Layers,
+    title: "Alto poder cubritivo",
+    text: "Cubre parejo en menos manos y rinde más por litro en toda la línea.",
   },
   {
     icon: HeartHandshake,
