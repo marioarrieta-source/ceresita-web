@@ -47,13 +47,8 @@ export function Footer() {
       </div>
 
       <div className="border-t border-line">
-        <div className="container-page flex flex-col gap-1 py-5 text-xs text-ink-faint sm:flex-row sm:items-center sm:justify-between">
+        <div className="container-page py-5 text-xs text-ink-faint">
           <p>© {new Date().getFullYear()} Ceresita Perú. Prototipo de propuesta.</p>
-          <p>
-            Diseño y desarrollo:{" "}
-            <span className="text-ink-soft">MCC Agency</span> · Datos de color de
-            demostración.
-          </p>
         </div>
       </div>
     </footer>

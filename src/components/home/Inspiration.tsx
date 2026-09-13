@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { site } from "@/lib/site";
 import { inspirationTiles, type InspirationTile } from "@/data/inspiration";
@@ -33,10 +34,20 @@ function Tile({ tile }: { tile: InspirationTile }) {
       className="group relative block h-full shrink-0 overflow-hidden rounded-xl transition-transform duration-500 ease-out hover:z-10 hover:scale-[1.035]"
       style={{ aspectRatio: tile.ratio }}
     >
-      <div
-        className={cn("absolute inset-0", tile.treatment === "grain" && "grain-overlay")}
-        style={{ backgroundImage: tileBackground(tile) }}
-      />
+      {tile.photo ? (
+        <Image
+          src={tile.photo}
+          alt={tile.title}
+          fill
+          sizes="(min-width: 768px) 320px, 45vw"
+          className="object-cover"
+        />
+      ) : (
+        <div
+          className={cn("absolute inset-0", tile.treatment === "grain" && "grain-overlay")}
+          style={{ backgroundImage: tileBackground(tile) }}
+        />
+      )}
 
       {/* Scrim inferior para legibilidad, más presente en hover */}
       <div className="absolute inset-0 bg-linear-to-t from-black/55 via-black/0 to-black/0 opacity-70 transition-opacity duration-500 group-hover:opacity-95" />

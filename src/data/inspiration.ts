@@ -25,6 +25,8 @@ export interface InspirationTile {
   treatment: Treatment;
   /** ancho relativo a la altura fija de la franja (editorial, no todas iguales) */
   ratio: number;
+  /** foto real, cuando ya hay una que corresponde a la categoría del tile */
+  photo?: string;
 }
 
 export const inspirationTiles: InspirationTile[] = [
@@ -35,6 +37,7 @@ export const inspirationTiles: InspirationTile[] = [
     colors: [pick("tierras", "Medio"), pick("neutros", "Claro")],
     treatment: "blend",
     ratio: 1.35,
+    photo: "/rooms/sala.jpg",
   },
   {
     id: "dormitorio-sereno",
@@ -78,11 +81,12 @@ export const inspirationTiles: InspirationTile[] = [
   },
   {
     id: "rincon-lectura",
-    kicker: "Paleta",
+    kicker: "Interior",
     title: "Rincón de lectura",
     colors: [pick("morados", "Medio"), pick("neutros", "Medio")],
     treatment: "blend",
     ratio: 1.1,
+    photo: "/antes-despues-despues.jpg",
   },
   {
     id: "muro-hatch",
@@ -91,6 +95,7 @@ export const inspirationTiles: InspirationTile[] = [
     colors: [pick("tierras", "Profundo")],
     treatment: "hatch",
     ratio: 0.68,
+    photo: "/antes-despues-antes.jpg",
   },
   {
     id: "detalle-cromatico",
