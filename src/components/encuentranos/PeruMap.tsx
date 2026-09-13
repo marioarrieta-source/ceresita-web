@@ -9,11 +9,15 @@ const PERU_PATH =
 
 export function PeruMap({
   stores,
+  activeCiudad,
   activeId,
   onHover,
   onSelect,
 }: {
+  /** Todas las tiendas a nivel nacional (no solo la ciudad filtrada) */
   stores: Store[];
+  /** Ciudad actualmente seleccionada en los filtros */
+  activeCiudad: string;
   activeId: string | null;
   onHover: (id: string | null) => void;
   onSelect: (id: string) => void;
@@ -51,46 +55,68 @@ export function PeruMap({
         strokeWidth="2.5"
       />
 
-      {stores.map((s) => {
-        const on = s.id === activeId;
-        return (
+      {/* Ciudades fuera del filtro actual primero (atenuadas, debajo) */}
+      {stores
+        .filter((s) => s.ciudad !== activeCiudad)
+        .map((s) => (
           <g
             key={s.id}
-            transform={`translate(${s.mapPos.x} ${s.mapPos.y})`}
-            className="cursor-pointer"
-            onMouseEnter={() => onHover(s.id)}
-            onMouseLeave={() => onHover(null)}
-            onClick={() => onSelect(s.id)}
+            transform={`translate(${s.mapPos.x} ${s.mapPos.y}) scale(0.7)`}
+            opacity="0.45"
           >
-            {on && (
-              <circle r="16" fill="#f7b500" opacity="0.25">
-                <animate
-                  attributeName="r"
-                  from="8"
-                  to="20"
-                  dur="1.4s"
-                  repeatCount="indefinite"
-                />
-                <animate
-                  attributeName="opacity"
-                  from="0.35"
-                  to="0"
-                  dur="1.4s"
-                  repeatCount="indefinite"
-                />
-              </circle>
-            )}
             <path
               d="M0 0 C -7 -13 -9 -18 -9 -24 A 9 9 0 1 1 9 -24 C 9 -18 7 -13 0 0 Z"
-              fill={on ? "#f7b500" : "#c99400"}
+              fill="#5a6f9e"
               stroke="#0a1226"
               strokeWidth="1.5"
-              transform={on ? "scale(1.15)" : "scale(1)"}
             />
             <circle cx="0" cy="-24" r="3.4" fill="#0a1226" />
           </g>
-        );
-      })}
+        ))}
+
+      {/* Ciudad activa: interactiva, resaltada */}
+      {stores
+        .filter((s) => s.ciudad === activeCiudad)
+        .map((s) => {
+          const on = s.id === activeId;
+          return (
+            <g
+              key={s.id}
+              transform={`translate(${s.mapPos.x} ${s.mapPos.y})`}
+              className="cursor-pointer"
+              onMouseEnter={() => onHover(s.id)}
+              onMouseLeave={() => onHover(null)}
+              onClick={() => onSelect(s.id)}
+            >
+              {on && (
+                <circle r="16" fill="#f7b500" opacity="0.25">
+                  <animate
+                    attributeName="r"
+                    from="8"
+                    to="20"
+                    dur="1.4s"
+                    repeatCount="indefinite"
+                  />
+                  <animate
+                    attributeName="opacity"
+                    from="0.35"
+                    to="0"
+                    dur="1.4s"
+                    repeatCount="indefinite"
+                  />
+                </circle>
+              )}
+              <path
+                d="M0 0 C -7 -13 -9 -18 -9 -24 A 9 9 0 1 1 9 -24 C 9 -18 7 -13 0 0 Z"
+                fill={on ? "#f7b500" : "#c99400"}
+                stroke="#0a1226"
+                strokeWidth="1.5"
+                transform={on ? "scale(1.15)" : "scale(1)"}
+              />
+              <circle cx="0" cy="-24" r="3.4" fill="#0a1226" />
+            </g>
+          );
+        })}
     </svg>
   );
 }
