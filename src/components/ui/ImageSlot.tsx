@@ -41,23 +41,26 @@ export function ImageSlot({
             : "bg-bg-raised",
         )}
       />
-      <svg
-        className="absolute inset-0 h-full w-full opacity-[0.15]"
-        aria-hidden
-      >
-        <defs>
-          <pattern
-            id="hatch"
-            width="14"
-            height="14"
-            patternTransform="rotate(45)"
-            patternUnits="userSpaceOnUse"
-          >
-            <line x1="0" y1="0" x2="0" y2="14" stroke="#8494b0" strokeWidth="1" />
-          </pattern>
-        </defs>
-        <rect width="100%" height="100%" fill="url(#hatch)" />
-      </svg>
+      {/* Textura solo en espacios realmente vacíos: marca que ahí falta foto */}
+      {!children && (
+        <svg
+          className="absolute inset-0 h-full w-full opacity-[0.15]"
+          aria-hidden
+        >
+          <defs>
+            <pattern
+              id="hatch"
+              width="14"
+              height="14"
+              patternTransform="rotate(45)"
+              patternUnits="userSpaceOnUse"
+            >
+              <line x1="0" y1="0" x2="0" y2="14" stroke="#8494b0" strokeWidth="1" />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#hatch)" />
+        </svg>
+      )}
 
       {overlayColor && (
         <div

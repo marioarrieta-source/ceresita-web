@@ -28,27 +28,36 @@ export function ProductVisual({
 
   return (
     <ImageSlot ratio={ratio} className={className} label="Foto de producto">
-      <div
-        className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full opacity-50"
-        style={{ background: `radial-gradient(circle, ${g} 0%, transparent 70%)` }}
-      />
+      {!product.imagen && (
+        <div
+          className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full opacity-50"
+          style={{ background: `radial-gradient(circle, ${g} 0%, transparent 70%)` }}
+        />
+      )}
       <span className="absolute left-4 top-4 z-10 rounded-full border border-line bg-white/5 px-3 py-1 text-xs font-medium text-ink-soft">
         {product.categoria}
       </span>
 
       <div className="absolute inset-0 flex items-center justify-center">
         {product.imagen ? (
-          <Image
-            src={product.imagen}
-            alt={product.nombre}
-            width={220}
-            height={242}
-            unoptimized
-            className={cn(
-              "w-auto object-contain drop-shadow-[0_18px_30px_rgba(0,0,0,0.45)]",
-              size === "lg" ? "h-[72%]" : "h-[68%]",
-            )}
-          />
+          <>
+            {/* Sombra de piso: ancla el producto en vez de flotar sobre el fondo */}
+            <div
+              className="pointer-events-none absolute bottom-[8%] h-[10%] w-[46%] rounded-[50%] bg-black/45 blur-md"
+              aria-hidden
+            />
+            <Image
+              src={product.imagen}
+              alt={product.nombre}
+              width={220}
+              height={242}
+              unoptimized
+              className={cn(
+                "relative w-auto object-contain drop-shadow-[0_18px_30px_rgba(0,0,0,0.45)]",
+                size === "lg" ? "h-[72%]" : "h-[68%]",
+              )}
+            />
+          </>
         ) : (
           <svg
             viewBox="0 0 200 200"
