@@ -10,8 +10,9 @@ import {
   paintRoomMask,
 } from "@/lib/roomArt";
 import { recolorWall, loadImage } from "@/lib/roomComposite";
+import { magicWandMask } from "@/lib/magicWand";
 
-export type BrushMode = "off" | "add" | "erase";
+export type BrushMode = "off" | "magic" | "add" | "erase";
 
 function newCanvas() {
   const c = document.createElement("canvas");
@@ -46,6 +47,7 @@ export function PhotoCanvas({
   customPhoto,
   brushMode,
   brushSize,
+  tolerance,
   onWallDrawn,
 }: {
   roomId: RoomId;
@@ -54,6 +56,7 @@ export function PhotoCanvas({
   customPhoto: string | null;
   brushMode: BrushMode;
   brushSize: number;
+  tolerance: number;
   onWallDrawn?: () => void;
 }) {
   const viewRef = useRef<HTMLCanvasElement>(null);
@@ -136,9 +139,31 @@ export function PhotoCanvas({
     if (ready.current) scheduleCompose();
   }, [color, light, scheduleCompose]);
 
-  /* ---- pincel ---- */
+  /* ---- varita mágica: clic → selecciona la pared por similitud de color ---- */
+  const magicAt = (clientX: number, clientY: number) => {
+    if (!baseRef.current || !maskRef.current || !viewRef.current) return;
+    const v = viewRef.current;
+    const rect = v.getBoundingClientRect();
+    const x = ((clientX - rect.left) / rect.width) * ART_W;
+    const y = ((clientY - rect.top) / rect.height) * ART_H;
+    const selection = magicWandMask(baseRef.current, x, y, tolerance);
+    feather(selection, 2);
+    const ctx = maskRef.current.getContext("2d")!;
+    ctx.globalCompositeOperation = "source-over";
+    ctx.drawImage(selection, 0, 0);
+    scheduleCompose();
+    onWallDrawn?.();
+  };
+
+  /* ---- pincel manual (ajuste fino) ---- */
   const paintAt = (clientX: number, clientY: number) => {
-    if (brushMode === "off" || !maskRef.current || !viewRef.current) return;
+    if (
+      brushMode === "off" ||
+      brushMode === "magic" ||
+      !maskRef.current ||
+      !viewRef.current
+    )
+      return;
     const v = viewRef.current;
     const rect = v.getBoundingClientRect();
     const x = ((clientX - rect.left) / rect.width) * ART_W;
@@ -175,6 +200,10 @@ export function PhotoCanvas({
       style={{ cursor: brushMode === "off" ? "default" : "crosshair" }}
       onPointerDown={(e) => {
         if (brushMode === "off") return;
+        if (brushMode === "magic") {
+          magicAt(e.clientX, e.clientY);
+          return;
+        }
         painting.current = true;
         e.currentTarget.setPointerCapture(e.pointerId);
         paintAt(e.clientX, e.clientY);

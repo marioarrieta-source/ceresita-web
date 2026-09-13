@@ -10,6 +10,7 @@ import {
   MapPin,
   RefreshCw,
   Upload,
+  Wand2,
   Brush,
   Eraser,
   Sun,
@@ -84,6 +85,7 @@ export function Simulador() {
   const [light, setLight] = useState(1);
   const [brushMode, setBrushMode] = useState<BrushMode>("off");
   const [brushSize, setBrushSize] = useState(64);
+  const [tolerance, setTolerance] = useState(28);
   const [pickerOpen, setPickerOpen] = useState(false);
 
   const room = getRoom(roomId)!;
@@ -128,7 +130,7 @@ export function Simulador() {
       setRoomId("propia");
       setAncho(uploadRoom.paredRef.ancho);
       setAlto(uploadRoom.paredRef.alto);
-      setBrushMode("add");
+      setBrushMode("magic");
     };
     reader.readAsDataURL(file);
   };
@@ -179,6 +181,7 @@ export function Simulador() {
                 customPhoto={isPropia ? customPhoto : null}
                 brushMode={brushMode}
                 brushSize={brushSize}
+                tolerance={tolerance}
               />
             )}
 
@@ -220,6 +223,21 @@ export function Simulador() {
               <button
                 type="button"
                 onClick={() =>
+                  setBrushMode((m) => (m === "magic" ? "off" : "magic"))
+                }
+                className={cn(
+                  "inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold",
+                  brushMode === "magic"
+                    ? "border-gold bg-gold/15 text-gold"
+                    : "border-line text-ink-soft hover:text-ink",
+                )}
+              >
+                <Wand2 size={12} />
+                Detectar pared
+              </button>
+              <button
+                type="button"
+                onClick={() =>
                   setBrushMode((m) => (m === "add" ? "off" : "add"))
                 }
                 className={cn(
@@ -230,7 +248,7 @@ export function Simulador() {
                 )}
               >
                 <Brush size={12} />
-                Pared
+                Pincel
               </button>
               <button
                 type="button"
@@ -247,7 +265,20 @@ export function Simulador() {
                 <Eraser size={12} />
                 Borrar
               </button>
-              {brushMode !== "off" && (
+              {brushMode === "magic" && (
+                <input
+                  type="range"
+                  min={0}
+                  max={100}
+                  step={2}
+                  value={tolerance}
+                  onChange={(e) => setTolerance(parseInt(e.target.value))}
+                  className="w-20 accent-gold"
+                  aria-label="Sensibilidad de detección"
+                  title="Sensibilidad: más alto detecta un área más amplia"
+                />
+              )}
+              {(brushMode === "add" || brushMode === "erase") && (
                 <input
                   type="range"
                   min={24}
@@ -272,7 +303,9 @@ export function Simulador() {
         <p className="mt-3 text-xs text-ink-faint">
           El color se aplica sobre la zona de pared conservando luces y sombras
           (mezcla tipo «multiply»), la misma técnica de los visualizadores de
-          pintura reales. Ajusta la pared con el pincel si hace falta.
+          pintura reales. Con tu foto: haz clic sobre la pared y «Detectar
+          pared» la selecciona sola por color; usa el pincel solo para
+          ajustes finos.
         </p>
       </div>
 
@@ -319,7 +352,7 @@ export function Simulador() {
               <Upload size={18} className="text-gold" />
               <span className="text-sm font-semibold text-ink">Mi foto</span>
               <span className="text-xs text-ink-soft">
-                Sube tu espacio y marca la pared
+                Sube tu espacio y haz clic en la pared
               </span>
             </button>
           </div>
