@@ -62,16 +62,28 @@ export function PhotoCanvas({
   const viewRef = useRef<HTMLCanvasElement>(null);
   const baseRef = useRef<HTMLCanvasElement | null>(null);
   const maskRef = useRef<HTMLCanvasElement | null>(null);
+  const overlayRef = useRef<HTMLImageElement | null>(null);
   const raf = useRef<number | null>(null);
   const painting = useRef(false);
   const ready = useRef(false);
 
   const compose = useCallback(() => {
-    if (!baseRef.current || !maskRef.current || !viewRef.current) return;
-    const out = recolorWall(baseRef.current, maskRef.current, color, { light });
+    if (!viewRef.current) return;
     const v = viewRef.current;
     const ctx = v.getContext("2d")!;
     ctx.clearRect(0, 0, v.width, v.height);
+
+    if (overlayRef.current) {
+      // Dos capas simples: color liso abajo, el PNG (con la pared
+      // transparente) encima. Sin fotocomposición ni sombras.
+      ctx.fillStyle = color;
+      ctx.fillRect(0, 0, v.width, v.height);
+      ctx.drawImage(overlayRef.current, 0, 0, v.width, v.height);
+      return;
+    }
+
+    if (!baseRef.current || !maskRef.current) return;
+    const out = recolorWall(baseRef.current, maskRef.current, color, { light });
     ctx.drawImage(out, 0, 0, v.width, v.height);
   }, [color, light]);
 
@@ -83,10 +95,11 @@ export function PhotoCanvas({
     });
   }, [compose]);
 
-  // (re)construir base + máscara al cambiar de ambiente o foto
+  // (re)construir base + máscara (o el overlay) al cambiar de ambiente o foto
   useEffect(() => {
     let cancelled = false;
     ready.current = false;
+    overlayRef.current = null;
     const base = newCanvas();
     const mask = newCanvas();
     const bctx = base.getContext("2d", { willReadFrequently: true })!;
@@ -115,6 +128,13 @@ export function PhotoCanvas({
         mctx.fillStyle = "#000";
         mctx.fillRect(0, 0, ART_W, ART_H); // el usuario pinta la pared
         finish();
+      });
+    } else if (r?.overlay) {
+      loadImage(r.overlay).then((img) => {
+        if (cancelled) return;
+        overlayRef.current = img;
+        ready.current = true;
+        compose();
       });
     } else if (r?.photo && r?.mask) {
       Promise.all([loadImage(r.photo), loadImage(r.mask)])

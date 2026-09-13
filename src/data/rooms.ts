@@ -26,6 +26,12 @@ export interface Room {
   /** rutas a la foto real y su máscara, cuando existan */
   photo?: string;
   mask?: string;
+  /**
+   * PNG con transparencia real en la zona de pared (el resto —muebles,
+   * marcos, cortinas— opaco). Se dibuja encima de una capa de color liso:
+   * dos capas, sin fotocomposición.
+   */
+  overlay?: string;
 }
 
 export const rooms: Room[] = [
@@ -36,7 +42,7 @@ export const rooms: Room[] = [
     uso: "Interior",
     paredRef: { ancho: 4.2, alto: 2.6 },
     photo: "/rooms/sala.jpg",
-    mask: "/rooms/sala-mask.png",
+    overlay: "/rooms/sala-overlay.png",
   },
   {
     id: "comedor",
@@ -45,7 +51,7 @@ export const rooms: Room[] = [
     uso: "Interior",
     paredRef: { ancho: 3.4, alto: 2.5 },
     photo: "/rooms/comedor.jpg",
-    mask: "/rooms/comedor-mask.png",
+    overlay: "/rooms/comedor-overlay.png",
   },
   {
     id: "dormitorio",
