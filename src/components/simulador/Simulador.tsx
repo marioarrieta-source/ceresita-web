@@ -309,11 +309,15 @@ export function Simulador() {
           </div>
         </div>
 
-        <p className="mt-3 text-xs text-ink-faint">
-          {isOverlay
-            ? "El color se aplica como una capa lisa detrás de la foto: los muebles y objetos quedan intactos encima, sin fotocomposición."
-            : "El color se aplica sobre la zona de pared conservando luces y sombras (mezcla tipo «multiply»), la misma técnica de los visualizadores de pintura reales. Con tu foto: haz clic sobre la pared y «Detectar pared» la selecciona sola por color; usa el pincel solo para ajustes finos."}
-        </p>
+        {!isOverlay && (
+          <p className="mt-3 text-xs text-ink-faint">
+            El color se aplica sobre la zona de pared conservando luces y
+            sombras (mezcla tipo «multiply»), la misma técnica de los
+            visualizadores de pintura reales. Con tu foto: haz clic sobre la
+            pared y «Detectar pared» la selecciona sola por color; usa el
+            pincel solo para ajustes finos.
+          </p>
+        )}
       </div>
 
       {/* Controles */}
