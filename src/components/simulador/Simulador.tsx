@@ -295,7 +295,9 @@ export function Simulador() {
             <span className="ml-auto text-[11px] text-ink-faint">
               {isPropia
                 ? "Tu foto · resultado real"
-                : "Escena de referencia · con foto real se ve fotográfico"}
+                : room.photo
+                  ? "Foto real del ambiente"
+                  : "Escena de referencia · con foto real se ve fotográfico"}
             </span>
           </div>
         </div>
