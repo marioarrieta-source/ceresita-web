@@ -29,11 +29,11 @@ export function ProductLineup() {
             Nuestras líneas de látex
           </p>
           <h2 className="mt-3 font-display text-3xl text-ink sm:text-4xl">
-            Compara y elige tu línea Ceresita
+            Compara y elige la pintura correcta para cada terminación
           </h2>
           <p className="mt-3 text-ink-soft">
-            Todas base agua, bajo olor y con tecnología BIO TECH
-            antibacterial y antihongos.
+            Todas de secado rápido, bajo olor, alto poder cubritivo y
+            libres de metales pesados.
           </p>
         </div>
 

@@ -5,7 +5,6 @@ import { ColorMedallion } from "@/components/home/ColorMedallion";
 import { ProductLineup } from "@/components/home/ProductLineup";
 import { ColorPreview } from "@/components/home/ColorPreview";
 import { Inspiration } from "@/components/home/Inspiration";
-import { FeaturedProducts } from "@/components/home/FeaturedProducts";
 import { Coverage } from "@/components/home/Coverage";
 import { ImageSlot } from "@/components/ui/ImageSlot";
 
@@ -58,7 +57,6 @@ export default function HomePage() {
       </section>
 
       <Inspiration />
-      <FeaturedProducts />
       <Coverage />
 
       {/* Contacto — banda compacta (el formulario completo vive en Nosotros) */}
