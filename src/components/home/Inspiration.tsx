@@ -76,7 +76,7 @@ export function Inspiration() {
   const loopTiles = [...inspirationTiles, ...inspirationTiles];
 
   return (
-    <section className="py-14 sm:py-16">
+    <section className="py-12 sm:py-14">
       <div className="container-page mb-6 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="mb-1.5 text-xs font-bold uppercase tracking-[0.2em] text-gold">

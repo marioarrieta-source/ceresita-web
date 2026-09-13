@@ -14,10 +14,9 @@ export default function HomePage() {
       <Hero />
       <ColorMedallion />
       <ProductLineup />
-      <ColorPreview />
 
-      {/* Teaser del simulador / Color Studio */}
-      <section className="container-page pb-4">
+      {/* Teaser del simulador / antes-después */}
+      <section className="container-page py-8">
         <div className="relative grid overflow-hidden rounded-3xl border border-line bg-panel md:grid-cols-2">
           <div
             className="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full"
@@ -51,11 +50,12 @@ export default function HomePage() {
         </div>
       </section>
 
+      <ColorPreview />
       <Inspiration />
       <Coverage />
 
       {/* Contacto — banda compacta (el formulario completo vive en Nosotros) */}
-      <section className="container-page py-16">
+      <section className="container-page py-10 sm:py-12">
         <div className="flex flex-col items-start gap-4 rounded-3xl border border-line bg-bg-raised p-8 md:flex-row md:items-center md:justify-between md:p-12">
           <div>
             <h2 className="font-display text-2xl text-ink sm:text-3xl">
