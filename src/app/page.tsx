@@ -6,7 +6,7 @@ import { ProductLineup } from "@/components/home/ProductLineup";
 import { ColorPreview } from "@/components/home/ColorPreview";
 import { Inspiration } from "@/components/home/Inspiration";
 import { Coverage } from "@/components/home/Coverage";
-import { ImageSlot } from "@/components/ui/ImageSlot";
+import { BeforeAfterSlider } from "@/components/home/BeforeAfterSlider";
 
 export default function HomePage() {
   return (
@@ -47,12 +47,7 @@ export default function HomePage() {
             </Link>
             <div className="mt-8 h-1.5 w-full rounded-full spectrum-bar opacity-90" />
           </div>
-          <ImageSlot
-            ratio="aspect-[4/3] md:aspect-auto"
-            label="Antes / después"
-            caption="Foto del mismo ambiente sin pintar y pintado"
-            className="rounded-none border-0 md:border-l md:border-line"
-          />
+          <BeforeAfterSlider className="md:border-l md:border-line" />
         </div>
       </section>
 
