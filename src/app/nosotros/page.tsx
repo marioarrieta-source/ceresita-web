@@ -88,7 +88,7 @@ export default function NosotrosPage() {
                 className="object-cover object-[50%_78%]"
               />
             </ImageSlot>
-            <div className="absolute -bottom-5 left-1/2 -translate-x-1/2">
+            <div className="absolute -top-5 left-1/2 -translate-x-1/2">
               <HeritageBadge />
             </div>
           </div>
