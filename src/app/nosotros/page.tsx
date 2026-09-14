@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import {
   Droplets,
   ShieldCheck,
@@ -77,7 +78,16 @@ export default function NosotrosPage() {
               ratio="aspect-[4/3]"
               label="Imagen de marca"
               caption="Fábrica, equipo o archivo histórico de Ceresita"
-            />
+              className="shadow-[0_40px_90px_-40px_rgba(0,0,0,0.7)]"
+            >
+              <Image
+                src="/nosotros-equipo-cosas.jpg"
+                alt="El equipo de Ceresita Perú en un evento de marca"
+                fill
+                sizes="(min-width: 768px) 40vw, 90vw"
+                className="object-cover object-[50%_78%]"
+              />
+            </ImageSlot>
             <div className="absolute -bottom-5 left-1/2 -translate-x-1/2">
               <HeritageBadge />
             </div>
