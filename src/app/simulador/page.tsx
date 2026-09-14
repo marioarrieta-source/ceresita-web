@@ -36,12 +36,6 @@ export default function SimuladorPage() {
           <Simulador />
         </Suspense>
       </div>
-
-      <p className="mt-10 max-w-2xl text-xs text-ink-faint">
-        Prototipo: las escenas son ilustraciones con la pared separada como capa.
-        En producción se reemplazan por fotografías reales de ambientes con la
-        pared enmascarada. La opción de subir una foto propia queda para fase 2.
-      </p>
     </div>
   );
 }

@@ -20,8 +20,10 @@ Fondo navy profundo (`bg` #0a1226, `bg-raised`, `panel`), **oro Ceresita**
 (`gold` #f7b500, texto `on-gold` = navy) para CTAs y acentos, texto blanco/slate
 (`ink`, `ink-soft`, `ink-faint`), menta para BIO TECH. Motivos: degradado
 "spectrum" (`SpectrumBand`) y la placa cromada "DESDE 1933" (`HeritageBadge`).
-Logo recreado en CSS (`src/components/ui/Logo.tsx`) — reemplazar por el SVG
-oficial cuando lo tengamos.
+Logo oficial real en `public/logo-ceresita.png` — recorte de la placa
+navy/oro del wordmark (fondo transparente), va directo sobre el navy del
+sitio. `src/components/layout/Logo.tsx` recrea "PINTURAS" y el tagline como
+texto alrededor, ya que en el PNG original eran negros e ilegibles ahí.
 
 ## Páginas (todas hechas)
 

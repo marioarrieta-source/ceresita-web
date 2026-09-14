@@ -10,6 +10,7 @@ import {
   MapPin,
   RefreshCw,
   Upload,
+  Wand2,
   Brush,
   Eraser,
   Sun,
@@ -84,6 +85,7 @@ export function Simulador() {
   const [light, setLight] = useState(1);
   const [brushMode, setBrushMode] = useState<BrushMode>("off");
   const [brushSize, setBrushSize] = useState(64);
+  const [tolerance, setTolerance] = useState(28);
   const [pickerOpen, setPickerOpen] = useState(false);
 
   const room = getRoom(roomId)!;
@@ -128,7 +130,7 @@ export function Simulador() {
       setRoomId("propia");
       setAncho(uploadRoom.paredRef.ancho);
       setAlto(uploadRoom.paredRef.alto);
-      setBrushMode("add");
+      setBrushMode("magic");
     };
     reader.readAsDataURL(file);
   };
@@ -149,6 +151,7 @@ export function Simulador() {
 
   const txt = readableText(color.hex);
   const isPropia = roomId === "propia";
+  const isOverlay = !!room.overlay;
   const needsBrush = isPropia && !customPhoto;
 
   return (
@@ -179,6 +182,7 @@ export function Simulador() {
                 customPhoto={isPropia ? customPhoto : null}
                 brushMode={brushMode}
                 brushSize={brushSize}
+                tolerance={tolerance}
               />
             )}
 
@@ -201,79 +205,119 @@ export function Simulador() {
 
           {/* Controles de la vista */}
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-line px-4 py-3">
-            <div className="flex items-center gap-2">
-              <Sun size={14} className="text-ink-faint" />
-              <input
-                type="range"
-                min={0.7}
-                max={1.5}
-                step={0.02}
-                value={light}
-                onChange={(e) => setLight(parseFloat(e.target.value))}
-                className="w-24 accent-gold"
-                aria-label="Luz"
-              />
-              <span className="text-xs text-ink-faint">Luz</span>
-            </div>
-
-            <div className="flex items-center gap-1.5">
-              <button
-                type="button"
-                onClick={() =>
-                  setBrushMode((m) => (m === "add" ? "off" : "add"))
-                }
-                className={cn(
-                  "inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold",
-                  brushMode === "add"
-                    ? "border-gold bg-gold/15 text-gold"
-                    : "border-line text-ink-soft hover:text-ink",
-                )}
-              >
-                <Brush size={12} />
-                Pared
-              </button>
-              <button
-                type="button"
-                onClick={() =>
-                  setBrushMode((m) => (m === "erase" ? "off" : "erase"))
-                }
-                className={cn(
-                  "inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold",
-                  brushMode === "erase"
-                    ? "border-gold bg-gold/15 text-gold"
-                    : "border-line text-ink-soft hover:text-ink",
-                )}
-              >
-                <Eraser size={12} />
-                Borrar
-              </button>
-              {brushMode !== "off" && (
+            {!isOverlay && (
+              <div className="flex items-center gap-2">
+                <Sun size={14} className="text-ink-faint" />
                 <input
                   type="range"
-                  min={24}
-                  max={140}
-                  step={4}
-                  value={brushSize}
-                  onChange={(e) => setBrushSize(parseInt(e.target.value))}
-                  className="w-20 accent-gold"
-                  aria-label="Tamaño del pincel"
+                  min={0.7}
+                  max={1.5}
+                  step={0.02}
+                  value={light}
+                  onChange={(e) => setLight(parseFloat(e.target.value))}
+                  className="w-24 accent-gold"
+                  aria-label="Luz"
                 />
-              )}
-            </div>
+                <span className="text-xs text-ink-faint">Luz</span>
+              </div>
+            )}
+
+            {!isOverlay && (
+              <div className="flex items-center gap-1.5">
+                <button
+                  type="button"
+                  onClick={() =>
+                    setBrushMode((m) => (m === "magic" ? "off" : "magic"))
+                  }
+                  className={cn(
+                    "inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold",
+                    brushMode === "magic"
+                      ? "border-gold bg-gold/15 text-gold"
+                      : "border-line text-ink-soft hover:text-ink",
+                  )}
+                >
+                  <Wand2 size={12} />
+                  Detectar pared
+                </button>
+                <button
+                  type="button"
+                  onClick={() =>
+                    setBrushMode((m) => (m === "add" ? "off" : "add"))
+                  }
+                  className={cn(
+                    "inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold",
+                    brushMode === "add"
+                      ? "border-gold bg-gold/15 text-gold"
+                      : "border-line text-ink-soft hover:text-ink",
+                  )}
+                >
+                  <Brush size={12} />
+                  Pincel
+                </button>
+                <button
+                  type="button"
+                  onClick={() =>
+                    setBrushMode((m) => (m === "erase" ? "off" : "erase"))
+                  }
+                  className={cn(
+                    "inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-semibold",
+                    brushMode === "erase"
+                      ? "border-gold bg-gold/15 text-gold"
+                      : "border-line text-ink-soft hover:text-ink",
+                  )}
+                >
+                  <Eraser size={12} />
+                  Borrar
+                </button>
+                {brushMode === "magic" && (
+                  <input
+                    type="range"
+                    min={0}
+                    max={100}
+                    step={2}
+                    value={tolerance}
+                    onChange={(e) => setTolerance(parseInt(e.target.value))}
+                    className="w-20 accent-gold"
+                    aria-label="Sensibilidad de detección"
+                    title="Sensibilidad: más alto detecta un área más amplia"
+                  />
+                )}
+                {(brushMode === "add" || brushMode === "erase") && (
+                  <input
+                    type="range"
+                    min={24}
+                    max={140}
+                    step={4}
+                    value={brushSize}
+                    onChange={(e) => setBrushSize(parseInt(e.target.value))}
+                    className="w-20 accent-gold"
+                    aria-label="Tamaño del pincel"
+                  />
+                )}
+              </div>
+            )}
 
             <span className="ml-auto text-[11px] text-ink-faint">
               {isPropia
                 ? "Tu foto · resultado real"
-                : "Escena de referencia · con foto real se ve fotográfico"}
+                : isOverlay
+                  ? "Foto real del ambiente · color en tiempo real"
+                  : room.photo
+                    ? "Foto real del ambiente"
+                    : "Escena de referencia · con foto real se ve fotográfico"}
             </span>
           </div>
         </div>
 
-        <p className="mt-3 text-xs text-ink-faint">
-          El color se aplica sobre la zona de pared conservando luces y sombras
-          (mezcla tipo «multiply»), la misma técnica de los visualizadores de
-          pintura reales. Ajusta la pared con el pincel si hace falta.
-        </p>
+        {!isOverlay && (
+          <p className="mt-3 text-xs text-ink-faint">
+            El color se aplica sobre la zona de pared conservando luces y
+            sombras (mezcla tipo «multiply»), la misma técnica de los
+            visualizadores de pintura reales. Con tu foto: haz clic sobre la
+            pared y «Detectar pared» la selecciona sola por color; usa el
+            pincel solo para ajustes finos.
+          </p>
+        )}
       </div>
 
       {/* Controles */}
@@ -319,7 +363,7 @@ export function Simulador() {
               <Upload size={18} className="text-gold" />
               <span className="text-sm font-semibold text-ink">Mi foto</span>
               <span className="text-xs text-ink-soft">
-                Sube tu espacio y marca la pared
+                Sube tu espacio y haz clic en la pared
               </span>
             </button>
           </div>

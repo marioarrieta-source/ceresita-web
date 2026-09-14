@@ -29,7 +29,7 @@ export const stores: Store[] = [
     direccion: "Av. Enrique Meiggs 2925",
     telefono: "(01) 200 5000",
     tipo: "Tienda propia",
-    mapPos: { x: 103, y: 372 },
+    mapPos: { x: 148.8, y: 372.1 },
   },
   {
     id: "surco",
@@ -39,7 +39,7 @@ export const stores: Store[] = [
     direccion: "Av. Caminos del Inca 1802",
     telefono: "(01) 271 4420",
     tipo: "Distribuidor",
-    mapPos: { x: 110, y: 386 },
+    mapPos: { x: 155, y: 379 },
   },
   {
     id: "sanmiguel",
@@ -49,7 +49,7 @@ export const stores: Store[] = [
     direccion: "Av. La Marina 2450",
     telefono: "(01) 452 8890",
     tipo: "Ferretería asociada",
-    mapPos: { x: 96, y: 374 },
+    mapPos: { x: 140, y: 370 },
   },
   {
     id: "ate",
@@ -59,7 +59,7 @@ export const stores: Store[] = [
     direccion: "Carretera Central Km 4.5",
     telefono: "(01) 351 2200",
     tipo: "Distribuidor",
-    mapPos: { x: 120, y: 378 },
+    mapPos: { x: 163, y: 375 },
   },
   {
     id: "sjl",
@@ -69,7 +69,7 @@ export const stores: Store[] = [
     direccion: "Av. Próceres de la Independencia 1650",
     telefono: "(01) 388 7710",
     tipo: "Ferretería asociada",
-    mapPos: { x: 114, y: 366 },
+    mapPos: { x: 153, y: 363 },
   },
   {
     id: "callao",
@@ -79,7 +79,7 @@ export const stores: Store[] = [
     direccion: "Av. Colonial 3120",
     telefono: "(01) 429 3350",
     tipo: "Distribuidor",
-    mapPos: { x: 90, y: 380 },
+    mapPos: { x: 132, y: 366 },
   },
   {
     id: "arequipa",
@@ -89,7 +89,7 @@ export const stores: Store[] = [
     direccion: "Av. Ejército 710, Yanahuara",
     telefono: "(054) 25 6600",
     tipo: "Distribuidor",
-    mapPos: { x: 168, y: 486 },
+    mapPos: { x: 287.7, y: 482.2 },
   },
   {
     id: "trujillo",
@@ -99,7 +99,7 @@ export const stores: Store[] = [
     direccion: "Av. España 1450",
     telefono: "(044) 29 4120",
     tipo: "Ferretería asociada",
-    mapPos: { x: 104, y: 244 },
+    mapPos: { x: 98.7, y: 272.8 },
   },
   {
     id: "cusco",
@@ -109,7 +109,7 @@ export const stores: Store[] = [
     direccion: "Av. de la Cultura 1201",
     telefono: "(084) 24 7730",
     tipo: "Distribuidor",
-    mapPos: { x: 236, y: 430 },
+    mapPos: { x: 276.9, y: 409.6 },
   },
   {
     id: "piura",
@@ -119,7 +119,7 @@ export const stores: Store[] = [
     direccion: "Av. Sánchez Cerro 234",
     telefono: "(073) 30 8810",
     tipo: "Distribuidor",
-    mapPos: { x: 96, y: 150 },
+    mapPos: { x: 58.2, y: 199.2 },
   },
 ];
 

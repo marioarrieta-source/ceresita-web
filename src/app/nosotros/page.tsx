@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import {
   Droplets,
   ShieldCheck,
   Wind,
-  Leaf,
+  Layers,
   HeartHandshake,
 } from "lucide-react";
 import { HeritageBadge } from "@/components/ui/HeritageBadge";
@@ -13,7 +14,7 @@ import { ContactSection } from "@/components/home/ContactSection";
 export const metadata: Metadata = {
   title: "Nosotros",
   description:
-    "Ceresita: pinturas base agua, sin metales pesados y con bajo olor. Tecnología BIO TECH antibacterial y antihongos. Colores que hacen bien desde 1933.",
+    "Ceresita: pinturas base agua, sin metales pesados, bajo olor y alto poder cubritivo. Colores que hacen bien desde 1933.",
 };
 
 const stats = [
@@ -40,9 +41,9 @@ const valores = [
     text: "Puedes pintar y volver a habitar el ambiente el mismo día.",
   },
   {
-    icon: Leaf,
-    title: "Tecnología BIO TECH",
-    text: "Protección antibacterial y antihongos en toda la línea de látex.",
+    icon: Layers,
+    title: "Alto poder cubritivo",
+    text: "Cubre parejo en menos manos y rinde más por litro en toda la línea.",
   },
   {
     icon: HeartHandshake,
@@ -77,8 +78,17 @@ export default function NosotrosPage() {
               ratio="aspect-[4/3]"
               label="Imagen de marca"
               caption="Fábrica, equipo o archivo histórico de Ceresita"
-            />
-            <div className="absolute -bottom-5 left-1/2 -translate-x-1/2">
+              className="shadow-[0_40px_90px_-40px_rgba(0,0,0,0.7)]"
+            >
+              <Image
+                src="/nosotros-equipo-cosas.jpg"
+                alt="El equipo de Ceresita Perú en un evento de marca"
+                fill
+                sizes="(min-width: 768px) 40vw, 90vw"
+                className="object-cover object-[50%_78%]"
+              />
+            </ImageSlot>
+            <div className="absolute -top-5 left-1/2 -translate-x-1/2">
               <HeritageBadge />
             </div>
           </div>

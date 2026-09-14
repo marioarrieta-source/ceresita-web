@@ -76,7 +76,8 @@ export function StoreLocator() {
         <div className="rounded-3xl border border-line bg-panel p-4">
           <div className="mx-auto aspect-[2/3] max-h-[520px]">
             <PeruMap
-              stores={stores.filter((s) => s.ciudad === ciudad)}
+              stores={stores}
+              activeCiudad={ciudad}
               activeId={activeId}
               onHover={setActiveId}
               onSelect={setActiveId}

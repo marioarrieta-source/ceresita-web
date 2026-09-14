@@ -25,18 +25,18 @@ export default function EncuentranosPage() {
         </p>
       </header>
 
-      <ImageSlot
-        ratio="aspect-[21/9]"
-        className="mt-8"
-        label="Foto de tienda"
-        caption="Fachada o interior de un punto de venta Ceresita"
-      />
-
       <div className="mt-12">
         <StoreLocator />
       </div>
 
-      <div className="mt-14 rounded-2xl border border-line bg-bg-raised p-6 text-sm text-ink-soft">
+      <ImageSlot
+        ratio="aspect-[21/5]"
+        className="mt-10 max-w-xl"
+        label="Foto de tienda"
+        caption="Fachada o interior de un punto de venta Ceresita"
+      />
+
+      <div className="mt-8 rounded-2xl border border-line bg-bg-raised p-6 text-sm text-ink-soft">
         ¿Eres ferretería o distribuidor y quieres vender Ceresita?{" "}
         <Link
           href="/nosotros#contacto"

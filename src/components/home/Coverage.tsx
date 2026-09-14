@@ -9,7 +9,7 @@ export function Coverage() {
   const distritos = Array.from(new Set(stores.map((s) => s.distrito)));
 
   return (
-    <section className="container-page py-20">
+    <section className="container-page py-12 sm:py-14">
       <div className="grid gap-10 rounded-3xl border border-line bg-panel p-8 md:grid-cols-2 md:p-12">
         <div>
           <SectionHeading

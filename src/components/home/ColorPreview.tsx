@@ -12,7 +12,7 @@ export function ColorPreview() {
   const preview = familias.slice(0, 8);
 
   return (
-    <section className="container-page py-20">
+    <section className="container-page py-12 sm:py-14">
       <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <SectionHeading
           eyebrow="Explorador de colores"

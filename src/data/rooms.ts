@@ -9,7 +9,13 @@
   propia foto y marcar la pared con el pincel.
 */
 
-export type RoomId = "sala" | "dormitorio" | "cocina" | "fachada" | "propia";
+export type RoomId =
+  | "sala"
+  | "comedor"
+  | "dormitorio"
+  | "cocina"
+  | "fachada"
+  | "propia";
 
 export interface Room {
   id: RoomId;
@@ -20,6 +26,12 @@ export interface Room {
   /** rutas a la foto real y su máscara, cuando existan */
   photo?: string;
   mask?: string;
+  /**
+   * PNG con transparencia real en la zona de pared (el resto —muebles,
+   * marcos, cortinas— opaco). Se dibuja encima de una capa de color liso:
+   * dos capas, sin fotocomposición.
+   */
+  overlay?: string;
 }
 
 export const rooms: Room[] = [
@@ -29,6 +41,17 @@ export const rooms: Room[] = [
     descripcion: "Muro principal detrás del sofá.",
     uso: "Interior",
     paredRef: { ancho: 4.2, alto: 2.6 },
+    photo: "/rooms/sala.jpg",
+    overlay: "/rooms/sala-overlay.png",
+  },
+  {
+    id: "comedor",
+    nombre: "Comedor",
+    descripcion: "Muro detrás de la mesa.",
+    uso: "Interior",
+    paredRef: { ancho: 3.4, alto: 2.5 },
+    photo: "/rooms/comedor.jpg",
+    overlay: "/rooms/comedor-overlay.png",
   },
   {
     id: "dormitorio",

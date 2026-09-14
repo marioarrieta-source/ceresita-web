@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { ButtonLink } from "@/components/ui/Button";
 import { ImageSlot } from "@/components/ui/ImageSlot";
@@ -28,7 +29,7 @@ export function Hero() {
         }}
       />
 
-      <div className="container-page relative grid items-center gap-12 py-16 md:grid-cols-[1.02fr_0.98fr] md:py-24">
+      <div className="container-page relative grid items-center gap-12 pb-0 pt-16 md:grid-cols-[1.02fr_0.98fr] md:pt-24">
         <div>
           <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-line bg-white/5 px-3 py-1 text-xs font-medium text-ink-soft">
             <span className="h-1.5 w-1.5 rounded-full bg-gold" />
@@ -63,10 +64,19 @@ export function Hero() {
             label="Ambiente de portada"
             caption="Foto lifestyle de un espacio pintado con un color de temporada"
             className="shadow-[0_40px_90px_-40px_rgba(0,0,0,0.7)]"
-          />
+          >
+            <Image
+              src="/hero-ambiente-portada.jpg"
+              alt="Comedor pintado con un color cálido de la cartilla Ceresita"
+              fill
+              priority
+              sizes="(min-width: 768px) 45vw, 90vw"
+              className="object-cover"
+            />
+          </ImageSlot>
 
           {/* Cartilla flotante de colores de temporada */}
-          <div className="absolute bottom-3 left-3 w-[14rem] rounded-2xl border border-line bg-panel/95 p-3 shadow-[0_24px_60px_-30px_rgba(0,0,0,0.8)]">
+          <div className="absolute left-3 top-3 w-[14rem] rounded-2xl border border-line bg-panel/95 p-3 shadow-[0_24px_60px_-30px_rgba(0,0,0,0.8)]">
             <p className="px-1 pb-2 text-[10px] font-semibold uppercase tracking-[0.16em] text-ink-soft">
               Colores de temporada
             </p>

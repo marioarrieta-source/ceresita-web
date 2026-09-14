@@ -1,25 +1,22 @@
 import Link from "next/link";
 import { ArrowRight, Wand2 } from "lucide-react";
 import { Hero } from "@/components/home/Hero";
-import { SpectrumBand } from "@/components/ui/SpectrumBand";
-import { BrandAttributes } from "@/components/home/BrandAttributes";
+import { ColorMedallion } from "@/components/home/ColorMedallion";
+import { ProductLineup } from "@/components/home/ProductLineup";
 import { ColorPreview } from "@/components/home/ColorPreview";
 import { Inspiration } from "@/components/home/Inspiration";
-import { FeaturedProducts } from "@/components/home/FeaturedProducts";
 import { Coverage } from "@/components/home/Coverage";
-import { ImageSlot } from "@/components/ui/ImageSlot";
+import { BeforeAfterSlider } from "@/components/home/BeforeAfterSlider";
 
 export default function HomePage() {
   return (
     <>
       <Hero />
-      <SpectrumBand />
-      <div className="h-6" />
-      <BrandAttributes />
-      <ColorPreview />
+      <ColorMedallion />
+      <ProductLineup />
 
-      {/* Teaser del simulador / Color Studio */}
-      <section className="container-page pb-4">
+      {/* Teaser del simulador / antes-después */}
+      <section className="container-page py-8">
         <div className="relative grid overflow-hidden rounded-3xl border border-line bg-panel md:grid-cols-2">
           <div
             className="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full"
@@ -49,21 +46,16 @@ export default function HomePage() {
             </Link>
             <div className="mt-8 h-1.5 w-full rounded-full spectrum-bar opacity-90" />
           </div>
-          <ImageSlot
-            ratio="aspect-[4/3] md:aspect-auto"
-            label="Antes / después"
-            caption="Foto del mismo ambiente sin pintar y pintado"
-            className="rounded-none border-0 md:border-l md:border-line"
-          />
+          <BeforeAfterSlider className="md:border-l md:border-line" />
         </div>
       </section>
 
+      <ColorPreview />
       <Inspiration />
-      <FeaturedProducts />
       <Coverage />
 
       {/* Contacto — banda compacta (el formulario completo vive en Nosotros) */}
-      <section className="container-page py-16">
+      <section className="container-page py-10 sm:py-12">
         <div className="flex flex-col items-start gap-4 rounded-3xl border border-line bg-bg-raised p-8 md:flex-row md:items-center md:justify-between md:p-12">
           <div>
             <h2 className="font-display text-2xl text-ink sm:text-3xl">
